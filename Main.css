@@ -1,4 +1,4 @@
-/* AUTO=sticky_menu */ @media screen and (min-width: 1025px) { .l-top_menu-v2 { position: sticky; top: 0; } .l-top_menu-v2 .active .submenu { max-height: calc(100vh - 46px); overflow: auto; } }
+/* AUTO=sticky_menu */
 /* shikimori.one - Edesign v2.8 "The Wasteland" by EngiNier */
 /*** ENGI start code ***/
 body:before {  /* Вместо ссылки ниже вставляем свою ссылку на фон страницы сайта */
