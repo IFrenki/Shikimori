@@ -9385,3 +9385,21 @@ body.p-achievements.p-profiles .inner .border {
   margin-left: 3px !important
 }
 .b-anime_status_tag.other, a.b-db_entry-variant-list_item span.b-link { color: rgba(226, 236, 241, 0.7) !important }
+
+
+													/* __________________New Header__________________ */
+
+.l-top_menu-v2 .global-search .hotkey-marker { opacity: 0.5 }
+.l-top_menu-v2 .global-search, .l-top_menu-v2 .global-search input, .l-top_menu-v2.is-search-focus .global-search .search-marker { 
+    color: silver;
+    background: transparent
+}
+.l-top_menu-v2 .menu-dropdown span, .l-top_menu-v2 .menu-dropdown.active span, .l-top_menu-v2 .menu-dropdown.profile .submenu-triangle:hover {
+  	background: transparent
+}
+
+/* white icons in dropdown menu 
+
+.l-top_menu-v2 .menu-dropdown.main .submenu-triangle span, .l-top_menu-v2 .menu-dropdown.profile .submenu-triangle, .l-top_menu-v2 .menu-dropdown.main .submenu-triangle:before, .l-top_menu-v2 .menu-dropdown .submenu-triangle:after, .l-top_menu-v2 .menu-dropdown a:before {
+  color: white !important
+}
