@@ -4743,3 +4743,70 @@ color:#616d6f!important;
 
 
 
+
+@media only screen and (min-width: 1025px) {
+body[data-locale=ru] .b-offtopic_marker.off:hover, body[data-locale=ru] .b-offtopic_marker.active:hover {
+    color: #ffcfe0;
+    background-color: #ad024f;
+}
+  body[data-locale=ru] .b-summary_marker.off:hover, body[data-locale=ru] .b-summary_marker.active:hover {
+  color: #eaffe9!important;
+    background-color: #037d03!important;
+  border:none;
+}
+  .editor-container .b-offtopic_marker, .editor-container .b-summary_marker {
+  margin-top:-4px;
+  }
+  .b-db_entry-variant-list_item .name-container .b-user_rate .b-add_to_list .trigger, .b-db_entry-variant-list_item .name-container .b-user_rate .b-add_to_list .option {
+  max-width: 200px;
+  }
+  .p-animes-show .cc .c-anime, .p-animes-show .cc .c-manga,  .p-mangas-show .cc .c-anime, .p-mangas-show .cc .c-manga,  .p-ranobe-show .cc .c-anime, .p-ranobe-show .cc .c-manga {
+  margin-right: 2%;
+    width: 12.55714%;
+  }
+   .cc.cc-similar .b-catalog_entry .cover {
+      width: 100%;
+  }
+  .cc.cc-similar .b-catalog_entry .cover .image-decor .image-cutter {
+    max-width: 100%;
+    max-height: 144px;
+  }
+  .p-user_rates-index .list-posters .user_rate .edit-user_rate:before {
+    line-height: 28px;
+    width: 28px;
+    height: 28px;
+}
+  .p-user_rates-index .list-posters .user_rate .edit-user_rate {
+  background: transparent;
+     right: 9px;
+    top: 5px;
+}
+  .editor-container .buttons.m15 {;
+    right: 50%!important;
+    margin-right:-570px;
+}
+  .b-edit_styles .edit_style .style_css label:after {
+    content: 'Для корректной работы используйте F11';
+    margin-left: 10px;
+    font-size: 12px;
+  }
+  .b-edit_styles .edit_style .style_css .CodeMirror.CodeMirror-fullscreen, .b-edit_styles .new_style .style_css .CodeMirror.CodeMirror-fullscreen {
+    z-index: 20;
+    height: 93vh!important;
+    top: 50px;
+}
+  .l-top_menu-v2 .menu-search>.entry, .l-top_menu-v2 .menu-userbox>.entry {
+        width: 100%;
+  }
+  .b-comments {
+    margin-bottom: 10px!important;
+}
+body#dialogs_index .b-height_shortener {
+    margin-left: 55px;
+    position: relative;
+}
+  .b-comment .b-height_shortener {
+    margin-left: 55px;
+    position: relative;
+}
+}
