@@ -497,3 +497,606 @@ padding: 6px 10px 6px 10px;
   font-family: 'Comfortaa';
   box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2);
 }
+.b-form input[type=submit]:hover, .b-shiki_editor footer .preview:hover, .b-shiki_editor.previewed footer .unpreview:hover, .b-poll .poll-actions .vote:hover, .b-poll .poll-actions .abstain:hover, a.stop.b-button:hover, .b-button:hover, .b-form .cancel:hover,.b-button.preview:hover, a.start.b-button:hover, .b-form input[type=submit][disabled]:hover, .b-form input[type=submit].disabled:hover {
+background-color: rgb(30, 144, 255, 0.6);
+  color: #e4e4e4!important;
+  box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2)!important;
+}
+.b-shiki_editor footer input[type=submit], .b-shiki_editor footer .unpreview, .b-shiki_editor footer .preview {
+    margin-right: 20px;
+    box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2)!important;
+}
+/* цвет кнопок манга и меню в шапке */
+.userbox .submenu > .entry:before, .b-main_search .input {
+       background: rgba(36, 41, 43, 0.2)!important;
+    color:  #e2ecf1!important;
+}
+/* цвет кнопок в шапке */
+.l-top_menu-v2 .menu-items > .entry > a {
+    color: #e2ecf1!important;
+  background-color: transparent!important;
+
+}
+.l-top_menu-v2 .menu-items > .entry > a:hover {
+ color: #e2ecf1!important;
+background: transparent!important;
+border-radius:6px;
+box-shadow:none!important;
+}
+.l-top_menu-v2 .submenu > .entry:hover {
+color: #e2ecf1!important;
+background-color: #24350c!important;
+border-radius:4px;
+box-shadow: none!important;
+}
+
+.b-comments .comments-loader:hover, .b-comments .comments-hider:hover, .b-comments .comments-expander:hover {
+    background-color: white;
+    color: white;
+}
+/* полоса оттеняющая, если не развернуто */
+.b-height_shortener .shade {
+        background-image: linear-gradient(to bottom,rgba(5, 8, 12, 0.2), rgba(5, 8, 12, 1));
+}
+
+/* слово развернуть */
+.b-height_shortener .expand {
+    color: #9bc7ca;
+}
+.b-height_shortener .expand:hover {
+    color: var(--primary_color);
+}
+/* в списке аниме : планы смотрю и т.д. */
+.b-options-floated.mobile-desktop a {
+    color: #889aa0;
+}
+.b-options-floated.mobile-desktop a:hover {
+    color: var(--primary_color);
+}
+/* под шкалой в профиле сколько пробыл на сайте */
+.bar.vertical .line .x_label {
+    color: #5B6AD7;
+}
+/* Поиск по названию в списке аниме */
+input {
+    color: #a6b2b7;
+    border: rgba(36, 41, 43,0.4);
+    background: rgba(36, 41, 43,0.4);
+}
+/* свернуть списки в списке аниме */
+.b-options-floated .action {
+    color: #9bc7ca;
+  border:none;
+}
+.b-options-floated .action:hover {
+    color: var(--primary_color);
+}
+.b-list_switchers .switcher.lines:before:hover, .b-list_switchers .switcher.lines:hover {
+    color: var(--primary_color);
+}
+
+.b-list_switchers .switcher.posters:before:hover {
+    color: var(--primary_color);
+}
+.b-list_switchers .switcher.posters:after {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 20px;
+    font-variant: normal;
+    text-transform: none;
+    color: white;
+}
+
+.p-user_rates-index .stat-categories .category {
+    color: #9bc7ca;
+line-height: normal!important;
+    margin: 0 0 0 2px;
+    padding: 0px 7px;
+transition:0.2s ease-out;
+}
+.p-user_rates-index .stat-categories .category:hover {
+color: var(--primary_color)!important;
+transform: scale(1.1);
+}
+/* справа выборы фильтров в списке аниме */
+.b-block_list li {
+    color: #a6b2b7;
+transition: 0.1s ease-out;
+  font-family: 'Comfortaa';
+}
+/* сводка по разным спискам  */
+.p-user_rates-index .list-groups .summary.lines {
+    color: #889aa0;
+}
+.b-block_list li.selected {
+    color: #889aa0;
+    box-shadow: 0px 0px 10px rgba(86, 90, 86,.1)!important;
+    transition: 0.1s ease-out;
+    background: rgba(86, 90, 86,.05);
+}
+.b-block_list li.selected:hover {
+color: var(--primary_color)!important;
+    background: rgba(86, 90, 86,.15);
+    box-shadow: 0px 0px 50px rgba(86, 90, 86,.3)!important;
+transform:scale(1.02)
+}
+.b-block_list li:hover {
+color: var(--primary_color)!important;
+    background: rgba(86, 90, 86,.15);
+    box-shadow: 0px 0px 50px rgba(86, 90, 86,.3)!important;
+transform:scale(1.02)
+}
+.item-add:before, .item-add:after {
+color: #889aa0;
+}
+.item-add:hover:before, .item-add:hover:after {
+color: var(--primary_color)!important;
+}
+/* оценка, эпизоды и т.д. столбики */
+.p-user_rates-index .l-content .order-control {
+    color: #889aa0;
+}
+.p-user_rates-index .l-content .order-control:hover {
+    color: var(--primary_color);
+}
+/* стрелка назад */
+header.head h1 a.back:before, header.head h2 a.back:before {
+    color: #e2ecf1;
+}
+/* ссылка с список аниме в к манге */
+header.head a.misc, header.head a.edit {
+    color: #9bc7ca!important;
+  margin-bottom: 7px;
+}
+header.head a.misc:hover {
+    color: var(--primary_color);
+}
+
+.b-options-floated .selected, .b-options-floated.mobile-phone_portrait a.selected {
+    color: var(--primary_color);
+font-size: 13px;
+}
+
+/* .b-options-floated .selected {
+    color: var(--primary_color);
+    background: #2f366f;
+    font-size: 13px;
+    height: 40px;
+    border-top: 2px solid #2f366f;
+    border-bottom: 2px solid #2f366f;
+    border-radius: 4px;
+}
+*/
+.b-options-floated a:hover, .b-options-floated .link:hover {
+    color: var(--primary_color);
+}
+/* цвет тегов в настройки -уведомления*/
+.b-table th {
+color: #e2ecf1;
+}
+a {
+    color: #e2ecf1;
+transition: 0.3s ease; 
+}
+a:hover {
+color: var(--primary_color)!important;
+text-decoration: none!important;
+background: rgba(86, 90, 86,.22);
+box-shadow: 0px 0px 20px rgba(86, 90, 86,.5);
+}
+a.name:hover {
+color: var(--primary_color)!important;
+text-decoration: none!important;
+background: none!important;
+box-shadow: none!important;
+}
+.b-comment > .inner div.body, .b-message > .inner div.body {
+    color: #a6b2b7;
+font-size: 13px!important;
+}
+.b-mention {
+    color: #e2ecf1;
+}
+/* название в новостях */
+.b-message>.inner header .name-date a.name {
+    color: #e2ecf1;
+}
+.b-message>.inner header .name-date {
+  line-height: 1.2;
+}
+.p-user_rates-index .list-lines .selectable:hover, .p-userlist_comparer .comparer table .selectable:hover {
+color: var(--primary_color)!important;
+    background: rgba(86, 90, 86,.15);
+    box-shadow: 0px 0px 50px rgba(86, 90, 86,.3);
+transform:scale(1.01);
+}
+.p-user_rates-index .list-lines .selectable, .p-userlist_comparer .comparer table .selectable {
+transition:0.15s ease;
+}
+.p-userlist_comparer .comparer table .exact-same, .p-userlist_comparer .legend .exact-same {
+    background-color: rgba(0, 160, 35, 0.4);
+  border-radius:4px;
+}
+.p-userlist_comparer .comparer table .almost-same, .p-userlist_comparer .legend .almost-same {
+    background-color: rgba(0, 86, 20, 0.4);
+  border-radius:4px;
+}
+.p-userlist_comparer .comparer table .slightly-difr, .p-userlist_comparer .legend .slightly-difr {
+    background-color: rgba(160, 0, 0, 0.4);
+  border-radius:4px;
+}
+.p-userlist_comparer .comparer table .abslt-difr, .p-userlist_comparer .legend .abslt-difr {
+    background-color: rgba(117, 21, 1, 0.4);
+  border-radius:4px;
+}
+.b-message>.inner header .name-date a.name:hover {
+    color: var(--primary_color);
+}
+/* знак в новостях эпизод*/
+.b-anime_status_tag.episode {
+    background: #305579;
+    border: 1px solid #305579;
+    color: #e9f1f3;
+}
+.b-js-link {
+    color: #9bc7ca;
+  border:none;
+  padding:0 8px 0 8px;
+  transition:0.2s ease;
+}
+.b-js-link:hover {
+    color: var(--primary_color);
+  border:none;
+}
+.p-messages .mass-actions .action:after {
+display:none;
+}
+
+.c-brief header.head .notice, .c-brief header.head .misc, .c-brief header.head a.edit, .p-profiles .profile-head .c-info .c-additionals b, .p-profiles .profile-head .c-brief header h1.aliases::after, .p-profiles .profile-head .c-brief header .notice a, .p-profiles .profile-head .c-info .c-additionals div a {
+    color: #a6b2b7!important;
+transition:0.3s ease;
+}
+.p-profiles .profile-head .c-info .c-additionals div a:hover {
+color: var(--primary_color)!important;
+transform: scale(1.1)!important;
+}
+.b-spoiler label {
+    color: #a6b2b7;
+border: 2px dashed rgba(165,170,230,0.2);
+    border-radius: 6px;
+    padding: 0px 6px;
+Transition:0.3s ease;
+}
+.b-spoiler {
+transition: 0.5s ease;
+}
+
+.b-spoiler label:hover {
+    color: var(--primary_color);
+animation: spoilzero 2s ease infinite;
+}
+.b-input input, .b-input textarea {
+    background: rgba(36, 41, 43, 0.4);
+    color: #a6b2b7;
+  border: none!important;
+      box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.07)!important;
+
+}
+.p-user_rates-index .list-lines tr.edit-form form {
+    background: rgba(5, 8, 12, 0.85);
+    border: none;
+  box-shadow: 2px -1px 2px 4px rgba(0, 0, 0, 0.2);
+}
+input, select, button, textarea {
+    background-color: rgba(36, 41, 43,0.4);
+  font-family:'Comfortaa';
+  border: none!important;
+}
+/* стоп */
+.b-quote {
+   background: rgba(36, 41, 43,0.4)!important;
+    border: none!important;
+    color: #a6b2b7;
+  box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.07)!important;
+    border-radius: 6px!important;
+}
+.b-comments .comments-collapser, .b-spoiler .content .after:before {
+    color: #9bc7ca;
+}
+.b-comments .comments-collapser:hover, .b-topic>.inner header .name-date a.name:hover, .p-user_rates-index .list-lines tr td .episodes_total {
+    color: var(--primary_color);
+}
+.b-topic>.inner header .name-date a.name, .b-dialog>.inner header .name-date a.name {
+    color: #e2ecf1;
+  padding-top: 2px;
+}
+.b-dialog > .inner div.body {
+    color: #a6b2b7;
+}
+.l-top_menu-v2 .menu-items>.entry {
+    color: #e2ecf1;
+    cursor: pointer;
+    transition: 0.3s ease;
+    display: inline-block;
+    height: 100%;
+    vertical-align: top;
+    float:none;
+}
+.l-top_menu-v2 .menu-items>.entry:hover {
+background-color:transparent!important;
+}
+.l-top_menu-v2 .menu-items>.entry.selected {
+  background-color:transparent!important;
+}
+.l-top_menu-v2 .menu-items > .entry > a[href*="/forum"] {
+    font-size: 0;
+    line-height: 21px;
+  padding: 16px 12px 9px;
+}
+.l-top_menu-v2 .inner .sign_out {
+    display: none;
+}
+/* .locale-ru .b-new_marker {
+    background-color: #AF5418;
+    border: none;
+    color: #FFEBCC;
+}
+*/
+.b-hot_topics-v2 {
+  border-bottom: unset;
+}
+.b-hot_topics-v2 .subject {
+  color: unset;
+}
+.b-hot_topics-v2 .b-link:nth-child(9n) {
+  display: none;
+}
+ .b-dialog, .p-dashboards-show .cc-news .c-news_topics .b-topic, b-user.detailed, .b-comment, .p-topics .l-menu .clubs .entry, .p-topics .l-menu .sticky-topics .topic, .b-comments .comments-loaded, .b-message .comments-loaded, .b-user.detailed {
+  border-bottom: 1px solid rgba(65, 93, 22, 0.2)!important;
+}
+.b-dialog, .p-dashboards-show .cc-news .c-news_topics .b-topic, b-user.detailed, .b-comment, .b-db_entry-variant-list_item, .p-topics .l-menu .clubs .entry, .p-topics .l-menu .sticky-topics .topic {  
+  margin: 4px 0px;
+      border-top: none;
+      padding-top: 10px;
+    padding-bottom: 10px;
+}
+.b-comments .comments-loaded, .b-message .comments-loaded {
+padding-bottom: 10px!important;
+}
+.b-dialog:first-child {
+  padding-top: 15px;
+}
+.b-show_more-more .b-db_entry-variant-list_item:first-child, .cc .b-db_entry-variant-list_item:last-child, .block_m .b-db_entry-variant-list_item:last-child, .b-comments .b-comment:last-child{
+  border-bottom:none!important;
+  padding-bottom: 0px;
+}
+.p-dashboards-show .cc-news .c-news_topics .b-topic {
+  margin-bottom:0px!important;
+  margin: 10px 0px!important;
+}
+.b-user.named_avatar .name {
+    color: #e2ecf1;
+transition:1s ease-out;
+text-decoration: none!important;
+}
+.b-user.named_avatar img:hover, .b-user.named_avatar .avatar:hover {
+border-color: var(--primary_color);
+border-radius: 50%;
+text-decoration: none!important;
+}
+.b-user.named_avatar .name:hover {
+color: var(--primary_color);
+text-decoration: none!important;
+}
+.b-clubs-menu .admin .b-user {
+transition: 1s ease-out;
+text-decoration: none!important;
+}
+.b-clubs-menu .admin .b-user:hover {
+transform: scale(1.2);
+border-color: var(--primary_color);
+color: var(--primary_color);
+text-decoration: none!important;
+}
+.b-block_list li a {
+    color: #889aa0;
+}
+.b-shiki_editor footer .about-bb_codes {
+    color: #889aa0;
+}
+.b-lang_trigger span {
+    color: #889aa0;
+}
+.b-user16 {
+color: #e2ecf1;
+}
+.b-user16:hover, .b-user.named_avatar img:hover, .b-user16:hover a {
+color: var(--primary_color)!important;
+}
+.b-comment>.inner header .name-date .time {
+    color: #9bc7ca;
+}
+.c-actions .new_comment:before {
+transition: 0.3s ease;
+    color: #9bc7ca;
+}
+.c-actions .new_comment:hover:before, .c-actions .fav-remove:before {
+color:  var(--primary_color);
+}
+.c-actions .new_review:before {
+transition: 0.3s ease;
+    color: #9bc7ca;
+}
+.c-actions .new_review:hover:before {
+color:  var(--primary_color);
+}
+.c-actions .fav-add:before {
+    color: #9bc7ca;
+transition: 0.3s ease;
+}
+.c-actions .fav-add:hover:before {
+color:  var(--primary_color);
+}
+.c-actions .edit:before {
+transition: 0.3s ease;
+    color: #9bc7ca;
+}
+.c-actions .edit:hover:before {
+color:  var(--primary_color);
+}
+.p-profiles .profile-head .c-brief .avatar {
+    margin: auto;
+    margin-top: -170px !important;
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+    float: none !important;
+}
+.b-video_variant .episode-num, .b-video_variant .video-id {
+    color: #a6b2b7;
+}
+.b-video_variant a {
+    color: #889aa0;
+}
+.b-video_variant .episode-hostings, .b-video_variant .video-hosting, .b-video_variant .video-language {
+    color: #889aa0;
+}
+.b-video_variant.active a {
+    color: #1F75FE;
+    border-bottom: none;
+}
+.b-video_variant.active a:hover {
+   border-bottom: none;
+}
+.p-anime_videos-index .c-anime_video_episodes .title, .p-anime_videos-index .c-videos .title {
+    color: #e2ecf1;
+}
+.p-anime_videos-index .c-videos .video-variant-switcher {
+    color: #9bc7ca;
+}
+.p-anime_videos-index .c-videos .video-variant-switcher.active {
+    color: #1F75FE;
+}
+.b-video_variant .video-author {
+    color: #e2ecf1;
+}
+.b-video_player .cc-player_controls .prev .icon:before {
+    color: #e2ecf1;
+}
+.b-video_player .cc-player_controls .episode-num {
+color: #e2ecf1!important;
+}
+.b-video_player .cc-player_controls .next .icon:before {
+color: #e2ecf1;
+}
+.b-video_player .cc-player_controls .increment-user_rate .icon:before {
+color: #e2ecf1;
+}
+.b-video_player .cc-player_controls .show-options .icon:before {
+color: #e2ecf1;
+}
+.b-video_player .cc-player_controls .report .icon:before {
+color: #e2ecf1;
+}
+.b-catalog_entry .cover .misc, .p-dashboards-show .midheadline .b-link, .p-dashboards .user_list .list-type > .title .switch, .p-dashboards .user_list .list-type > .title .link, .p-dashboards .user_list .history > .title .switch, .p-dashboards .user_list .history > .title .link, .p-dashboards .user_list .list-change .note, .p-dashboards .c-my_list .list-change .note, .bar.vertical .line .x_label, .p-dashboards-show .contests .contest .notice, .b-forums .forum .topics, .name-date .time, .p-profiles .profile-head .c-history .entry .misc, .p-profiles-show .lifetime .times .time, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement, .b-comment > .inner header .name-date .time, .b-replies, .b-options-floated, .p-messages .mass-actions .action, .p-animes_collection-index .pagination, .p-mangas_collection-index .pagination, .p-recommendations-index .pagination, .p-userlist_comparer-show .pagination, .b-rate .score-notice, .b-animes-menu .block-list .date, .bar.horizontal .line .x_label, .b-animes-menu .friend-rate .status, .b-summary_marker, .b-offtopic_marker, .b-shiki_editor footer .about-bb_codes, .tipsy, header.head .misc, header.head a.edit, .p-studios .studio .animes, .p-studios .studio .years, .p-contests .contest-match .vs .help, .p-contests .contest-match .vs .next, .p-contests .contest-match .vs .finish, .p-contests .contest-match .vs .refrain, .p-contests .contest-match .vs .refrained, .p-contests .match-day .matches-num, .b-lang_trigger, .b-club .info, .b-new_marker, .b-user.detailed .info .last-online, .b-user.detailed .history .line .date, .p-recommendations-index .b-header_filters .hint, .p-recommendations-favourites .b-header_filters .hint, .p-userlist_comparer .comparer table .notice, .p-topics .l-menu .calendar .entry .misc, .p-topics .l-menu .reviews .entry .misc, .p-topics .l-menu .clubs .entry .misc, .p-topics .l-menu .contests .contest .notice, .p-topics .l-menu .sticked-topics .topic .notice, .b-video_player .cc-player_controls .label, .b-video_player .cc-player_controls .episode-title .video-link, .b-log_entry .date, .b-log_entry .spoiler.collapse, .b-log_entry .spoiler.collapsed, .b-log_entry .spoiler.collapse span, .b-log_entry .spoiler.collapsed span, .b-js-action, .b-input .hint, .b-review-topic .review-votes_count, .p-dashboard .l-menu .ongoing .misc, .p-dashboard .l-menu .season .notice, .p-topics .l-menu .sticky-topics .topic .notice {
+    font-size: 12px !important;
+    color: #889aa0 !important;
+}
+.bar.vertical .line .bar-container .value {
+  color: black !important;
+}
+/* спецом для хитрожопых*/
+.l-top_menu-v2 .inner .logo {
+  
+}
+
+.b-show_more, .b-show_more-more .hide-more {
+  color: #9bc7ca;
+  font-size: 12px!important;
+}
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a {
+  font-size: 12px;
+}
+.b-stats_bar .stat_names {
+   font-size: 12px;
+  height: 30px;
+}
+.b-dialog .to_dialog {
+  font-size: 12px!important;
+background: none!important;
+    box-shadow: none!important;
+  color: #9bc7ca;
+}
+.b-forums .forum .link-with-input .link {
+    color: #e2ecf1;
+}
+.p-dashboards-show .c-content .options .option {
+    color: #9bc7ca;
+    border:none!important;
+}
+.p-dashboards-show .c-content .options .option.selected {
+    color: var(--primary_color)!important;
+}
+.p-dashboards-show .c-content .options .option:hover { 
+    color: var(--primary_color);
+}
+.b-message {
+  margin: 10px 0px;
+    border-top: none;
+    padding-bottom: 15px;
+  border-bottom: 1px solid rgba(65, 93, 22, 0.2);
+}
+.b-message:last-child {
+  border-bottom: none;
+      padding-bottom: 0px;
+}
+.b-catalog-entry-embedded .b-catalog_entry {
+  padding-bottom:0px!important;
+}
+.b-dialog .b-message {
+    padding-bottom: 0px;
+    margin-bottom: 0px!important;
+      margin-top: 13px;
+  
+}
+.buttons .item-reply, .buttons .item-moderation, .buttons .item-edit, .buttons .item-delete, .buttons .item-ignore,.buttons .item-apply, .buttons .item-request-confirm, .buttons .item-delete-confirm, .buttons .item-cancel, .buttons .item-request-reject, .buttons .item-delete-cancel, .buttons .item-moderation-cancel {
+    color: #9bc7ca;
+}
+.buttons .item-reply:before, .buttons .item-moderation:before, .buttons .item-edit:before, .buttons .item-delete:before, .buttons .item-ignore:before, .buttons .item-apply:before, .buttons .item-request-confirm:before, .buttons .item-delete-confirm:before, .buttons .item-cancel:before, .buttons .item-request-reject:before, .buttons .item-delete-cancel:before, .buttons .item-moderation-cancel:before {
+  font-size:16px!important;
+}
+.buttons .item-ignore:hover, .buttons .item-delete:hover, .buttons .item-edit:hover, .buttons .item-reply:hover, .buttons .item-moderation:hover, .buttons .item-apply:hover, .buttons .item-request-confirm:hover, .buttons .item-delete-confirm:hover, .buttons .item-cancel:hover, .buttons .item-request-reject:hover, .buttons .item-delete-cancel:hover, .buttons .item-moderation-cancel:hover, .buttons .item-delete-confirm:hover  {
+    color: var(--primary_color)!important;
+}
+.p-profiles header.head .misc span, .p-profiles header.head .misc a {
+}
+.p-topics header h1 a.reload {
+color: #e2ecf1;
+}
+.p-anime_videos-index .c-videos .b-video_variant .video-quality.dvd {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG-2yy4R8Xi5mO1N_ZurIpznxCgpOuDzpRZGu-K9dUBwrClokYAg) no-repeat!important;
+  display:none;
+}
+.b-video_player .cc-player_controls .episode-num .video-link a {
+    color: #889aa0;
+    cursor: pointer;
+    border-bottom: 1px dotted #889aa0;
+}
+.b-video_player .cc-player_controls .create-user_rate .icon:before {
+    color: #e2ecf1;
+}
+.b-spoiler .content .before:before {
+    content: '[spoiler]';
+    color: #9bc7ca;
+    animation: spoil 2s ease infinite;
+}
+.b-spoiler .content .after:before {
+animation: spoil 2s ease infinite;
+}
+.b-spoiler .content .inner, .b-spoiler .content .inner-prgrph {
+    border-bottom: 2px dashed rgba(165,170,230,0.2);
+    border-radius: 6px;
+    padding: 0px 6px;
+animation: spoillerr 2s ease infinite;
+}
