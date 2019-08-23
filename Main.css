@@ -2563,7 +2563,7 @@ transform: scale(1.1);
 border: none!important;
 }
 .b-topic>.inner header img {
-transition: 0,3s ease;
+transition: 0.3s ease;
 }
 .b-topic>.inner header img:hover {
  background: rgba(86, 90, 86,.15);
@@ -4810,3 +4810,15 @@ body#dialogs_index .b-height_shortener {
     position: relative;
 }
 }
+
+
+
+
+
+
+@media only screen and (min-width: 1075px) {
+.l-top_menu-v2 .menu-search {
+    width: 210px!important;
+}
+}
+
