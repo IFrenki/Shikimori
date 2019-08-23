@@ -1,4 +1,4 @@
-/* shikimori.one - Edesign v2.8 "The Wasteland" by EngiNier | Modified by 0utSider */
+/* shikimori.one - Edesign v2.8 "The Wasteland" by EngiNier */
 /*** start code ***/
 
 										/** ---------------------------- GENERAL SETTINGS ---------------------------- **/
@@ -9169,3 +9169,32 @@ body.p-achievements.p-profiles .block.m0:before {
 body.p-achievements.p-profiles .l-page {
     background: linear-gradient(to right, rgba(25, 25, 53, 0.6), #884f0087, rgba(25,25,53,0.6) );
 }
+
+
+
+
+.block2 .cc-achievements .b-achievement {
+    background: #174c209e;
+}
+.block2 .cc-achievements .b-achievement .title {
+    color: #cce0d1;
+}
+.block2 .cc-achievements .b-achievement .percent {
+    color: #b9f3b6;
+}
+.block2 .cc-achievements .b-achievement .c-about .hint {
+    color: #98da9b!important;
+}
+.block2 .cc-achievements .b-achievement .c-about .progress {
+    background: #0a230dcf;
+    border: 0.5px solid #152d0f;
+}
+.block2 .cc-achievements .b-achievement .c-about .progress .bar {
+    background: #57bb5f;
+}
+.block2 .cc-achievements .b-achievement .c-about .text {
+    color: #7cc59a;
+}
+/*.block2 .b-achievement img {
+  box-shadow: 0 0 2px 1px #54e454;
+}*/
