@@ -1,5 +1,13 @@
 /* shikimori.one - Edesign v2.8 "The Wasteland" by EngiNier | Modified by 0utSider */
 /*** ENGI start code ***/
+
+:root {
+  --primary_color: dodgerblue;
+  --secondary_color: deepskyblue;
+  --accent_color: ;
+  --background: url(https://i.ibb.co/85jT0Sz/681132-wallpapers-2560x1440-ipad.jpg);
+}
+
 body:before {
 content:'';
 width: 100%;
@@ -9004,3 +9012,440 @@ body.p-achievements.p-profiles.p-profiles .b-badge img {
 .b-badge[data-progress='2']::after { background: linear-gradient(135deg, transparent 55px, #8a8a8a 0); }
 .b-badge[data-progress='1']::after { background: linear-gradient(135deg, transparent 55px, #8a8a8a 0); }
 .b-badge[data-progress='0']::after { background: linear-gradient(135deg, transparent 55px, #8a8a8a 0); }
+
+
+
+.c-franchises .cc {
+    padding: 10px;
+}
+.c-franchises .b-options-floated.before-buttons-2 {
+    position: absolute;
+  top: -3px;
+    left: 0;
+  width: 80px;
+    height: 20px;
+  padding: 0px;
+    margin-left: 35px;
+    line-height: 22px;
+  text-align: center;
+    /*background: #170f0282;*/
+    background: rgba(9, 12, 16, 0.55);
+    border-radius: 10px;
+}
+.c-franchises .b-options-floated.mobile-phone a {
+  width: auto!important;
+    /*color: #ceac4b!important;*/
+    color: var(--secondary_color);
+    background: none;
+}
+span.switcher.b-tooltipped.popularity {
+  display: inline-block;
+  position: relative;
+  right: 20px;
+  bottom: 0px;
+    width: 150px;
+  height: 20px;
+  line-height: 20px;
+  background: rgba(9, 12, 16, 0.55);
+    /*background: #170f0282;*/
+    border-radius: 9px;
+}
+.b-list_switchers .switcher.popularity:before {
+    content: 'ПО ПОПУЛЯРНОСТИ';
+    font: bold 9px 'Comfortaa'!important;
+    width: 125px;
+    display: inline-block;
+    /*color: #daa644;*/
+    color: #889aa0;
+}
+.b-list_switchers .switcher.popularity::after {
+    content: '\\_f201';
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 11px;
+    font-weight: bold;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    -moz-osx-font-smoothing: grayscale;
+    height: calc(100% - 4px);
+    right: 0;
+    top: 2px;
+    width: 27px;
+    line-height: 20px;
+    text-align: center;
+    position: absolute;
+    /*color: #291506;*/
+    color: black;
+    background: rgba(68, 68, 68, 1);
+    border-radius: 9px;
+    padding: 0px;
+}
+
+span.switcher.b-tooltipped.alphabet {
+    display: inline-block;
+    width: 116px;
+    background: rgba(9, 12, 16, 0.55);
+    /*background: #170f0282;*/
+    height: 20px;
+    line-height: 20px;
+    bottom: 0px;
+    position: relative;
+    border-radius: 9px;
+    right: 30px;
+}
+.b-list_switchers .switcher.alphabet:before {
+    content: 'ПО АЛФАВИТУ';
+    font: bold 9px 'Comfortaa'!important;
+    width: 92px;
+    display: inline-block;
+    /*color: #daa644;*/
+    color: #889aa0;
+}
+.b-list_switchers .switcher.alphabet::after {
+    content: '\\_f1c2';
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 14px;
+    font-weight: bold;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    -moz-osx-font-smoothing: grayscale;
+    height: calc(100% - 4px);
+    right: 0;
+    top: 2px;
+    width: 27px;
+    line-height: 17px;
+    text-align: center;
+    position: absolute;
+    /*color: #291506;
+    background: #b57819;*/
+    color: black;
+    background: rgba(68, 68, 68, 1);
+    border-radius: 9px;
+    padding: 0px;
+}
+
+.b-list_switchers .switcher.selected:after {
+    /*background: #efc86e!important;*/
+    background: #333333!important;
+  	color: var(--secondary_color);
+}
+.b-list_switchers .switcher.selected:before {
+    /*color: #efc86e!important;*/
+    color: var(--secondary_color);
+
+}
+
+
+
+
+body.p-achievements.p-profiles .tipsy.tipsy-large.tipsy-s, body.p-achievements.p-profiles .tipsy, body.p-achievements.p-profiles .tipsy-s {
+    display: none!important;
+}
+body.p-achievements.p-profiles .cc-achievements {
+    margin: 16px 0 9px!important;
+}
+body.p-achievements.p-profiles .block2 {
+    margin: 0;
+}
+body.p-achievements.p-profiles .block.m0:before {
+    content: '——— ★ ▬▬ ACHIEVEMENTS ▬▬ ★ ———';
+    font-size: 44px;
+    width: calc(100% - 4px);
+    text-align: center;
+    display: block;
+    /*color: #ffe1a7;
+    background: linear-gradient(to right, rgba(53, 22, 0, 0.6), #884f00c4, rgba(53, 20, 0, 0.6) );
+    box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2)!important;*/
+    color: var(--secondary_color);
+    background: linear-gradient(to right, rgba(5, 8, 12, 0.4), rgba(5, 8, 12, 0.8), rgba(5, 8, 12, 0.4) );
+    box-shadow: 0px 0px 20px rgba(86, 90, 86,.5);
+    margin-bottom: 13px;
+    border-radius: 15px;
+    border: 2px solid #1b0c0229;
+}
+body.p-achievements.p-profiles .l-page {
+    background: linear-gradient(to right, rgba(25, 25, 53, 0.6), #884f0087, rgba(25,25,53,0.6) );
+}
+
+
+
+
+.block2 .cc-achievements .b-achievement {
+    background: #174c209e;
+}
+.block2 .cc-achievements .b-achievement .title {
+    color: #cce0d1;
+}
+.block2 .cc-achievements .b-achievement .percent {
+    color: #b9f3b6;
+}
+.block2 .cc-achievements .b-achievement .c-about .hint {
+    color: #98da9b!important;
+}
+.block2 .cc-achievements .b-achievement .c-about .progress {
+    background: #0a230dcf;
+    border: 0.5px solid #152d0f;
+}
+.block2 .cc-achievements .b-achievement .c-about .progress .bar {
+    background: #57bb5f;
+}
+.block2 .cc-achievements .b-achievement .c-about .text {
+    color: #7cc59a;
+}
+/*.block2 .b-achievement img {
+  box-shadow: 0 0 2px 1px #54e454;
+}*/
+
+
+.c-genres .block2 .cc-achievements .b-achievement {
+    background: #63431a9e;
+}
+.c-genres .block2 .cc-achievements .b-achievement .title {
+    color: #f3eabf;
+}
+.c-genres .block2 .cc-achievements .b-achievement .percent {
+    color: #ffed8d;
+}
+.c-genres .block2 .cc-achievements .b-achievement .c-about .hint {
+    color: #f9c86d!important;
+}
+.c-genres .block2 .cc-achievements .b-achievement .c-about .progress {
+    background: #1d1806cf;
+    border: 0.5px solid #382910;
+}
+.c-genres .block2 .cc-achievements .b-achievement .c-about .progress .bar {
+    background: #eab437;
+}
+.c-genres .block2 .cc-achievements .b-achievement .c-about .text {
+    color: #decc86;
+}
+/*.c-genres .block2 .b-achievement img {
+  box-shadow: 0 0 2px 1px #e4ba54;
+}*/
+body.p-achievements.p-profiles::-webkit-scrollbar-thumb {
+    background: #714813!important;
+}
+body.p-achievements.p-profiles::-webkit-scrollbar-track {
+    background: #150d03!important;
+}
+/*
+body.p-achievements.p-profiles .b-to-top .arrow:before {
+    color: rgba(76, 56, 25, 0.88);
+    text-shadow: 0px 0px 1px rgba(90, 74, 30, 0.98);
+}
+body.p-achievements.p-profiles .b-to-top .slide:before {
+    background: rgba(53, 43, 25, 0.4);
+}
+*/
+/*
+body.p-achievements.p-profiles:before {
+  background-image: url(https://i.ibb.co/QX6hgbQ/image.png);
+}
+body.p-achievements.p-profiles .l-top_menu-v2 {
+    background: linear-gradient(to bottom,rgba(70, 37, 8, 0.8) 0%, rgba(70, 37, 8, 0.6) 70%, rgba(70, 37, 8, 0.4) 100%);
+    box-shadow: 0 1px 20px 10px rgba(70, 37, 8, 0.4)!important;
+}
+*/
+body.p-achievements.p-profiles .l-page {
+    /*background: linear-gradient(to right, rgba(49, 34, 20, 0.6), #884f0087, rgba(49, 34, 20, 0.6));*/
+    background: rgba(5, 8, 12, 0.65);
+    box-shadow: none!important;
+}
+body.p-achievements.p-profiles .userbox .submenu > .entry:before {
+    color: #e8dabf!important;
+}
+body.p-achievements.p-profiles {
+  color: #f1e6d1!important;
+}
+body.p-achievements.p-profiles .b-nothing_here {
+    line-height: 40px!important;
+    color: #75662f!important;
+    text-align: center;
+}
+/*
+body.p-achievements.p-profiles .l-top_menu-v2 .menu-items > .entry > a, body.p-achievements.p-profiles header.head h1, body.p-achievements.p-profiles header.head h2, body.p-achievements.p-profiles header.head h1 a.back:before, body.p-achievements.p-profiles header.head h2 a.back:before, body.p-achievements.p-profiles .l-top_menu-v2 .submenu > .entry, body.p-achievements.p-profiles .b-main_search .popup li {
+    color: #f1e6d1!important;
+}
+body.p-achievements.p-profiles .b-link, body.p-achievements.p-profiles .b-breadcrumbs>span:after {
+    color: #bd9851!important;
+}
+*/
+body.p-achievements.p-profiles .userbox img.avatar {
+    border: 1px solid rgba(95, 56, 34, 0.6);
+}
+body.p-achievements.p-profiles .b-main_search .input {
+    color: #f3eacf!important;
+    background: rgba(39, 28, 13, 0.4)!important;
+}
+/*body.p-achievements.p-profiles input {
+    background: transparent;
+    color: #d4c8b2;
+}*/
+body.p-achievements.p-profiles .submenu.right .b-separator {
+    color: #ffd2a9!important;
+}
+body.p-achievements.p-profiles .l-top_menu-v2 .submenu > .entry:hover, body.p-achievements.p-profiles .b-main_search ul.popup li:hover {
+    color: #f1d5a0!important;
+    background-color: #775022!important;
+}
+body.p-achievements.p-profiles .userbox .submenu > .entry:nth-child(3) > .b-separator:nth-child(5):after {
+    background: rgba(76, 38, 11, 0.44)!important;
+}
+body.p-achievements.p-profiles .userbox .submenu > .entry:nth-child(3):after {
+background: #5f3c11;
+}
+body.p-achievements.p-profiles .userbox img.avatar:hover {
+  border: 1px solid #986916!important;
+}
+body.p-achievements.p-profiles .l-top_menu-v2 .menu-items>.entry > a:hover {
+    background-color: #56432869!important;
+}
+body.p-achievements.p-profiles .l-top_menu-v2 .menu-items > .entry > .submenu, body.p-achievements.p-profiles .b-main_search ul.popup {
+    background: #583b16d6!important;
+}
+body.p-achievements.p-profiles .b-main_search .popup li.active {
+    background: rgba(150, 141, 114, 0.3)!important;
+}
+/*body.p-achievements.p-profiles.p-profiles h1:after {
+    content: "'s achievements";
+}*/
+body.p-achievements.p-profiles input.ac_input.ac_loading {
+  box-shadow: none;
+  background: none!important;
+}
+  /* Chrome/Opera/Safari */
+body.p-achievements.p-profiles ::-webkit-input-placeholder {
+    /*color: #827160!important;*/
+  transition:0.5s ease-out;
+}
+/* Firefox 19+ */
+body.p-achievements.p-profiles ::-moz-placeholder {
+  transition:0.5s ease-out;
+  color: #827160!important;
+}
+/* IE 10+ */
+body.p-achievements.p-profiles :-ms-input-placeholder {
+  color: #827160!important;
+  transition:0.5s ease-out;
+}
+/* Firefox 18- */
+body.p-achievements.p-profiles :-moz-placeholder {
+  color: #827160!important;
+  transition:0.5s ease-out;
+}
+body.p-achievements.p-profiles .headline, body.p-achievements.p-profiles .subheadline {
+    /*background: linear-gradient(to right, rgba(53, 22, 0, 0.6), #884f00c4, rgba(53, 20, 0, 0.6) );
+    color: #ffe1a7!important;*/
+    text-align: center;
+  position: relative;
+  z-index: -1;
+}
+body.p-achievements.p-profiles .headline:after, body.p-achievements.p-profiles .subheadline:after, body.p-achievements.p-profiles .headline:before, body.p-achievements.p-profiles .subheadline:before {
+    content: '\\_f091';
+    font: normal normal normal 14px/1 FontAwesome;
+    line-height: 28px;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /*color: #efc86e!important;*/
+    color: #007FFF;
+}
+body.p-achievements.p-profiles .headline:before, body.p-achievements.p-profiles .subheadline:before {
+    right: 10px;
+}
+body.p-achievements.p-profiles .headline:after, body.p-achievements.p-profiles .subheadline:after {
+    left: 10px;
+}
+body.p-achievements.p-profiles .l-footer:before {
+    content: 'Orig. Design by grin3671 | Redesigned by EngiNier | Modified by 0utSider'!important;
+    color: #ffd78c;
+}
+body.p-achievements.p-profiles .menu .unread-count, body.p-achievements.p-profiles .menu .contest {
+  
+}
+body.p-achievements.p-profiles .inner .border {
+    display: none;
+}
+
+
+/* New style for status_tags: 'studio' and 'other' */ 
+.b-anime_status_tag.studio:hover { background: rgba(86, 90, 86, .22) !important }
+.b-anime_status_tag.studio, .b-anime_status_tag.other {
+  background-color: transparent;
+  border: unset;
+  color: #9bc7ca;
+  padding: 0px;
+  margin-right: 3px !important;
+  margin-left: 3px !important
+}
+.b-anime_status_tag.other, a.b-db_entry-variant-list_item span.b-link { color: rgba(226, 236, 241, 0.7) !important }
+
+
+													/* __________________New Header__________________ */
+
+.l-top_menu-v2:hover .global-search input, .is-search-focus .global-search input { background: rgba(36, 41, 43, 0.7) !important }
+.l-top_menu-v2:hover, .l-top_menu-v2.is-search-focus {
+    background: rgba(9, 12, 16, 0.75) !important;
+    box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.7) !important
+}
+.l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active .key { color: var(--primary_color) !important }
+/* .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:hover .key {
+  color: rgba(30,144,255, 0.8) !important
+} */
+.l-top_menu-v2 .global-search .clear:hover::before { color: var(--primary_color) }
+.l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active, 
+.l-top_menu-v2 .global-search .search-results .search-mode.active { 
+    color: var(--primary_color) !important
+}
+.l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active:before, 
+.l-top_menu-v2 .global-search .search-results .search-mode.active:before { 
+    background: var(--primary_color)
+}
+.l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:hover:before, 
+.l-top_menu-v2 .global-search .search-results .search-mode:hover:before { 
+    background: rgba(30,144,255, 0.4) !important
+} 
+.l-top_menu-v2 .global-search .search-results .search-mode:hover, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:hover {
+    background: rgba(86, 90, 86, .15);
+    box-shadow: none !important;
+    /* color: rgba(30,144,255, 0.6) */
+    color: var(--primary_color)
+}
+.l-top_menu-v2 .global-search .search-results { background: rgba(9, 12, 16, 0.55) }
+.l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .search-mode { border: unset }
+.l-top_menu-v2 .global-search .search-results .search-mode { color: unset }
+.l-top_menu-v2 .menu-dropdown.profile .submenu-triangle img, .l-top_menu-v2 .menu-dropdown.profile .submenu-triangle, 
+.l-top_menu-v2 .menu-dropdown.main .submenu-triangle {
+	transition: 0.2s ease-in-out
+}
+.l-top_menu-v2 .menu-dropdown.main.active .submenu-triangle, .l-top_menu-v2 .menu-dropdown.main.active a.active { color: var(--primary_color) !important }
+.l-top_menu-v2 .menu-dropdown.profile.active .submenu-triangle, .l-top_menu-v2 .menu-dropdown.profile.active a.active { 
+	color: var(--primary_color) !important 
+}
+.l-top_menu-v2 .menu-dropdown.profile.active .submenu-triangle img { box-shadow: 0px 0px 5px 1px var(--primary_color) }
+.l-top_menu-v2 .submenu a.active, .l-top_menu-v2 .menu-icon:hover, .l-top_menu-v2 .global-search .search-results .search-mode.active, 
+.l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active
+/* .l-top_menu-v2 .menu-dropdown.profile.active, .l-top_menu-v2 .menu-dropdown.main.active */ {
+    color: var(--primary_color) !important;
+    background: rgba(86, 90, 86, .30) !important;
+    box-shadow: 0px 0px 20px rgba(86, 90, 86,.5);
+    border: none
+}
+.l-top_menu-v2 .global-search .hotkey-marker { opacity: 0.5 }
+.l-top_menu-v2 .global-search, .l-top_menu-v2 .global-search input, .l-top_menu-v2.is-search-focus .global-search .search-marker { 
+    color: silver;
+    background: transparent
+}
+.l-top_menu-v2 .menu-dropdown span, .l-top_menu-v2 .menu-dropdown.active span, .l-top_menu-v2 .menu-dropdown.profile .submenu-triangle:hover {
+  	background: transparent
+}
+
+/* white icons in dropdown menu 
+
+.l-top_menu-v2 .menu-dropdown.main .submenu-triangle span, .l-top_menu-v2 .menu-dropdown.profile .submenu-triangle, .l-top_menu-v2 .menu-dropdown.main .submenu-triangle:before, .l-top_menu-v2 .menu-dropdown .submenu-triangle:after, .l-top_menu-v2 .menu-dropdown a:before {
+  color: white !important
+}
