@@ -9300,3 +9300,75 @@ background: #5f3c11;
 body.p-achievements.p-profiles .userbox img.avatar:hover {
   border: 1px solid #986916!important;
 }
+body.p-achievements.p-profiles .l-top_menu-v2 .menu-items>.entry > a:hover {
+    background-color: #56432869!important;
+}
+body.p-achievements.p-profiles .l-top_menu-v2 .menu-items > .entry > .submenu, body.p-achievements.p-profiles .b-main_search ul.popup {
+    background: #583b16d6!important;
+}
+body.p-achievements.p-profiles .b-main_search .popup li.active {
+    background: rgba(150, 141, 114, 0.3)!important;
+}
+/*body.p-achievements.p-profiles.p-profiles h1:after {
+    content: "'s achievements";
+}*/
+body.p-achievements.p-profiles input.ac_input.ac_loading {
+  box-shadow: none;
+  background: none!important;
+}
+  /* Chrome/Opera/Safari */
+body.p-achievements.p-profiles ::-webkit-input-placeholder {
+    /*color: #827160!important;*/
+  transition:0.5s ease-out;
+}
+/* Firefox 19+ */
+body.p-achievements.p-profiles ::-moz-placeholder {
+  transition:0.5s ease-out;
+  color: #827160!important;
+}
+/* IE 10+ */
+body.p-achievements.p-profiles :-ms-input-placeholder {
+  color: #827160!important;
+  transition:0.5s ease-out;
+}
+/* Firefox 18- */
+body.p-achievements.p-profiles :-moz-placeholder {
+  color: #827160!important;
+  transition:0.5s ease-out;
+}
+body.p-achievements.p-profiles .headline, body.p-achievements.p-profiles .subheadline {
+    /*background: linear-gradient(to right, rgba(53, 22, 0, 0.6), #884f00c4, rgba(53, 20, 0, 0.6) );
+    color: #ffe1a7!important;*/
+    text-align: center;
+  position: relative;
+  z-index: -1;
+}
+body.p-achievements.p-profiles .headline:after, body.p-achievements.p-profiles .subheadline:after, body.p-achievements.p-profiles .headline:before, body.p-achievements.p-profiles .subheadline:before {
+    content: '\\_f091';
+    font: normal normal normal 14px/1 FontAwesome;
+    line-height: 28px;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /*color: #efc86e!important;*/
+    color: #007FFF;
+}
+body.p-achievements.p-profiles .headline:before, body.p-achievements.p-profiles .subheadline:before {
+    right: 10px;
+}
+body.p-achievements.p-profiles .headline:after, body.p-achievements.p-profiles .subheadline:after {
+    left: 10px;
+}
+body.p-achievements.p-profiles .l-footer:before {
+    content: 'Orig. Design by grin3671 | Redesigned by EngiNier | Modified by 0utSider'!important;
+    color: #ffd78c;
+}
+body.p-achievements.p-profiles .menu .unread-count, body.p-achievements.p-profiles .menu .contest {
+  
+}
+body.p-achievements.p-profiles .inner .border {
+    display: none;
+}
