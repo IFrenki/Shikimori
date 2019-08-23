@@ -5199,4 +5199,106 @@ ul.b-block_list {
   .l-top_menu-v2 .menu-items > .entry > a[href*="/forum"] {
       margin-left: -12px;
 }
+  .b-options-floated.mobile-phone {
+    text-align: center;
+}
+  .menu .unread-count:hover, .menu .contest:hover, .menu .unread-count:hover, .menu:hover .unread-count, .menu:hover .contest {
+transform:1.05!important;
+color: #e2ecf1!important;
+    transition: 0.2s ease;
+    background: var(--primary_color)!important;
+    
+}
+  .menu .unread-count {
+    transition: 0.2s ease!important;
+  }
+  .l-top_menu-v2 .menu-search {
+    width: 100%!important;
+}
+ .l-top_menu-v2 .menu-search {
+    padding-top: 0px;
+  }
+  .b-main_search ul.popup {
+    visibility: visible!important;
+    opacity: 1!important;
+  }
+  .b-main_search ul.popup li:hover, .b-main_search ul.popup:hover {
+background-color: none!important;
+background: none!important;
+}
+  .b-main_search ul.popup li:hover {
+  }
+  .b-main_search ul.popup li {
+    margin: 2px 2px;
+    border-radius: 4px;
+    background: #191b1fd6!important;
+    box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.1);
+  }
+  .b-main_search .popup li.active {
+      background: var(--primary_color)73!important;
+  }
+  .b-main_search .input {
+    width: 98%!important;
+}
+  .ac_results.menu-suggest, .completable-block.menu-suggest {
+    width: 277px !important;
+  }
+  header.head {
+   margin-top: 40px!important;
+}
+  .b-topic.aside-expanded > .inner, .b-dialog.aside-expanded > .inner, .b-message.aside-expanded > .inner, .b-comment.aside-expanded > .inner, .b-topic.aside-expanded > .b-comments {
+   margin-left: 0px;
+   min-height: 200px;
+  }
+  .item-mobile.selected {
+    z-index: 4;
+    position: relative;
+    color:var(--primary_color);
+  }
+  .b-topic.aside-expanded>.inner aside.buttons, .b-comment.aside-expanded>.inner aside.buttons, .b-dialog.aside-expanded>.inner aside.buttons, .b-message.aside-expanded>.inner aside.buttons {
+    display: block;
+    margin-right: 0px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: auto;
+   height: 300px!important;
+    background-color: rgba(5, 8, 12, 0.9);
+    z-index: 3;
+    padding: 10px 14px;
+  }
+  
+  .b-shiki_editor aside.buttons {
+    white-space: nowrap;
+    width: 80%;
+    float: left!important;
+  }
+  .editor-controls {
+    white-space: nowrap;
+    overflow-x: auto;
+  }
+  .b-shiki_editor aside.buttons span {
+  display:inline-block!important;
+  }
+  .b-shiki_editor .images {
+    width: 100%;
+    height: 46px;
+    white-space: nowrap;
+    overflow-x: auto;
+  }
+  .b-shiki_editor .links.links, .b-shiki_editor .images.links, .b-shiki_editor .quotes.links, .b-shiki_editor .email.links, .b-shiki_editor .upload.links {
+    padding-left: 0;
+    width: 100%;
+    /* height: 43px; */
+    white-space: nowrap;
+    overflow-x: auto;
+    float: left!important;
+}
+  .b-shiki_editor .links.links p, .b-shiki_editor .images.links p, .b-shiki_editor .quotes.links p, .b-shiki_editor .email.links p, .b-shiki_editor .upload.links p {
+    width: 100%;
+    height: 46px;
+    white-space: nowrap;
+    overflow-x: auto;
+}
 }
