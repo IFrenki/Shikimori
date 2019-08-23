@@ -7308,3 +7308,727 @@ a.b-js-link {
     width: 22%!important;
 }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 766px) and (min-width: 701px) {
+.c-anime_video_episodes .b-video_variant[data-episode="14"], .c-anime_video_episodes .b-video_variant[data-episode="15"], .c-anime_video_episodes .b-video_variant[data-episode="16"], .c-anime_video_episodes .b-video_variant[data-episode="17"], .c-anime_video_episodes .b-video_variant[data-episode="18"] {
+    position: absolute;
+    margin-top: -62px;
+}
+  .c-anime_video_episodes .b-video_variant[data-episode="14"] {
+  margin-left: 294px;
+  }
+  .c-anime_video_episodes .b-video_variant[data-episode="15"] {
+ margin-left: 367px;
+  }
+  .c-anime_video_episodes .b-video_variant[data-episode="16"] {
+  margin-left: 440px;
+  }
+  .c-anime_video_episodes .b-video_variant[data-episode="17"] {
+  margin-left: 513px;
+  }
+  .c-anime_video_episodes .b-video_variant[data-episode="18"] {
+  margin-left: 586px;
+  }
+}
+@media screen and (max-width: 700px) and (min-width: 625px) {
+.c-anime_video_episodes .b-video_variant[data-episode="14"], .c-anime_video_episodes .b-video_variant[data-episode="15"], .c-anime_video_episodes .b-video_variant[data-episode="16"] {
+    position: absolute;
+    margin-top: -62px;
+}
+  .c-anime_video_episodes .b-video_variant[data-episode="14"] {
+ margin-left: 367px;
+  }
+  .c-anime_video_episodes .b-video_variant[data-episode="15"] {
+  margin-left: 440px;
+  }
+  .c-anime_video_episodes .b-video_variant[data-episode="16"] {
+  margin-left: 513px;
+  }
+  .c-anime_video_episodes .b-video_variant[data-episode="17"], .c-anime_video_episodes .b-video_variant[data-episode="18"] {
+  }
+}
+@media screen and (max-width: 624px) and (min-width: 551px) {
+.c-anime_video_episodes .b-video_variant[data-episode="14"] {
+    position: absolute;
+    margin-top: -62px;
+}
+  .c-anime_video_episodes .b-video_variant[data-episode="14"] {
+  margin-left: 440px;
+  }
+}
+
+@media screen and (max-width: 550px) and (min-width: 477px) {
+.c-anime_video_episodes .b-video_variant[data-episode="14"], .c-anime_video_episodes .b-video_variant[data-episode="15"], .c-anime_video_episodes .b-video_variant[data-episode="16"], .c-anime_video_episodes .b-video_variant[data-episode="17"], .c-anime_video_episodes .b-video_variant[data-episode="18"] {
+    position: absolute;
+    margin-top: -62px;
+}
+  .c-anime_video_episodes .b-video_variant[data-episode="14"] {
+   margin-left: 75px;
+  } 
+   .c-anime_video_episodes .b-video_variant[data-episode="15"] {
+  margin-left: 148px;
+  }
+  .c-anime_video_episodes .b-video_variant[data-episode="16"] {
+  margin-left: 221px;
+  }
+  .c-anime_video_episodes .b-video_variant[data-episode="17"] {
+  margin-left: 294px;
+  }
+  .c-anime_video_episodes .b-video_variant[data-episode="18"] {
+  margin-left: 367px;
+  }
+}
+@media screen and (max-width: 476px) and (min-width: 403px) {
+.c-anime_video_episodes .b-video_variant[data-episode="14"], .c-anime_video_episodes .b-video_variant[data-episode="15"] {
+    position: absolute;
+    margin-top: -62px;
+}
+  .c-anime_video_episodes .b-video_variant[data-episode="14"] {
+   margin-left: 221px;
+  } 
+   .c-anime_video_episodes .b-video_variant[data-episode="15"] {
+      margin-left: 294px;
+}
+}
+@media screen and (max-width: 402px) {
+.c-anime_video_episodes .b-video_variant[data-episode="14"], .c-anime_video_episodes .b-video_variant[data-episode="15"], .c-anime_video_episodes .b-video_variant[data-episode="16"] {
+    position: absolute;
+    margin-top: -62px;
+}
+  .c-anime_video_episodes .b-video_variant[data-episode="14"] {
+   margin-left: 75px;
+  } 
+   .c-anime_video_episodes .b-video_variant[data-episode="15"] {
+  margin-left: 148px;
+  }
+  .c-anime_video_episodes .b-video_variant[data-episode="16"] {
+  margin-left: 221px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* .c-brief header.head h1 {
+color: #e2ecf1;
+}
+
+.p-profiles-show .lifetime {
+margin-top: 0px; /* Аниме + Манга */
+*margin-top: 80px; /* Что-то одно */
+*margin-top: 0; /* Ничего */
+    border-radius: 5%;
+    padding: 0px 10px 10px;
+}
+
+
+.profile-actions .ignore-add {*display: none;} 
+
+/*** Основной код профиля ***/
+/* Тут менять нечего */
+.p-profiles .profile-head {
+overflow: visible;
+margin: -15px 0px 10px;
+position: relative;
+height: 320px;
+}
+
+.x1000 > .l-page div .profile-head {
+height: 320px;
+}
+
+.p-profiles .profile-head .c-brief {
+margin-bottom: 0;
+position: absolute;
+left: 0;
+bottom: 0;
+width: 100%;
+height: 110px;
+padding: 0 15px;
+}
+
+.p-profiles .profile-head .c-brief .avatar {margin: -30px 30px 30px 0;}
+
+.p-profiles .profile-head .c-brief .avatar .profile-actions {
+position: absolute;
+bottom: 2px;
+right: 15px;
+z-index: 2;
+}
+
+.profile-actions .mail, .profile-actions .talk, .profile-actions .fav-remove,
+.profile-actions .ban, .profile-actions .fav-add, .profile-actions .settings,
+.profile-actions .ignore-add, .profile-actions .ignore-remove {
+margin-left: 0;
+padding: 10px 10px 5px;
+border-radius: 3px;
+transition: 0,3s ease;
+}
+.profile-actions .mail:hover {
+color: var(--primary_color);
+}
+
+
+.profile-actions .mail::before,
+.profile-actions .talk::before,
+.profile-actions .fav-remove::before,
+.profile-actions .ban::before,
+.profile-actions .fav-add::before,
+.profile-actions .settings::before
+.profile-actions .ignore-add::before,
+.profile-actions .ignore-remove::before{
+  font-size: 20px;
+}
+
+.p-profiles .profile-head .c-brief header {
+  padding: 14px 0 0;
+}
+
+
+/* .p-profiles .profile-head .c-history, .p-profiles .profile-head .c-history.x2, .p-profiles .profile-head .c-history.x3 {
+    position: absolute;
+    right: 35px;
+    top: 20px;
+    z-index: 1;
+    background: rgba(36, 41, 43,0.4);
+    width: 350px;
+    border-radius: 5%;
+    padding: 0px 5px 0px;
+    opacity: 0;
+    transform: scale(0);
+    transition: 1s ease;
+}
+.p-profiles .profile-head:hover .c-history, .p-profiles .profile-head:hover .c-history.x2, .p-profiles .profile-head:hover .c-history.x3 {
+    position: absolute;
+    right: 35px;
+    top: 20px;
+    z-index: 1;
+    background: rgba(36, 41, 43,0.4);
+    width: 350px;
+    border-radius: 5%;
+    padding: 0px 5px 0px;
+    opacity: 1;
+    transform: scale(1);
+}
+*/
+.p-profiles .profile-head .c-history, .p-profiles .profile-head .c-history.x2, .p-profiles .profile-head .c-history.x3 {
+    background: none;
+    border-radius: 5%;
+    padding: 0px 5px 0px;
+    position: absolute;
+    right: 15px;
+    top: 330px;
+    z-index:2;
+}
+
+.x1000 > .l-page div .profile-head .c-history.x2, .x1000 > .l-page div .profile-head .c-history.x3 {
+position: absolute;
+    right: 20px;
+    top: 330px;
+    z-index: 2;
+}
+
+.profile-head .c-info .c-lists-info .b-stats_bar .stat_names .stat_name::after {
+padding: 0 5px 0 0;
+content: ",";
+}
+
+.x1000 > .l-page div .profile-head .c-info .c-lists-info .b-stats_bar .stat_names .stat_name::after {
+padding: 0 3px 0 0;
+content: ",";
+}
+
+.b-stats_bar .stat_names .stat_name .size::before,
+.b-stats_bar .stat_names .stat_name .size::after {display: none;}
+
+.p-profiles-show .lifetime {margin-bottom: 0;}
+.p-profiles-show .profile-content .activity .title {display: none;}
+.profile-content > .cc-2 .c-column .cc-2a.m30 {
+min-height: 230px;
+margin-left: -40px;
+}
+
+.profile-content .cc-2 .c-column .cc-2a > .c-column {
+margin-bottom: 10px!important;
+float: none!important;
+}
+/*** КОНЕЦ СТИЛЯ ПРОФИЛЯ ***/
+/***** НАЧАЛО СТИЛЯ МЕНЮ *****/
+/* Версия стиля: #10 от 23.01.2017
+Ссылка на эту версию jsfiddle.net/1dmm6r5k/10/
+*/
+
+/* Заставляем стиль работать только для PC и выключаться для планшетов */
+/* Не трогать */
+
+/*** Font Size ***/
+.b-catalog_entry .cover .misc, .p-dashboards-show .midheadline .b-link,
+.p-dashboards .user_list .list-type > .title .switch, .p-dashboards .user_list .list-type > .title .link,
+.p-dashboards .user_list .history > .title .switch, .p-dashboards .user_list .history > .title .link,
+.p-dashboards .user_list .list-change .note, .p-dashboards .c-my_list .list-change .note,
+.p-dashboards-show .contests .contest .notice, .b-forums .forum .topics, .name-date .time,
+.p-profiles .profile-head .c-history .entry .misc, .p-profiles-show .lifetime .times .time,
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement,
+.b-comment > .inner header .name-date .time, .b-replies, .b-options-floated, .p-messages .mass-actions .action,
+.p-animes_collection-index .pagination, .p-mangas_collection-index .pagination, .p-recommendations-index .pagination,
+.p-userlist_comparer-show .pagination, .b-show_more, .b-rate .score-notice, .b-animes-menu .block-list .date,
+.bar.horizontal .line .x_label, .b-animes-menu .friend-rate .status, .bar.horizontal .line .bar-container .value, .b-shiki_editor footer .about-bb_codes,
+.bar.vertical .line .bar-container .value, .tipsy, header.head a.edit, .p-studios .studio .animes,
+.p-studios .studio .years, .p-contests-index .contest .date, .p-contests .contest-match .vs .help,
+.p-contests .contest-match .vs .next, .p-contests .contest-match .vs .finish, .p-contests .contest-match .vs .refrain,
+.p-contests .contest-match .vs .refrained, .p-contests .match-day .matches-num, .b-lang_trigger, .b-club .info, .b-user.detailed .info .last-online, .b-user.detailed .history .line .date,
+.p-recommendations-index .b-header_filters .hint, .p-recommendations-favourites .b-header_filters .hint,
+.p-userlist_comparer .comparer table .notice, .p-topics .l-menu .calendar .entry .misc, .p-topics .l-menu .reviews .entry .misc,
+.p-topics .l-menu .clubs .entry .misc, .p-topics .l-menu .contests .contest .notice,
+.p-topics .l-menu .sticked-topics .topic .notice, .b-video_player .cc-player_controls .label,
+.b-video_player .cc-player_controls .episode-title .video-link, .b-log_entry .date, .b-log_entry .spoiler.collapse,
+.b-log_entry .spoiler.collapsed, .b-log_entry .spoiler.collapse span, .b-log_entry .spoiler.collapsed span, .b-js-action,
+.b-input .hint, .b-review-topic .review-votes_count, .b-show_more-more .hide-more, .p-dashboard .l-menu .ongoing .misc,
+.p-dashboard .l-menu .season .notice, .p-topics .l-menu .sticky-topics .topic .notice, .b-hot_topics-v2,
+.b-dialog .to_dialog {
+  font-size: 12px!important;
+}
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a, header.head .misc {
+  font-size: 12px;
+}
+.bar.vertical .line .x_label {
+font-size: 10px!important;
+}
+
+header.head .notice, .b-breadcrumbs {
+  font-size: 13px!important;
+}
+
+.b-stats_bar a.title, .b-stats_bar .title {
+ font-size: 15px;
+ margin-bottom: 2px;
+  line-height: 40px;
+}
+/* Fixes */
+.b-forums .forum .topics {
+  margin-top: 0;
+}
+.b-replies {
+  padding-top: 0;
+}
+.b-options-floated {
+  line-height: normal;
+}
+
+.headline > a, .midheadline > a, .subheadline > a, .p-topics .l-menu .sticky-topics .topic {
+   overflow: visible;
+   color: #889aa0;
+/* padding: 8px 10px 8px;
+background-color: white;
+line-height: 1;
+border-radius: 10%; */
+transition: 0.2s ease;
+ }
+ .headline > a:hover, .midheadline > a:hover, .subheadline > a:hover {
+    text-decoration: none;
+    color: var(--primary_color)!important;
+    background: rgba(86, 90, 86,.15);
+    box-shadow: 0px 0px 50px rgba(86, 90, 86,.5)!important;
+    font-size: 14.5px;
+    border: none!important;
+}
+.p-topics .l-menu .sticky-topics .topic:hover .title, .p-topics .l-menu .sticky-topics .topic .title:hover:after, .p-topics .l-menu .sticky-topics .topic:hover .title:after {
+    text-decoration: none;
+    color: var(--primary_color)!important;
+    font-size: 14.5px;
+ border: none!important;
+ }
+.p-topics .l-menu .sticky-topics .topic:hover {
+    text-decoration: none;
+    color: var(--primary_color)!important;
+    background: rgba(86, 90, 86,.15);
+    box-shadow: 0px 0px 50px rgba(86, 90, 86,.3)!important;
+    font-size: 14.5px;
+ border: none!important;
+}
+.p-topics .l-menu .sticky-topics .topic, .p-topics .l-menu .sticky-topics .topic .title, .p-topics .l-menu .sticky-topics .topic .title:after {
+   color: #e2ecf1;
+   transition: 0.2s ease;
+ border: none!important;
+ }
+.headline, .midheadline, .subheadline {
+ border: none;
+    border-radius: 10%;
+  box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2)!important;
+  background: rgba(36, 41, 43, 0.6);
+    transition: 0.3s ease;
+    font-size: 14px;
+    box-shadow: none;
+color: #889aa0!important;
+}
+.subheadline .misc-link:hover {
+
+}
+.headline.linkheadline:hover , .linkheadline.midheadline:hover, .linkheadline.subheadline:hover, .headline:hover, .midheadline:hover, .subheadline:hover {
+/* background-color: rgba(86, 90, 86,0.5);
+color: #886335;
+border: 1px solid #8B683C;
+box-shadow: 0px 10px 30px rgba(140,105,60,.5); */
+} 
+
+
+.subheadline {
+    color: #889aa0;
+line-height: 1;
+    padding: 7px 10px 7px;
+
+}
+
+.p-dashboards-show .midheadline .b-link {
+line-height: normal;
+vertical-align: bottom;
+}
+
+.b-club .info {
+display: block;
+padding: 5px 0 0;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Comfortaa Regular'), local('Comfortaa-Regular'), url(https://fonts.gstatic.com/s/comfortaa/v10/Be0CkOtwwI2n86HMhtablRJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Comfortaa Regular'), local('Comfortaa-Regular'), url(https://fonts.gstatic.com/s/comfortaa/v10/-DackuIFgo7Hfy3rR14C3xJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Comfortaa Regular'), local('Comfortaa-Regular'), url(https://fonts.gstatic.com/s/comfortaa/v10/UgYUhLCkRUocJ8OZnvelZxJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Comfortaa Regular'), local('Comfortaa-Regular'), url(https://fonts.gstatic.com/s/comfortaa/v10/Ao3NCHUpHgdVgp2UtibJoRJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Comfortaa Regular'), local('Comfortaa-Regular'), url(https://fonts.gstatic.com/s/comfortaa/v10/wz1gqe57Mbg11v-OrLlVjhJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Comfortaa Regular'), local('Comfortaa-Regular'), url(https://fonts.gstatic.com/s/comfortaa/v10/qLBu5CQmSMt1H43OiWJ77VtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Comfortaa Bold'), local('Comfortaa-Bold'), url(https://fonts.gstatic.com/s/comfortaa/v10/fND5XPYKrF2tQDwwfWZJI6-j2U0lmluP9RWlSytm3ho.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Comfortaa Bold'), local('Comfortaa-Bold'), url(https://fonts.gstatic.com/s/comfortaa/v10/fND5XPYKrF2tQDwwfWZJI5X5f-9o1vgP2EXwfjgl7AY.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Comfortaa Bold'), local('Comfortaa-Bold'), url(https://fonts.gstatic.com/s/comfortaa/v10/fND5XPYKrF2tQDwwfWZJI6aRobkAwv3vxw3jMhVENGA.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Comfortaa Bold'), local('Comfortaa-Bold'), url(https://fonts.gstatic.com/s/comfortaa/v10/fND5XPYKrF2tQDwwfWZJI_8zf_FOSsgRmwsS7Aa9k2w.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Comfortaa Bold'), local('Comfortaa-Bold'), url(https://fonts.gstatic.com/s/comfortaa/v10/fND5XPYKrF2tQDwwfWZJIz0LW-43aMEzIO6XUTLjad8.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Comfortaa Bold'), local('Comfortaa-Bold'), url(https://fonts.gstatic.com/s/comfortaa/v10/fND5XPYKrF2tQDwwfWZJI-gdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/*** Font Family ***/
+body {
+font-family: 'Comfortaa', sans-serif!important
+}
+.l-top_menu-v2 .menu-items > .entry > a {
+line-height: 20px;
+}
+
+/*** Rounded Avatars ***/
+.b-user.avatar img, .b-user.named_avatar img, .b-user.avatar_fixed_margin img,
+.b-user16 img, .b-club .logo, .b-comment > .inner header img, .p-profiles-edit .account .avatar-edit img, .b-user.detailed .info .image-name .image,
+.b-message > .inner header img, .b-hot_topics-v2 a.b-link .poster, .b-dialog > .inner header img,
+.p-topics .l-menu .clubs .entry img {
+    border-radius: 50%;
+    border:2px solid rgba(36, 41, 43,0.6);
+    transition: 1s ease;
+} 
+.b-user16 img {
+      margin-top: 0px;
+}
+.menu .avatar, .avatar img, .profile img {
+border-radius: 50%;
+}
+
+
+
+/*** mfp-bg ***/
+.mfp-bg {
+  opacity: 0;
+}
+
+
+/* Go To Top */
+.b-to-top {
+  width: 50%;
+}
+.to-top-fix {
+  display: none;
+} 
+.b-to-top .arrow {
+  top: 70px;
+} 
+
+
+/*** Feedback ***/
+.b-feedback {
+  display: none;
+}
+
+
+
+
+/*** Options Page ***/
+.b-input.boolean {
+  display: table;
+}
+
+
+/*** Ads ***/
+.b-sponsors_block_3 {
+  display: none!important;
+}
+
+
+/*** Back Arrow ***/
+header.head h1 a.back::after,
+header.head h2 a.back::after {
+  display: none;
+}
+
+header.head h1 a.back::before,
+header.head h2 a.back::before {
+  left: 6px; top: -28px;
+}
+
+/*** Comments Fix ****/
+.b-comment {
+padding-top: 10px;
+}
+
+.b-comment:first-child {
+  border-top-width: 0 !important;
+}
+.b-comment .inner {
+  min-height: 50px;
+}
+.b-comment > .inner header img {
+  margin: 0 10px 0 0;
+}
+.b-comment > .inner header .name-date {
+  overflow: visible;
+  margin-left: 60px;
+}
+.b-quote {
+  margin: 5px 0;
+}
+
+.b-comment > .inner div.body,
+.b-message > .inner div.body {
+  margin-left: 58px;
+}
+
+.b-dialog > .inner div.body {
+  margin-left: 58px;
+}
+.b-dialog > .inner div.body .inner div.body {
+  margin-left: 40px;
+}
+
+.b-replies {
+clear: none;
+padding-top: 0;
+}
+
+
+/*** Quotes ***/
+.b-quote {
+font-style: normal;
+border-radius: 2px;
+}
+
+
+/*** Content Transparent Border Fix ***/
+.l-page::before,
+.l-page::after {
+  display: none!important;
+}
+
+
+/*** Main Page Fixes ***/
+.p-dashboards-show .cc-ongoings,
+.p-dashboards-show .cc-second {
+  margin-bottom: 45px;
+}
+
+.b-link_button.maxi,
+.create-topic {
+font-size: 12px;
+text-transform: uppercase;
+}
+
+.p-dashboards .animes .others,
+.p-dashboards .mangas .others {
+  margin-top: 10px;
+}
+
+.b-forums div.block {padding: 0px 5px;}
+.p-dashboards-show .c-my_list {
+padding: 5px 10px 0;
+border: none!important;
+background: rgba(36, 41, 43,0.4);
+}
+
+
+.p-dashboards-show .cc-news .c-news_topics .b-topic {
+border-top-width: 1px;
+padding-top: 10px;
+}
+
+.p-dashboards-show .cc-news .c-news_topics .b-topic {margin-bottom: 30px;}
+.p-dashboards-show .cc-news .c-generated_news .b-topic {margin-bottom: 5px;}
+.c-generated_news div.block {margin-bottom: 15px;}
+
+.headline.linkheadline > a, .linkheadline.midheadline > a, .linkheadline.subheadline > a {
+text-decoration: none;
+}
+
+.headline.linkheadline > a:hover, .linkheadline.midheadline > a:hover, .linkheadline.subheadline > a:hover {
+text-decoration: none;
+}
+
+.subheadline-input {padding: 4px 0 4px 5px;}
+.b-review-topic.mini {margin-bottom: 20px;}
+
+
+/*** Reviews ***/
+.b-topic.b-review-topic > .inner header img {border-radius: 50%;}
+.review-votes_count {margin-bottom: 20px;}
+
+.b-topic.b-review-topic > .inner header .name {
+margin-top: 7px;
+display: inline-block;
+}
+
+/*** Lists Fix ***/
+.b-list {margin-left: 3px;}
+
+.b-list li {
+list-style: none outside none;
+margin-bottom: 0;
+}
