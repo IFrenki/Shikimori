@@ -1,13 +1,5 @@
 /* shikimori.one - Edesign v2.8 "The Wasteland" by EngiNier | Modified by 0utSider */
 /*** ENGI start code ***/
-
-:root {
-  --primary_color: dodgerblue;
-  --secondary_color: deepskyblue;
-  --accent_color: ;
-  --background: url(https://i.ibb.co/85jT0Sz/681132-wallpapers-2560x1440-ipad.jpg);
-}
-
 body:before {
 content:'';
 width: 100%;
@@ -8040,3 +8032,975 @@ display: inline-block;
 list-style: none outside none;
 margin-bottom: 0;
 }
+
+
+/*** Activity Graph Fix ***/
+.bar.vertical .line {border-right: 1px solid transparent;}
+
+.b-stats_bar.anime .bar {overflow: visible;}
+
+.b-stats_bar .bar {
+height: 16px;
+line-height: 16px;
+margin-bottom: 6px;
+}
+
+.b-stats_bar .bar .first,
+.b-stats_bar .bar .second,
+.b-stats_bar .bar .third {
+font-size: 12px;
+height: 16px;
+line-height: 16px;
+}
+
+
+@media only screen and (min-width: 1025px) {
+/*** Menu ***/
+.userbox #sign_in {
+  margin-top: 14px;
+  }
+
+.l-top_menu-v2 {
+  border-bottom: none;
+  /*position: fixed;*/
+  top: 0;
+  width: 100% !important;
+}
+.x1200 .l-top_menu-v2 .inner {
+    max-width: 1200px;
+}
+.x1000 .l-top_menu-v2 .inner {
+    max-width: 1200px;
+}
+.x1000 .l-page, .x1200 .l-page {
+    max-width: 1200px;
+}
+
+
+.l-top_menu-v2 .menu-items > .entry > a {
+background-color: var(--primary_color);
+color: white;
+line-height: 21px;
+text-transform: uppercase;
+}
+
+.l-top_menu-v2 .menu-items > .entry > .submenu {
+background: #191b1fd6!important;
+color: var(--primary_color);
+transition: all 0.3s ease-in;
+opacity: 0;
+visibility: hidden;
+height: auto!important;
+opacity: 0.1;
+  border-radius:4px;
+      box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.3)!important;
+  margin-top: 3px;
+}
+
+.l-top_menu-v2 .menu > .entry:hover > .submenu {
+background-color: transparent;
+background: transparent;
+color: white;
+opacity: 1;
+visibility: visible;
+height: auto!important;
+color: white;
+  border-radius:4px;
+}
+
+.l-top_menu-v2 .submenu {
+border: 0;
+background-color: transparent;
+background: transparent;
+color: white;
+  border-radius:0px;
+}
+
+.l-top_menu-v2 .submenu > .entry {
+background: transparent!important;
+    color: #e2ecf1;
+    border-bottom: none;
+    font-size: 13px;
+    height: 30px;
+    line-height: 30px;
+    font-family: 'Comfortaa';
+    min-width: 125px;
+    padding: 0 15px 0;
+    text-transform: none;
+    border-radius: 4px;
+  transition:0.05s ease-in-out;
+}
+.l-top_menu-v2 .menu-items>.entry > a:hover {
+background-color: #191b1f69!important;
+  border-radius: 0px;
+}
+.l-top_menu-v2 .menu > .entry.userbox {
+background-color: transparent;
+color: white;
+height: 50px !important;
+padding: 0 10px 0 0 !important;
+}
+.l-top_menu-v2 .menu > .entry.userbox:hover, .userbox .submenu.right:hover {
+background-color:transparent!important;
+background:transparent!important;
+opacity:1!important;
+}
+
+.l-top_menu-v2 .inner .logo {
+background-color: transparent;
+color: white;
+background-position: center;
+height: 93%;
+    width: 120px;
+    margin: 0;
+    min-width: 120px;
+}
+
+.l-top_menu-v2 .menu-items, .l-top_menu-v2 .menu-items:hover {
+    position: static;
+    margin-left: 120px;
+    width: 470px;
+    background-color: transparent;
+    color: white;
+    display: inline-block;
+    padding: 0;
+}
+.l-top_menu-v2 .submenu.right, .l-top_menu-v2 .submenu.right:hover {
+margin-top: 8px!important;
+background-color: transparent;
+color: white;
+} 
+
+.l-top_menu-v2 .menu-userbox > .entry:hover {
+background-color: rgba(36, 41, 43, 1);
+color: white;
+text-decoration: none;
+cursor: default;
+}
+
+.l-top_menu-v2 .menu-items > .entry > .contest,.l-top_menu-v2 .menu-items > .entry > .contest:hover {
+background-color: rgba(36, 41, 43, 1);
+color: white;
+margin: 15px 10px 0 0;
+padding: 10px 0 !important;
+
+}
+/*** User Menu ***/
+.userbox img.avatar,
+.menu .unread-count {margin-top: 0!important;}
+
+.menu .unread-count,
+.menu .contest {margin-left: 11px;}
+
+.menu .unread-count, .menu .contest {
+background: var(--primary_color)!important;
+width: 25.5px;
+    height: 25px;
+    line-height: 28px;
+    margin-top: -1px!important;
+    font-size: 16px;
+}
+
+.menu .unread-count {
+position: absolute;
+right: 70px;
+margin-top: 13.5px!important;
+z-index: 9999;
+padding: 0!important;
+}
+
+.x1000 .menu .unread-count {
+padding: 0!important;
+  transition: 0.3s ease;
+}
+
+.menu:hover .unread-count,
+.menu:hover .contest {
+  background: var(--primary_color);
+  }
+
+.menu .unread-count:hover {
+  background: var(--primary_color)!important;
+  }
+
+.userbox > a .graphics-arrow-down {display: none;} 
+
+.userbox .submenu {
+display: inline-block!important;
+height: auto!important;
+position: relative;
+float: none!important;
+background: transparent;
+margin-left: 0px!important;
+margin-right: -6px!important;
+overflow: visible;
+}
+
+.x1000 .userbox .submenu {margin-left: 0px!important;}
+
+.userbox .submenu.right {
+height: 0!important;
+margin-top: 0px!important;
+top: -6px;
+}
+
+.userbox .submenu > .entry {
+background: transparent;
+border-bottom: none;
+display: inline-block;
+min-width: auto!important;
+line-height: 20px;
+width: 20px;
+padding: 0 8px;
+margin-left: 15px;
+}
+
+.userbox .submenu > .entry:before {
+visibility: visible!important;
+border-radius: 1px;
+transition: backround-color, 0.3s;
+background: #5a5a5a;
+color: #f9f9f9;
+display: block;
+float: right !important;
+font-size: 12px;
+text-align: center;
+height: 21px;
+line-height: 21px;
+}
+
+.userbox .submenu > .entry[href*='/list/anime'] {
+ width: 61px;
+}
+  .userbox .submenu > .entry[href*='/list/manga'] {
+ width: 61px;
+ margin-left: 5px;
+}
+
+.userbox .submenu > .entry[href*='/list/anime']:before {
+ content: "АНИМЕ";
+ width: 61px;
+  font-size: 11.5px;
+  background:none!important;
+  line-height:24px;
+}
+.userbox .submenu > .entry[href*='/list/manga']:before {
+content: "МАНГА";
+width: 61px;
+  font-size: 11.5px;
+   line-height:24px;
+  background:none!important;
+}
+  .userbox .submenu > .entry[href*='/list/anime']:after {
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    content: '\\_f008'!important;
+    background-image: none!important;
+    background-color: transparent!important;
+    background-position: center;
+    background-size: 20px!important;
+    font-size: 25px!important;
+    color: #616d6f47;
+    z-index: -1;
+    top: -8px;
+    text-align: center;
+    left: 7px;
+    position: absolute;
+    width: 61px;
+    visibility: visible;
+    height: 26px;
+    transition:0.3s ease;
+    padding:5px 0px
+}
+  .userbox .submenu > .entry[href*='/list/manga']:after {
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    content: '\\_f02d'!important;
+    background-image: none!important;
+    background-color: transparent!important;
+    background-position: center;
+    background-size: 20px!important;
+    font-size: 27px!important;
+    color: #616d6f47;
+    z-index: -1;
+    top: -8px;
+    text-align: center;
+    left: 73px;
+    position: absolute;
+    width: 61px;
+    visibility: visible;
+    height: 26px;
+    transition:0.3s ease;
+    padding:5px 0px
+}
+  .userbox .submenu > .entry[href*='/list/anime']:hover:after, .userbox .submenu > .entry[href*='/list/manga']:hover:after {
+    color:var(--primary_color)5e!important;
+    border-radius:6px;
+        background-color: rgba(36, 41, 43, 0.6)!important;
+  }
+.userbox .submenu > .entry[href*='/list/anime']:hover:before, .userbox .submenu > .entry[href*='/list/manga']:hover:before {
+}
+  /*
+.submenu.right .entry:nth-child(3):before {
+content: "\\_f0e0"!important;
+    font-family: 'FontAwesome';
+    font-size: 19px;
+    color: #e2ecf1!important;
+    border: 0.5px solid transparent;
+    background: none!important;
+    margin-top: -1px;
+    display: block!important;
+background-color: transparent;
+background-position: center;
+opacity: 1;
+  transform: scale(0.87);
+    margin-top: 0.1px;
+  transition:0.6s ease;
+}
+  .submenu.right .entry:nth-child(3) {
+    transform: scale(1.3)!important;
+  }
+  .submenu.right .entry:nth-child(3):hover:before {
+   transform: rotate(360deg)!important;
+  }
+*/
+.userbox .submenu > .entry {
+  visibility: hidden!important;
+  }
+}
+
+/*** Search ***/
+.l-top_menu-v2 .menu > .entry.b-main_search {
+  padding: 13px 10px !important;
+}
+
+.b-main_search .input {
+height: 25px;
+padding: 6px 10px;
+border-radius: 12px;
+}
+
+.b-main_search .input input {
+font-size: 12px;
+line-height: 12px;
+width: 90%!important;
+}
+
+.b-main_search.hovered .popup {
+opacity: 0.8;
+visibility: visible;
+}
+
+.b-main_search .suggest-placeholder {
+margin-top: 6px;
+margin-left: -9px;
+}
+
+.ac_results li {
+padding: 4px 5px;
+}
+.ac_results {
+background:none;
+}
+.ac_results, .completable-block {
+border: none;
+font-size: 12px;
+margin-top: 2px;
+}
+
+.ac_results .character-suggest .animes div a,
+.ac_results .character-suggest .animes div,
+.completable-block .character-suggest .animes div {
+}
+
+.ac_results .character-suggest .animes div a:hover {text-decoration: underline;}
+
+
+/*** Content ***/
+.l-page {
+min-height: 300px;
+margin: 50px auto 0px;
+position: relative;
+border-radius: 0px;
+}
+
+.x1000 .l-page {
+margin: 65px auto 15px;
+border-radius: 8px;
+}
+
+/*** Menu Again ***/
+@media only screen and (min-width: 1025px) {
+.l-top_menu-v2 .menu > .entry > a, .x1000 .l-top_menu-v2 .menu > .entry > a {
+padding:16px 12px 12px;
+}
+
+.l-top_menu-v2 .menu-items > .entry.calendar > a,
+.l-top_menu-v2 .menu-items > .entry.info > a {}
+
+.x1000 .l-top_menu-v2 .submenu > .entry {padding: 0 8px 0;}
+
+.x1000 .l-top_menu-v2 .menu-items > .entry.calendar > a,
+.x1000 .l-top_menu-v2 .menu-items > .entry.info > a {
+  margin-left: 0 !important;
+    line-height: 28px;
+    padding-top: 5px;
+    margin-bottom: -2px;
+ }
+}
+
+@media all and (min-width: 1024px) and (max-width: 1025px) {
+.l-top_menu-v2 .submenu > .entry {padding: 0 8px 0;}
+.l-top_menu-v2 .menu > .entry > a {padding: 16px 12px 10px;}
+
+.l-top_menu-v2 .menu-items > .entry.calendar > a, .l-top_menu-v2 .menu-items > .entry.info > a {}
+}
+
+@media only screen and (max-width: 1100px) {
+.b-comments-notifier {display: none!important;}
+}
+
+@media all and (min-width: 1200px) {
+.l-page {margin: 65px auto 15px; border-radius: 2px;}
+}
+
+/* Низкая совместимость */
+div.compatibility > a > .text.weak:before {
+color: #af8d58;
+}
+div.compatibility > a:hover > .text.weak:before,
+div.compatibility > span.link-replacement > .text.weak:before {
+background-color: #F0F4C3;
+color: #C0CA33;
+}
+
+/* Средняя совместимость */
+div.compatibility > a > .text.moderate:before {
+background-color: #F1F8E9;
+color: #8BC34A;
+}
+div.compatibility > a:hover > .text.moderate:before,
+div.compatibility > span.link-replacement > .text.moderate:before {
+background-color: #DCEDC8;
+color: #7CB342;
+}
+
+/* Высокая совместимость */
+div.compatibility > a > .text.high:before {
+background-color: #ADFF2F;
+color: #ADFF2F;
+}
+div.compatibility > a:hover > .text.high:before,
+div.compatibility > span.link-replacement > .text.high:before {
+background-color: #C8E6C9;
+color: #43A047;
+}
+
+/* Полная совместимость */
+div.compatibility > a > .text.full:before {
+background-color: #E1F5FE;
+color: #03A9F4;
+}
+div.compatibility > a:hover > .text.full:before,
+div.compatibility > span.link-replacement > .text.full:before {
+background-color: #B3E5FC;
+color: #039BE5;
+}
+
+
+
+
+
+
+
+
+
+/*выключаем анимацию - появление меню при перезагрузке/загрузке страницы*/
+.p-profiles-show .l-top_menu-v2 {
+    animation: none!important;
+/*transition: none!important;*/
+}
+/* выключаем анимацию - появление содержания страницы при перезагрузке/загрузке страницы*/
+.p-profiles-show .l-page {
+animation: none!important;
+transition: none!important;
+  height: auto;
+  
+}
+/* CSS редактор*/
+.cm-s-solarized.cm-s-light {
+    background-color: #1f1f1f;
+    color: #657b83;
+    text-shadow: none;
+}
+.b-edit_styles .edit_style .style_css .CodeMirror, .b-edit_styles .new_style .style_css .CodeMirror {
+    border: 1px solid #000;
+}
+.cm-s-solarized.cm-s-light .CodeMirror-gutters {
+    background-color: #272727;
+}
+.cm-searching {
+    background-color: #ffa;
+    background-color: rgba(169, 120, 17, 0.4);
+}
+.cm-s-solarized.cm-s-light div.CodeMirror-selected {
+  background: rgba(107, 105, 101, 0.4);
+}
+.CodeMirror-dialog-top {
+    border-bottom: none;
+    top: 0px;
+    background: #171717;
+}
+.CodeMirror-search-field {
+width:400px!important;
+}
+
+.editor-container .buttons.m15 {
+    margin-bottom: 5px !important;
+    position: fixed;
+    top: 77px;
+    right: 20px;
+    z-index: 100;
+}
+/*** ENGI end code ***/
+/*выключаем анимацию - появление меню при перезагрузке/загрузке страницы*/
+.p-profiles-show .l-top_menu-v2 {
+    animation: none!important;
+/*transition: none!important;*/
+}
+/* выключаем анимацию - появление содержания страницы при перезагрузке/загрузке страницы*/
+.p-profiles-show .l-page {
+animation: none!important;
+transition: none!important;
+}
+.p-profiles .profile-head:hover .c-brief .avatar img {
+    transform: scale(0.9);
+    animation: buuts 1s ease 1!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.l-page {
+     background-color: rgba(5, 8, 12, 0.55);
+  box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.3)!important;
+    border-radius: 8px;
+}
+.l-top_menu-v2 {
+    background: rgba(9, 12, 16, 0.45);
+    box-shadow: 0 1px 20px 10px rgba(9, 12, 16, 0.5);
+    /*box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.4) !important;*/
+    /*background: linear-gradient(to bottom, rgba(9, 12, 16, 0.8) 0%, rgba(9, 12, 16, 0.6) 70%, rgba(9, 12, 16, 0.3) 100%);*/
+    transition: 0.3s ease-in-out;
+}
+/* Код EngiNier */
+
+/* -------------------------------------------------------------------------------------------------- */
+/* 111 Уберите/добавьте чтобы убрать/добавить анимацию списков. Стандартно анимация присутствует. 111 */
+
+/*
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.manga {
+ box-shadow: 0px 0px 20px 5px rgba(36, 41, 43, 0.37);
+    background: rgba(36, 41, 43, 0.4);
+  clip-path: none!important;
+    transform: none!important;
+  box-shadow: none;
+}
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.anime {
+  box-shadow: 0px 0px 20px 5px rgba(36, 41, 43, 0.37);
+  clip-path: none!important;
+    transform: none!important;
+    background: rgba(36, 41, 43, 0.4);
+  box-shadow: none;
+}
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.anime:hover, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.manga:hover {
+    box-shadow: none;
+    background: rgba(36, 41, 43, 0.4);
+clip-path: none;
+    transform: none;
+}
+*/
+
+/* 222 Уберите/добавьте чтобы включить/отключить спойлеры-кнопками. Стандартно спойлеры не присутствуют. 222 */
+
+/*
+.p-profiles .about.block .b-spoiler label:hover {
+    animation: none!important;
+    border: none;
+  background: #0f1215cf;
+}
+.p-profiles .about.block .b-spoiler .after:before, .about.block .b-spoiler .before:before {
+    content: '';
+}
+.p-profiles .about.block .b-spoiler .before {
+    width: 100%; 
+    height: 50px;
+    display: inline-block !important;
+    margin-top: -50px;
+}
+.p-profiles .about.block .b-spoiler label {
+    border: none;
+    display: inline-block !important;
+   color: #e2ecf1;
+   background:rgba(36, 41, 43, 0.5);
+    width: 100%;
+    font-size: 12pt;
+    text-align: center;
+    margin-bottom: 2.5px;
+   margin-top: 2.5px;
+  padding-top:3px;
+  padding-bottom:2px;
+  box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.1);
+}
+.p-profiles .about.block .b-spoiler label:hover {
+    animation: none!important;
+    border: none;
+  background: #0f1215cf;
+}
+.p-profiles .about.block .b-spoiler .before {
+    width: 100%;
+    height: 33px;
+    display: inline-block !important;
+    margin-top: 0px;
+    position: absolute;
+    left: 0;
+  transition:0.3s ease;
+}
+.p-profiles .about.block .b-spoiler .before:hover {
+  background: #0f121547;
+}
+.p-profiles .about.block .b-spoiler .content .inner, .p-profiles .about.block .b-spoiler .content .inner-prgrph {
+padding:0px;
+}
+*/
+
+/* 333 Уберите/добавьте чтобы отключить/включить блок избранное на странице профиля. Стандартно избранное присутствует. 333 */
+
+/*
+@media screen and (max-width: 768px) {
+  body#profiles_show .about.block {
+    margin-top: -10px;
+}
+}
+.c-column.c-right .block {
+    display: none!important;
+}
+*/
+
+/* 666 Уберите/добавьте чтобы включить/отключить альmернативную анимацию списков. Стандартно анимация не присутствует. 666 */
+
+.p-profiles .profile-head .c-info .c-lists-info:hover {
+animation: none!important;
+transition: none!important;
+}
+.p-profiles .profile-head .c-info .c-lists-info {
+  transition: none!important;
+    transform: scale(1)!important;
+    opacity: 1!important;
+}
+.p-profiles .profile-head:hover .c-brief .avatar img {
+    animation: none!important;
+    transform: scale(1);
+}
+
+
+/* 777 Уберите/добавьте чтобы включить/отключить анимацию аватарки - "сердцебеение". Стандартно анимация не присутствует. 777 */
+
+.p-profiles .profile-head .c-brief .avatar img {
+    animation: none;
+    animation-delay: 2s;
+    -webkit-filter: brightness(1);
+}
+
+
+
+
+/* Design Achievements page */
+
+.b-achievement .c-about a.title {
+    font-size: 14px;
+    color: #C6CBF1;
+}
+.b-achievement .c-about .percent {
+  color: #7685f5;
+}
+.b-achievement .c-about .hint {
+    font-size: 12px;
+    font-weight:bold;
+    color: #6e7dc7!important;
+      opacity: 1;
+}
+.b-achievement .c-about .progress {
+    padding: 0;
+    background: #1b1b3ecf;
+    height: 7px;
+    border: 0.5px solid #242B5B;
+    overflow: hidden;
+    position: relative;
+    border-radius: 8px;
+    white-space: nowrap;
+    width: 100%;
+}
+.b-achievement .c-about .progress .bar {
+    background: #578fbb;
+} 
+
+body.p-achievements.p-profiles .userbox .submenu > .entry[href*='/list/anime']:hover:after, body.p-achievements.p-profiles .userbox .submenu > .entry[href*='/list/manga']:hover:after {
+    background: #462e1099!important;
+}
+.b-badge:before {
+    background: none;
+  transition: 0.3s all;
+}
+.p-achievements.p-profiles.p-profiles-index .cc-franchises-genres .c-genres .cc-achievements {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    align-content: stretch;
+}
+.p-profiles-index .cc-achievements .b-achievement, .p-profiles-index .cc-franchises-genres .c-genres .b-achievement {
+    display: inline-flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    float: none;
+    border-radius: 8px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08);
+    transition: box-shadow .16s
+ ease;
+    width: calc(26% - 36px);
+    margin: 0 12px 15px!important;
+    min-height: 338px;
+  box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2);
+}
+.b-achievement .c-image, .b-achievement .c-about {
+    width: 100%;
+}
+.b-achievement .c-about {
+    padding: 17px;
+}
+.b-achievement .c-image {
+    padding: 50% 15px 0 5px;
+}
+.b-achievement .c-about .title {
+    min-height: 30px;
+    line-height: 30px!important;
+}
+.b-achievement .c-image .inner {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    border-radius: 20px;
+}
+body.p-achievements.p-profiles.p-profiles.p-profiles.p-profiles .b-achievement img {
+    border-radius: 11px;
+    width: 104%;
+    height: 106%;
+    max-width: 105%;
+    margin-left: -2%;
+}
+.b-achievement .c-image .inner div.border {
+    border: none;
+}
+.c-genres, .c-franchises {
+    width: 100%!important;
+}
+a.b-badge.b-tooltipped {
+    margin-bottom: 8px;
+}
+
+.p-achievements.p-profiles-index .c-franchises .b-badge::after, .p-achievements.p-profiles-index .c-franchises .b-badge::before {
+  display:block;
+  height: auto;
+    position: absolute;
+  top: auto;
+    bottom: 0px;
+    right: 0;
+    padding: 10px 12px 6px;
+    border-radius: 0 0 10px 10px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    text-shadow: 0 0 60px black, 0 60px 30px rgba(0, 0, 0, 0.1);
+    backface-visibility: hidden;
+  opacity: 1;
+}
+.p-achievements.p-profiles-index .c-franchises .b-badge[original-title]::before {
+    content: attr(original-title);
+  width:calc(100% - 65px);
+    text-align: left;
+  padding-right: 53px;
+    left: 0;
+}
+.p-achievements.p-profiles-index .c-franchises .b-badge[title]::before {
+    content: attr(title);
+    width:calc(100% - 65px);
+  text-align: left;
+  padding-right: 53px;
+    left: 0;
+}
+.p-achievements.p-profiles-index .c-franchises .b-badge::after {
+    content: attr(data-progress) "%";
+    text-align: right;
+    width: 55px;
+    height: 55px;
+    line-height: 94px;
+    text-shadow: 0 0 0px black, 0 5px 10px rgba(0, 0, 0, 0.7);
+    padding: 10px 6px 6px;
+  z-index: 1;
+}
+
+body.p-achievements.p-profiles.p-profiles .b-badge img {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0;
+    overflow: visible;
+    position: relative;
+  border-radius: 11px;
+  transition: 0.3s all;
+}
+.p-achievements.p-profiles-index .c-franchises .b-badge[data-progress='100']::after {
+    content: '★';
+  font-size: 26px;
+    color: #ffcf22;
+    background: linear-gradient(135deg, transparent 292px, #483d1c 0);
+    width: calc(100% - 10px)!important;
+    height: calc(100% - 15px)!important;
+    line-height: 20px!important;
+    box-shadow: 0 0 2px 2px #ffcf2278 inset;
+    border-radius: 9px;
+    transition: 0.2s ease;
+    display: flex;
+    align-items: flex-end;
+    top: 0;
+    justify-content: flex-end;
+    padding: 10px 6px 6px;
+}
+.p-achievements.p-profiles-index .c-franchises .b-badge[data-progress='100']:hover:after {
+  box-shadow: 0 0 2px 3px #cfbe9cd6 inset;
+}
+.p-achievements.p-profiles-index .c-franchises .b-badge[data-progress='100']::before, .p-achievements.p-profiles-index .c-franchises .b-badge:hover:before {
+  background: linear-gradient(transparent 0%, rgba(0, 0, 0, 0.72)85%);
+}
+.b-badge[data-progress='99']::after { background: linear-gradient(135deg, transparent 55px, #419541 0); } 
+.b-badge[data-progress='98']::after { background: linear-gradient(135deg, transparent 55px, #419541 0); }
+.b-badge[data-progress='97']::after { background: linear-gradient(135deg, transparent 55px, #419541 0); }
+.b-badge[data-progress='96']::after { background: linear-gradient(135deg, transparent 55px, #419541 0); }
+.b-badge[data-progress='95']::after { background: linear-gradient(135deg, transparent 55px, #419541 0); }
+.b-badge[data-progress='94']::after { background: linear-gradient(135deg, transparent 55px, #419541 0); }
+.b-badge[data-progress='93']::after { background: linear-gradient(135deg, transparent 55px, #419541 0); }
+.b-badge[data-progress='92']::after { background: linear-gradient(135deg, transparent 55px, #419541 0); }
+.b-badge[data-progress='91']::after { background: linear-gradient(135deg, transparent 55px, #419541 0); }
+.b-badge[data-progress='90']::after { background: linear-gradient(135deg, transparent 55px, #419541 0); }
+.b-badge[data-progress='89']::after { background: linear-gradient(135deg, transparent 55px, #419541 0); }
+.b-badge[data-progress='88']::after { background: linear-gradient(135deg, transparent 55px, #419541 0); }
+.b-badge[data-progress='87']::after { background: linear-gradient(135deg, transparent 55px, #419541 0); }
+.b-badge[data-progress='86']::after { background: linear-gradient(135deg, transparent 55px, #419541 0); }
+.b-badge[data-progress='85']::after { background: linear-gradient(135deg, transparent 55px, #419541 0); }
+.b-badge[data-progress='84']::after { background: linear-gradient(135deg, transparent 55px, #419541 0); }
+.b-badge[data-progress='83']::after { background: linear-gradient(135deg, transparent 55px, #419541 0); }
+.b-badge[data-progress='82']::after { background: linear-gradient(135deg, transparent 55px, #419541 0); }
+.b-badge[data-progress='81']::after { background: linear-gradient(135deg, transparent 55px, #419541 0); }
+.b-badge[data-progress='80']::after { background: linear-gradient(135deg, transparent 55px, #419541 0); }
+.b-badge[data-progress='79']::after { background: linear-gradient(135deg, transparent 55px, #419541 0); }
+.b-badge[data-progress='78']::after { background: linear-gradient(135deg, transparent 55px, #419541 0); }
+.b-badge[data-progress='77']::after { background: linear-gradient(135deg, transparent 55px, #419541 0); }
+.b-badge[data-progress='76']::after { background: linear-gradient(135deg, transparent 55px, #419541 0); }
+.b-badge[data-progress='75']::after { background: linear-gradient(135deg, transparent 55px, #419541 0); }
+.b-badge[data-progress='74']::after { background: linear-gradient(135deg, transparent 55px, #419541 0); }
+
+.b-badge[data-progress='73']::after { background: linear-gradient(135deg, transparent 55px, #abaa16 0); }
+.b-badge[data-progress='72']::after { background: linear-gradient(135deg, transparent 55px, #abaa16 0); }
+.b-badge[data-progress='71']::after { background: linear-gradient(135deg, transparent 55px, #abaa16 0); }
+.b-badge[data-progress='70']::after { background: linear-gradient(135deg, transparent 55px, #abaa16 0); }
+.b-badge[data-progress='69']::after { background: linear-gradient(135deg, transparent 55px, #abaa16 0); }
+.b-badge[data-progress='68']::after { background: linear-gradient(135deg, transparent 55px, #abaa16 0); }
+.b-badge[data-progress='67']::after { background: linear-gradient(135deg, transparent 55px, #abaa16 0); }
+.b-badge[data-progress='66']::after { background: linear-gradient(135deg, transparent 55px, #abaa16 0); }
+.b-badge[data-progress='65']::after { background: linear-gradient(135deg, transparent 55px, #abaa16 0); }
+.b-badge[data-progress='64']::after { background: linear-gradient(135deg, transparent 55px, #abaa16 0); }
+.b-badge[data-progress='63']::after { background: linear-gradient(135deg, transparent 55px, #abaa16 0); }
+.b-badge[data-progress='62']::after { background: linear-gradient(135deg, transparent 55px, #abaa16 0); }
+.b-badge[data-progress='61']::after { background: linear-gradient(135deg, transparent 55px, #abaa16 0); }
+.b-badge[data-progress='60']::after { background: linear-gradient(135deg, transparent 55px, #abaa16 0); }
+
+.b-badge[data-progress='59']::after { background: linear-gradient(135deg, transparent 55px, #a78002 0); }
+.b-badge[data-progress='58']::after { background: linear-gradient(135deg, transparent 55px, #a78002 0); }
+.b-badge[data-progress='57']::after { background: linear-gradient(135deg, transparent 55px, #a78002 0); }
+.b-badge[data-progress='56']::after { background: linear-gradient(135deg, transparent 55px, #a78002 0); }
+.b-badge[data-progress='55']::after { background: linear-gradient(135deg, transparent 55px, #a78002 0); }
+.b-badge[data-progress='54']::after { background: linear-gradient(135deg, transparent 55px, #a78002 0); }
+.b-badge[data-progress='53']::after { background: linear-gradient(135deg, transparent 55px, #a78002 0); }
+.b-badge[data-progress='52']::after { background: linear-gradient(135deg, transparent 55px, #a78002 0); }
+.b-badge[data-progress='51']::after { background: linear-gradient(135deg, transparent 55px, #a78002 0); }
+.b-badge[data-progress='50']::after { background: linear-gradient(135deg, transparent 55px, #a78002 0); }
+.b-badge[data-progress='49']::after { background: linear-gradient(135deg, transparent 55px, #a78002 0); }
+.b-badge[data-progress='48']::after { background: linear-gradient(135deg, transparent 55px, #a78002 0); }
+.b-badge[data-progress='47']::after { background: linear-gradient(135deg, transparent 55px, #a78002 0); }
+.b-badge[data-progress='46']::after { background: linear-gradient(135deg, transparent 55px, #9a8569 0); }
+.b-badge[data-progress='45']::after { background: linear-gradient(135deg, transparent 55px, #a78002 0); }
+.b-badge[data-progress='44']::after { background: linear-gradient(135deg, transparent 55px, #a78002 0); }
+.b-badge[data-progress='43']::after { background: linear-gradient(135deg, transparent 55px, #a78002 0); }
+.b-badge[data-progress='42']::after { background: linear-gradient(135deg, transparent 55px, #a78002 0); }
+.b-badge[data-progress='41']::after { background: linear-gradient(135deg, transparent 55px, #a78002 0); }
+.b-badge[data-progress='40']::after { background: linear-gradient(135deg, transparent 55px, #a78002 0); }
+
+.b-badge[data-progress='39']::after { background: linear-gradient(135deg, transparent 55px, #9a8569 0); }
+.b-badge[data-progress='38']::after { background: linear-gradient(135deg, transparent 55px, #9a8569 0); }
+.b-badge[data-progress='37']::after { background: linear-gradient(135deg, transparent 55px, #9a8569 0); }
+.b-badge[data-progress='36']::after { background: linear-gradient(135deg, transparent 55px, #9a8569 0); }
+.b-badge[data-progress='35']::after { background: linear-gradient(135deg, transparent 55px, #9a8569 0); }
+.b-badge[data-progress='34']::after { background: linear-gradient(135deg, transparent 55px, #9a8569 0); }
+.b-badge[data-progress='33']::after { background: linear-gradient(135deg, transparent 55px, #9a8569 0); }
+.b-badge[data-progress='32']::after { background: linear-gradient(135deg, transparent 55px, #9a8569 0); }
+.b-badge[data-progress='31']::after { background: linear-gradient(135deg, transparent 55px, #9a8569 0); }
+.b-badge[data-progress='30']::after { background: linear-gradient(135deg, transparent 55px, #9a8569 0); }
+.b-badge[data-progress='29']::after { background: linear-gradient(135deg, transparent 55px, #9a8569 0); }
+.b-badge[data-progress='28']::after { background: linear-gradient(135deg, transparent 55px, #9a8569 0); }
+.b-badge[data-progress='27']::after { background: linear-gradient(135deg, transparent 55px, #9a8569 0); }
+.b-badge[data-progress='26']::after { background: linear-gradient(135deg, transparent 55px, #9a8569 0); }
+.b-badge[data-progress='25']::after { background: linear-gradient(135deg, transparent 55px, #9a8569 0); }
+.b-badge[data-progress='24']::after { background: linear-gradient(135deg, transparent 55px, #9a8569 0); }
+.b-badge[data-progress='23']::after { background: linear-gradient(135deg, transparent 55px, #9a8569 0); }
+.b-badge[data-progress='22']::after { background: linear-gradient(135deg, transparent 55px, #9a8569 0); }
+.b-badge[data-progress='21']::after { background: linear-gradient(135deg, transparent 55px, #9a8569 0); }
+.b-badge[data-progress='20']::after { background: linear-gradient(135deg, transparent 55px, #9a8569 0); }
+.b-badge[data-progress='19']::after { background: linear-gradient(135deg, transparent 55px, #9a8569 0); }
+.b-badge[data-progress='18']::after { background: linear-gradient(135deg, transparent 55px, #9a8569 0); }
+.b-badge[data-progress='17']::after { background: linear-gradient(135deg, transparent 55px, #9a8569 0); }
+.b-badge[data-progress='16']::after { background: linear-gradient(135deg, transparent 55px, #9a8569 0); }
+.b-badge[data-progress='15']::after { background: linear-gradient(135deg, transparent 55px, #9a8569 0); }
+.b-badge[data-progress='14']::after { background: linear-gradient(135deg, transparent 55px, #8a8a8a 0); }
+.b-badge[data-progress='13']::after { background: linear-gradient(135deg, transparent 55px, #8a8a8a 0); }
+.b-badge[data-progress='12']::after { background: linear-gradient(135deg, transparent 55px, #8a8a8a 0); }
+.b-badge[data-progress='11']::after { background: linear-gradient(135deg, transparent 55px, #8a8a8a 0); }
+.b-badge[data-progress='10']::after { background: linear-gradient(135deg, transparent 55px, #8a8a8a 0); }
+.b-badge[data-progress='9']::after { background: linear-gradient(135deg, transparent 55px, #8a8a8a 0); }
+.b-badge[data-progress='8']::after { background: linear-gradient(135deg, transparent 55px, #8a8a8a 0); }
+.b-badge[data-progress='7']::after { background: linear-gradient(135deg, transparent 55px, #8a8a8a 0); }
+.b-badge[data-progress='6']::after { background: linear-gradient(135deg, transparent 55px, #8a8a8a 0); }
+.b-badge[data-progress='5']::after { background: linear-gradient(135deg, transparent 55px, #8a8a8a 0); }
+.b-badge[data-progress='4']::after { background: linear-gradient(135deg, transparent 55px, #8a8a8a 0); }
+.b-badge[data-progress='3']::after { background: linear-gradient(135deg, transparent 55px, #8a8a8a 0); }
+.b-badge[data-progress='2']::after { background: linear-gradient(135deg, transparent 55px, #8a8a8a 0); }
+.b-badge[data-progress='1']::after { background: linear-gradient(135deg, transparent 55px, #8a8a8a 0); }
+.b-badge[data-progress='0']::after { background: linear-gradient(135deg, transparent 55px, #8a8a8a 0); }
