@@ -1,5 +1,12 @@
 /* shikimori.one - Edesign v2.8 "The Wasteland" by EngiNier | Modified by 0utSider */
 /*** ENGI start code ***/
+
+:root {
+  --primary_color: dodgerblue;
+  --secondary_color: deepskyblue;
+  --background: url(https://i.ibb.co/85jT0Sz/681132-wallpapers-2560x1440-ipad.jpg);
+}
+
 body:before {
 content:'';
 width: 100%;
