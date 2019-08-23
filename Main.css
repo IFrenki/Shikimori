@@ -9137,3 +9137,35 @@ span.switcher.b-tooltipped.alphabet {
     color: var(--secondary_color);
 
 }
+
+
+
+
+body.p-achievements.p-profiles .tipsy.tipsy-large.tipsy-s, body.p-achievements.p-profiles .tipsy, body.p-achievements.p-profiles .tipsy-s {
+    display: none!important;
+}
+body.p-achievements.p-profiles .cc-achievements {
+    margin: 16px 0 9px!important;
+}
+body.p-achievements.p-profiles .block2 {
+    margin: 0;
+}
+body.p-achievements.p-profiles .block.m0:before {
+    content: '——— ★ ▬▬ ACHIEVEMENTS ▬▬ ★ ———';
+    font-size: 44px;
+    width: calc(100% - 4px);
+    text-align: center;
+    display: block;
+    /*color: #ffe1a7;
+    background: linear-gradient(to right, rgba(53, 22, 0, 0.6), #884f00c4, rgba(53, 20, 0, 0.6) );
+    box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2)!important;*/
+    color: var(--secondary_color);
+    background: linear-gradient(to right, rgba(5, 8, 12, 0.4), rgba(5, 8, 12, 0.8), rgba(5, 8, 12, 0.4) );
+    box-shadow: 0px 0px 20px rgba(86, 90, 86,.5);
+    margin-bottom: 13px;
+    border-radius: 15px;
+    border: 2px solid #1b0c0229;
+}
+body.p-achievements.p-profiles .l-page {
+    background: linear-gradient(to right, rgba(25, 25, 53, 0.6), #884f0087, rgba(25,25,53,0.6) );
+}
