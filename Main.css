@@ -29,7 +29,7 @@ background-attachment: fixed;
   -o-background-size: cover;
 background-attachment: fixed;
 }
-body#profiles_show:after {
+body#profiles_show:after, body#achievements_index:after {
     content: '';
     position: fixed;
     bottom: 0;
