@@ -4,9 +4,8 @@
 										/** ---------------------------- GENERAL SETTINGS ---------------------------- **/
 
 :root {
-  --primary_color: dodgerblue;
-  --secondary_color: deepskyblue;
-  --accent_color: ;
+  --primary_color: deepskyblue;
+  --secondary_color: dodgerblue;
   --background: url(https://i.ibb.co/85jT0Sz/681132-wallpapers-2560x1440-ipad.jpg);
 }
 
@@ -2566,7 +2565,7 @@ transform: scale(1.1);
 border: none!important;
 }
 .b-topic>.inner header img {
-transition: 0,3s ease;
+transition: 0.3s ease;
 }
 .b-topic>.inner header img:hover {
  background: rgba(86, 90, 86,.15);
@@ -9385,8 +9384,6 @@ body.p-achievements.p-profiles .inner .border {
   margin-left: 3px !important
 }
 .b-anime_status_tag.other, a.b-db_entry-variant-list_item span.b-link { color: rgba(226, 236, 241, 0.7) !important }
-
-
 
 
 													/* __________________New Header__________________ */
