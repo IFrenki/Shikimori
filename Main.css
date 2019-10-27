@@ -4,12 +4,15 @@
                     /** ---------------------------- GENERAL SETTINGS ---------------------------- **/
 
 :root {
-  --font-alt-text-letter-spacing: normal;
   --primary_color: dodgerblue;
   --secondary_color: deepskyblue;
   --accent_color: deepskyblue;  /* changes color title "Список аниме" "Список манги" in profile and his links: "Смотрю", "Читаю" etc. 
                   which are below inside hide block, when hovering over it */
   --background: url(https://i.ibb.co/85jT0Sz/681132-wallpapers-2560x1440-ipad.jpg);
+
+  /*--font-main: '';*/
+  --font-alt: 'Comfortaa';
+  --font-alt-text-letter-spacing: normal;
 }
 
 
@@ -132,7 +135,7 @@ max-width: 100%;
 * .c-brief header.head h1 {
 border-bottom: none;
     color: #e2ecf1!important;
-    font-family: 'Comfortaa' !important;
+    font-family: 'Comfortaa';
     text-shadow: 
     0.45px -0.45px 0px #0065ff, 
     -0.45px 0.45px 0px #0065ff, 
@@ -150,7 +153,7 @@ border-bottom: none;
 header.head h1, header.head h2 {
     border-bottom: none;
     color: #e2ecf1!important;
-    font-family: 'Comfortaa' !important;
+    font-family: 'Comfortaa';
 }
 /* цвет описания аниме */
 .b-prgrph, .b-spoiler_prgrph {
@@ -510,7 +513,7 @@ color: #a6b2b7;
     border-radius: 4px;
     background-color: rgba(36, 41, 43, 0.4)!important;
     border: none!important;
-    font-family: 'Comfortaa' !important;
+    font-family: 'Comfortaa';
     box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.1)!important;
 }
 /* цвет кнопки написать */
@@ -521,7 +524,7 @@ color: #a6b2b7;
 padding: 6px 10px 6px 10px;
   transition: 0.3s ease-out;
   border:none;
-  font-family: 'Comfortaa' !important;
+  font-family: 'Comfortaa';
   box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2);
 }
 .b-form input[type=submit]:hover, .b-shiki_editor footer .preview:hover, .b-shiki_editor.previewed footer .unpreview:hover, .b-poll .poll-actions .vote:hover, .b-poll .poll-actions .abstain:hover, a.stop.b-button:hover, .b-button:hover, .b-form .cancel:hover,.b-button.preview:hover, a.start.b-button:hover, .b-form input[type=submit][disabled]:hover, .b-form input[type=submit].disabled:hover {
@@ -630,7 +633,7 @@ transform: scale(1.1);
 .b-block_list li {
     color: #a6b2b7;
 transition: 0.1s ease-out;
-  font-family: 'Comfortaa' !important;
+  font-family: 'Comfortaa';
 }
 /* сводка по разным спискам  */
 .p-user_rates-index .list-groups .summary.lines {
@@ -817,7 +820,7 @@ animation: spoilzero 2s ease infinite;
 }
 input, select, button, textarea {
     background-color: rgba(36, 41, 43,0.4);
-  font-family:'Comfortaa' !important;
+  font-family:'Comfortaa';
   border: none!important;
 }
 /* стоп */
@@ -1304,7 +1307,7 @@ color: #a6b2b7;
 border:none;
 }
 .buttons .editor-italic:before, .buttons .editor-spoiler:before, .buttons .editor-smiley:before, .buttons .editor-quote:before, .buttons .editor-image:before, .buttons .editor-link:before, .buttons .editor-strike:before, .buttons .editor-underline:before, .buttons .editor-bold:before {
-    font-family: 'shikimori' !important;
+    font-family: 'shikimori';
     text-align: center;
     width: 20px;
     color: #9bc7ca;
@@ -1342,7 +1345,7 @@ border-bottom: none;
 line-height: 30px;
 height: 30px;
 background: transparent;
-  font-family: 'Comfortaa' !important;
+  font-family: 'Comfortaa';
 }
 .b-main_search .popup li.active {
   background:rgba(86, 90, 86, 0.3)!important;
@@ -2087,7 +2090,7 @@ opacity: 1!important;
 /*
 .userbox .submenu > .entry:nth-child(3)[href*='/dialogs']:before {
 content: "\\_f0e0"!important;
-  font-family:'FontAwesome' !important;
+  font-family:'FontAwesome';
   font-size:19px;
   color: #e2ecf1!important;
   border:0.5px solid transparent;
@@ -2096,7 +2099,7 @@ content: "\\_f0e0"!important;
 }
 .submenu.right .entry:nth-child(3)[href*='/dialogs']:before, .submenu.right .entry:nth-child(3)[href*='/dialogs']:before {
   content: none!important;
-  font-family:'FontAwesome' !important;
+  font-family:'FontAwesome';
   font-size:19px;
   color: #e2ecf1!important;
   border:0.5px solid transparent;
@@ -2828,7 +2831,7 @@ h3 {
     color: #a6b2b7!important;
 }
 .p-profiles header.head .misc span, .p-profiles header.head .misc a {
-    font-family: 'Comfortaa' !important;
+    font-family: 'Comfortaa';
 }
 .buttons>div {
 margin-right:20px;
@@ -2867,7 +2870,7 @@ content:'\\_f0c0';
     margin-left: 2px;
   animation: mail 5s ease 1;
     animation-delay: 2s;
-  font-family: 'Arial' !important;
+  font-family: 'Arial';
 }
 .l-top_menu-v2 .menu-items>.entry>.contest:before {
 margin-left:0px;
@@ -2910,7 +2913,7 @@ a.misc[href*='/new?club']:hover, a.misc[href*='/new?collection']:hover, a.misc[h
   background:transparent;
 }
 a.misc[href*='/new?club']:after, a.misc[href*='/new?collection']:after, a.misc[href*='/users/similar/anime']:after, a.misc[href*='/list/manga']:after, a.misc[href*='/list/anime']:after, a.misc[href*='/polls/new?']:after, a.misc[href*='/similar/manga']:after, a.misc[href*='/similar/anime']:after {
-    font-family: 'Comfortaa' !important;
+    font-family: 'Comfortaa';
     font-size: 12px!important;
     margin-bottom:5px;
     background: rgba(36, 41, 43,0.4);
@@ -3288,7 +3291,7 @@ background:none;
   font-size:0px;
 }
 .b-main_search .input input, .input, intup {
-    font-family: 'Comfortaa' !important;
+    font-family: 'Comfortaa';
 }
 .b-source .contributors .key, .b-source .mal .key, .b-source .source .key {
   color: #889aa0;
@@ -4500,7 +4503,7 @@ color:#616d6f!important;
     padding: 6px 10px 6px 10px;
     transition: 0.3s ease-out;
     border: none;
-    font-family: 'Comfortaa' !important;
+    font-family: 'Comfortaa';
     box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2);
 }
 .ac_results .character-suggest .animes div a:hover {
@@ -5064,7 +5067,7 @@ position: absolute;
 }
   */
  .item-cancel,  .item-reply, .item-edit, .item-ignore, .item-delete-cancel, .item-moderation, .item-moderation-cancel, .item-delete, .item-request-reject, .item-cancel:after,  .item-reply:after, .item-edit:after, .item-ignore:after, .item-delete-cancel:after, .item-moderation:after, .item-moderation-cancel:after, .item-delete:after, .item-request-reject:after, .item-cancel:before,  .item-reply:before, .item-edit:before, .item-ignore:before, .item-delete-cancel:before, .item-moderation:before, .item-moderation-cancel:before, .item-delete:before, .item-request-reject:before, .item-delete-confirm:after, .item-delete-cancel:after, .item-delete-confirm:before, .item-delete-cancel:before {
-   font-family: 'Comfortaa' !important;
+   font-family: 'Comfortaa';
     color: #a6b2b7;
   }
   /* .b-dialog.aside-expanded>.inner aside.buttons .main-controls .item-delete:after {
@@ -5198,7 +5201,7 @@ font: normal normal normal 14px/1 FontAwesome;
     padding-bottom: 2px;
     padding-top: 5px;
     text-align: center;
-    font-family: 'Comfortaa' !important;
+    font-family: 'Comfortaa';
     margin-top: 50px;
     width: 25px;
     box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2)!important;
@@ -5207,7 +5210,7 @@ font: normal normal normal 14px/1 FontAwesome;
     margin-top: 75px;
 }
   .l-page .menu-toggler .toggler:before {
-    font-family: 'Comfortaa' !important;
+    font-family: 'Comfortaa';
   }
   .l-page .menu-toggler .toggler:after {
   content: '\\_f0d9';
@@ -6616,7 +6619,7 @@ a.b-js-link {
     border-radius: 3px;
     padding: 0px 2px 0px 4px;
     letter-spacing: 2px;
-    font-family: 'Comfortaa' !important;
+    font-family: 'Comfortaa';
 }
   .b-video_variant .video-kind.unknown:before {
     font-size: 10px;
@@ -6634,7 +6637,7 @@ a.b-js-link {
     border-radius: 3px;
     padding: 0px 2px 0px 4px;
     letter-spacing: 2px;
-    font-family: 'Comfortaa' !important;
+    font-family: 'Comfortaa';
   }
   .same-videos {
     display: none;
@@ -7149,7 +7152,7 @@ a.b-js-link {
       margin-bottom: 40px;
   }
   span.editor-smiley.b-tooltipped.selected:after {
-    font-family: shikimori !important;
+    font-family: 'shikimori';
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     -moz-osx-font-smoothing: grayscale;
@@ -8157,7 +8160,7 @@ background: transparent!important;
     font-size: 13px;
     height: 30px;
     line-height: 30px;
-    font-family: 'Comfortaa' !important;
+    font-family: 'Comfortaa';
     min-width: 125px;
     padding: 0 15px 0;
     text-transform: none;
@@ -8379,7 +8382,7 @@ width: 61px;
   /*
 .submenu.right .entry:nth-child(3):before {
 content: "\\_f0e0"!important;
-    font-family: 'FontAwesome' !important;
+    font-family: 'FontAwesome';
     font-size: 19px;
     color: #e2ecf1!important;
     border: 0.5px solid transparent;
