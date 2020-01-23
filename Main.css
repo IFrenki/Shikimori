@@ -1828,7 +1828,14 @@ color: var(--primary_color);
 .b-stats_bar.lifetime .bar .first {
 background: #2c353c;
 }
-
+@media (min-width: 1025px) {
+.p-profiles .profile-head .c-brief .avatar img {
+    animation: fly 10s ease-in-out infinite;
+    animation-delay: 2s!important;
+    transition: 1s ease-out;
+    -webkit-filter: brightness(1);
+}
+}
 @keyframes fly {
     0% {
         transform: translateY(0);
@@ -4707,6 +4714,22 @@ color:#616d6f!important;
 
 
 
+@media screen and (min-width: 1200px) {
+  .p-animes_collection-index.x1200 .cc-entries>.c-column, .p-mangas_collection-index.x1200 .cc-entries>.c-column, .p-recommendations-index.x1200 .cc-entries>.c-column, .p-userlist_comparer-show.x1200 .cc-entries>.c-column, .p-animes_collection-index.x1000 .cc-entries>.c-column, .p-mangas_collection-index.x1000 .cc-entries>.c-column, .p-recommendations-index.x1000 .cc-entries>.c-column, .p-userlist_comparer-show.x1000 .cc-entries>.c-column {
+  width: 18%;
+    margin-right: 1%!important;
+    margin-left: 1%!important;
+  }
+  .p-animes_collection-index.x1200 .cc-entries>.c-column:nth-child(5n+1), .p-mangas_collection-index.x1200 .cc-entries>.c-column:nth-child(5n+1), .p-recommendations-index.x1200 .cc-entries>.c-column:nth-child(5n+1), .p-userlist_comparer-show.x1200 .cc-entries>.c-column:nth-child(5n+1), .p-animes_collection-index.x1000 .cc-entries>.c-column:nth-child(5n+1), .p-mangas_collection-index.x1000 .cc-entries>.c-column:nth-child(5n+1), .p-recommendations-index.x1000 .cc-entries>.c-column:nth-child(5n+1), .p-userlist_comparer-show.x1000 .cc-entries>.c-column:nth-child(5n+1) {
+  clear: left;
+  }
+  .p-animes_collection-index.x1000 .cc-entries>.c-column:nth-child(4n+1), .p-mangas_collection-index.x1000 .cc-entries>.c-column:nth-child(4n+1), .p-recommendations-index.x1000 .cc-entries>.c-column:nth-child(4n+1), .p-userlist_comparer-show.x1000 .cc-entries>.c-column:nth-child(4n+1) {
+    clear: none;
+  }
+  .p-animes_collection-index.x1000 .cc-entries>.c-column:nth-child(4n), .p-mangas_collection-index.x1000 .cc-entries>.c-column:nth-child(4n), .p-recommendations-index.x1000 .cc-entries>.c-column:nth-child(4n), .p-userlist_comparer-show.x1000 .cc-entries>.c-column:nth-child(4n) {
+    margin-right: auto;
+}
+}
 
 
 
@@ -4744,12 +4767,89 @@ color:#616d6f!important;
 
 
 
+@media only screen and (min-width: 1025px) {
+body[data-locale=ru] .b-offtopic_marker.off:hover, body[data-locale=ru] .b-offtopic_marker.active:hover {
+    color: #ffcfe0;
+    background-color: #ad024f;
+}
+  body[data-locale=ru] .b-summary_marker.off:hover, body[data-locale=ru] .b-summary_marker.active:hover {
+  color: #eaffe9!important;
+    background-color: #037d03!important;
+  border:none;
+}
+  .editor-container .b-offtopic_marker, .editor-container .b-summary_marker {
+  margin-top:-4px;
+  }
+  .b-db_entry-variant-list_item .name-container .b-user_rate .b-add_to_list .trigger, .b-db_entry-variant-list_item .name-container .b-user_rate .b-add_to_list .option {
+  max-width: 200px;
+  }
+  .p-animes-show .cc .c-anime, .p-animes-show .cc .c-manga,  .p-mangas-show .cc .c-anime, .p-mangas-show .cc .c-manga,  .p-ranobe-show .cc .c-anime, .p-ranobe-show .cc .c-manga {
+  margin-right: 2%;
+    width: 12.55714%;
+  }
+   .cc.cc-similar .b-catalog_entry .cover {
+      width: 100%;
+  }
+  .cc.cc-similar .b-catalog_entry .cover .image-decor .image-cutter {
+    max-width: 100%;
+    max-height: 144px;
+  }
+  .p-user_rates-index .list-posters .user_rate .edit-user_rate:before {
+    line-height: 28px;
+    width: 28px;
+    height: 28px;
+}
+  .p-user_rates-index .list-posters .user_rate .edit-user_rate {
+  background: transparent;
+     right: 9px;
+    top: 5px;
+}
+  .editor-container .buttons.m15 {;
+    right: 50%!important;
+    margin-right:-570px;
+}
+  .b-edit_styles .edit_style .style_css label:after {
+    content: 'Для корректной работы используйте F11';
+    margin-left: 10px;
+    font-size: 12px;
+  }
+  .b-edit_styles .edit_style .style_css .CodeMirror.CodeMirror-fullscreen, .b-edit_styles .new_style .style_css .CodeMirror.CodeMirror-fullscreen {
+    z-index: 20;
+    height: 93vh!important;
+    top: 50px;
+}
+  .l-top_menu-v2 .menu-search>.entry, .l-top_menu-v2 .menu-userbox>.entry {
+        width: 100%;
+  }
+  .b-comments {
+    margin-bottom: 10px!important;
+}
+body#dialogs_index .b-height_shortener {
+    margin-left: 55px;
+    position: relative;
+}
+  .b-comment .b-height_shortener {
+    margin-left: 55px;
+    position: relative;
+}
+}
 
 
 
 
 
 
+@media only screen and (min-width: 1075px) {
+.l-top_menu-v2 .menu-search {
+    width: 210px!important;
+}
+}
+
+
+@media screen and (max-width: 1024px) {
+.p-animes_collection-index.x1000 .cc-entries, .p-animes_collection-index.x1200 .cc-entries {
+    padding: 0px 12px 0px 4px;
+}
   body#profiles_show .l-page {
     margin-top: 364px!important;
 }
@@ -5432,6 +5532,158 @@ background: none!important;
 
 
 
+@media screen and (max-width: 960px) {
+  .p-profiles .profile-head .c-history, .p-profiles .profile-head .c-history.x2, .p-profiles .profile-head .c-history.x3, .x1000 > .l-page div .profile-head .c-history.x2, .x1000 > .l-page div .profile-head .c-history.x3 {
+    background: none;
+    border-radius: 5%;
+    padding: 0px 5px 0px;
+    position: absolute;
+    right: 0px!important; 
+     top: 0px!important; 
+    z-index: 2;
+    width: 100%;
+    margin: 0px;
+}
+.b-block_list {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+margin-top: 10px;
+}
+.p-profiles .profile-head .c-history .entry {
+    display: inline-block;
+    width: 150px;
+    height: 44px;
+    background: rgba(36, 41, 43, 0.5);
+    border-radius: 23px;
+}
+.p-profiles .profile-head .c-history .entry .misc.date.unprocessed {
+display: table;
+}
+.p-profiles .profile-head .c-history .entry .misc {
+    display: none;
+}
+.p-profiles .profile-head .c-history .entry img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  margin: 2px 10px 2px 2px;
+}
+.cc-2a>.c-column {
+    width: 100%!important;
+  margin-right: 0%!important;
+  } 
+  .profile-content > .cc-2 .c-column .cc-2a.m30 {
+    right: 0%;
+    width: 49%;
+    margin-top: -227px;
+  }
+  .p-profiles-show.x1200 .profile-content .c-left, .p-profiles-show.x1000 .profile-content .c-left {
+  width: 50%;
+  }
+  .c-column.c-left {
+    margin-bottom: 0px;
+}
+  .p-profiles-show .cc-favourites .c-column {
+    width: 16.5%;
+    margin-right: 0px!important;
+  }
+  .p-profiles-show .cc-favourites .c-column:nth-child(7), .p-profiles-show .cc-favourites .c-column:nth-child(8) {
+    display: none;
+}
+  .p-profiles-show .cc-favourites .c-column:nth-child(6n) {
+    margin-right: 0;
+}
+  .cc-2>.c-column>.block:last-child, .cc-2>.c-column>.subcontent:last-child {
+    margin-top: 30px;
+    margin-bottom: -20px;
+}
+  .p-profiles-show .cc-friends .b-user {
+    margin-right: 0%;
+    position: relative;
+    width: 16.16667%;
+  }
+  .cc-friends {
+    height: 100px;
+}
+  .b-user.avatar img {
+    height: auto;
+}
+  .p-profiles-show .cc-friends .b-user {
+    margin-bottom: 15px;
+}
+  .b-club .logo {
+    height: auto;
+    width:auto!important;
+}
+  .b-clubs.one-line .b-club {
+  margin-right: 3%;
+    position: relative;
+    width: 17%;
+    margin-left: 4%;
+  }
+  .p-profiles-show .lifetime {
+    line-height: 2.65;
+}
+  .p-profiles .profile-head .c-brief .avatar {
+    margin-top: -150px !important;
+}
+  .p-profiles .profile-head .c-info .c-additionals {
+    margin-bottom: 9px!important;
+}
+  .subheadline.m13 {
+    display:block;
+    position: absolute;
+    right: 24px;
+    top: 65px;
+     background:  rgba(33, 30, 40, 0.4)!important;
+    left: auto;
+    width: 150px;
+}
+  .subheadline>a {
+        padding-right: 35px;
+  }
+  .p-profiles .profile-head .c-history .entry {
+    width: 29%;
+        box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.4)!important;
+  }
+  .p-profiles .profile-head .c-history .entry .title {
+    width: 63%;
+    text-decoration: none;
+    animation: runningtext 12s ease-in-out infinite;
+    animation-delay: 2s;
+    text-align: center;
+}
+  .p-profiles .profile-head .c-history .entry:first-child {
+    border-top: none;
+    margin-top: 0px;
+    padding-top: 0;
+  }
+  .l-footer {
+  display:none; 
+  }
+  .x1000 > .l-page div .profile-head:hover .c-info .c-lists-info, .p-profiles .profile-head:hover .c-info .c-lists-info {
+   margin-top: 32px!important;
+}
+  .p-profiles .profile-head .c-info .c-lists-info, .x1000 > .l-page div .profile-head .c-info .c-lists-info {
+     margin-top: 32px!important;
+  }
+  .p-profiles .profile-head .c-brief .avatar .profile-actions {
+  bottom: 50px!important;
+  }
+  .text.full:hover, .text.moderate:hover, .text.high:hover, .text.weak:hover, .text.zero:hover, .b-stats_bar.manga .compatibility a:hover, .b-stats_bar.anime .compatibility a:hover {
+  transform:scale(1);
+  }
+  .p-profiles .profile-head .c-brief header.head .misc {
+    bottom: 40px;
+    width: auto;
+        right: 15px;
+    z-index: -1;
+  }
+  body#profiles_show .about.block {
+    margin-top: 20px;
+}
+}
 
 
 
@@ -5449,6 +5701,14 @@ background: none!important;
 
 
 
+@media screen and (max-width: 860px) {
+  .b-options-floated {
+    line-height: normal;
+    margin-bottom: 10px;
+    padding-right: 0;
+    position: initial;
+}
+}
 
 
 
@@ -5494,64 +5754,1716 @@ background: none!important;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-width: 768px) {
+  .cc-2a>.c-column {
+    display: inline-block;
+  margin-right: 0%!important;
+  } 
+  .profile-content > .cc-2 .c-column .cc-2a.m30 {
+    right: 0%;
+    width: 100%;
+  }
+  .p-profiles-show.x1200 .profile-content .c-left, .p-profiles-show.x1000 .profile-content .c-left {
+  width: 100%;
+  }
+  .c-column.c-left {
+    margin-bottom: 0px;
+}
+  .c-column.c-left {
+    /* margin-top: -30px; */
+}
+  .profile-content > .cc-2 .c-column .cc-2a.m30 {
+    margin-top: -442px;
+}
+  .p-profiles-show .lifetime {
+    margin-top: 210px!important;
+  }
+  .cc-2>.c-column>.block:last-child, .cc-2>.c-column>.subcontent:last-child {
+    margin-top: 0px!important;
+  }
+  .b-clubs {
+    margin-top: 30px!important;
+    width: 100%;
+}
+  .b-clubs.one-line .b-club {
+    margin-right: 3%;
+    margin-left: 2%;
+    width: 20%;
+    position: relative;
+}
+  .b-club .logo {
+margin-right: 0px!important;
+  }
+/*  .p-profiles .profile-head .c-history .entry {
+    width: 94%;
+    margin: 0 3%;
+    position: absolute;
+    display: none;
+    margin-top: -8px;
+}*/
+  .b-block_list {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 6px;
+    position: relative;
+    overflow: hidden;
+    height: 44px!important;
+}
+  .subheadline.m13 .b-block_list {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 6px;
+    position: relative;
+    overflow: hidden;
+    height: 46px!important;
+    
+}
+  .p-profiles .profile-head .c-history .entry {
+    margin: 0;
+    position: relative;
+    display: block;
+    margin-top: 0px;
+    clear: both;
+    float: none;
+    width: 100%!important;
+     animation: history 8s steps(3, end) infinite !important;
+    box-shadow: none!important;
+}
+  .p-profiles .profile-head .c-history .entry:first-child {
+    border-top: none;
+    margin-top: 0px;
+    padding-top: 0;
+}
+  .p-profiles .profile-head .c-history .entry .title {
+    width: auto;
+    animation: none!important;
+    margin-right: 15%;
+  }
+  .p-profiles .profile-head .c-history .entry .misc.date.unprocessed {
+   width: auto;
+    text-align: center;
+    display:block;
+    margin-right: 15%;
+  }
+  .p-profiles .profile-head .c-history .entry:first-child {
+  animation: animhist 5s ease-in-out infinite;
+    animation-delay: 2s;
+  }
+  .b-stats_bar .stat_names {
+    display: none;
+}
+  .x1000 > .l-page div .profile-head:hover .c-info .c-lists-info, .p-profiles .profile-head:hover .c-info .c-lists-info {
+    margin-top: 45px!important;
+  }
+  .p-profiles .profile-head .c-info .c-lists-info, .x1000 > .l-page div .profile-head .c-info .c-lists-info {
+    display: inline-block;
+    width: 100%;
+    height: 700px;
+    margin-top: 45px!important;
+}
+  
+  .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.anime, .x1000 > .l-page div .profile-head .c-info .c-lists-info .b-stats_bar.anime, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.manga, .x1000 > .l-page div .profile-head .c-info .c-lists-info .b-stats_bar.manga {
+    width: 100%;
+    padding: 0px 20px;
+    display: inline-block;
+    margin-top: 190px;
+    box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.1)!important;    
+}
+  .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.anime, .x1000 > .l-page div .profile-head .c-info .c-lists-info .b-stats_bar.anime {
+    margin-top: 190px;
+  }
+  .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.manga, .x1000 > .l-page div .profile-head .c-info .c-lists-info .b-stats_bar.manga {
+    margin-top: -165px;
+}
+  .p-profiles .profile-head .c-brief header h1 {
+    margin-top: -13px;
+}
+  * .c-brief header.head h1 {
+    font-size: 27px;
+    line-height: 38px;
+}
+  header.head .notice {
+    font-size: 10px!important;
+}
+  .p-profiles .profile-head .c-brief header {
+    text-align: center;
+    margin-top: -22px!important;
+}
+  .p-profiles .profile-head .c-brief .avatar img {
+    transform: scale(1.3)!important;
+}
+  .p-profiles .profile-head .c-brief .avatar img:hover {
+    transform: scale(1.3)!important;
+}
+  .p-profiles .profile-head:hover .c-brief .avatar img {
+    transform: scale(1.3)!important;
+}
+  .p-profiles .profile-head .c-brief .avatar {
+    margin-top: -140px !important;
+}
+.b-stats_bar .anime .bar, .b-stats_bar .manga .bar {
+    overflow: visible;
+    height: 38px!important;
+    line-height: 38px!important;
+    margin-bottom: 1px;
+    margin-top: 12px;
+}
+ .b-stats_bar a.title, .b-stats_bar .title {
+    font-size: 14px;
+    margin-bottom: 3px;
+    position: absolute;
+    width: 91%;
+    text-align: center;
+   z-index: 2;
+       line-height: 38px;
+   font-size: 16px;
+   opacity:0.2;
+}
+  .b-stats_bar .bar {
+    height: 16px;
+    line-height: 16px;
+}
+  .b-stats_bar.anime .bar,.b-stats_bar.manga .bar {
+    overflow: hidden!important;
+    height: 38px!important;
+    line-height: 38px!important;
+}
+  .b-stats_bar {
+    line-height: 8px;
+    min-height: 8px;
+  }
+  .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar {
+    height: 35px;
+}
+  .cc-2.block {
+      margin-top: 60px;
+}
+  .p-profiles-show .lifetime .title {
+    line-height: 1.65;
+    width: 100%;
+    margin-top: -40px;
+    text-align: left;
+    opacity: 1;
+}
+  .label {
+    line-height: 18px;
+}
+  .p-profiles-show .lifetime .title .value {
+    margin-right: 30px;
+}
+  .p-profiles .profile-head .c-info .c-additionals b {
+    display: none;
+}
+  .p-profiles .profile-head .c-info .c-additionals div a {
+    font-size: 15px;
+}
+.p-profiles .profile-head .c-info .c-additionals div:after {
+   font-size: 0px;
+}
+.c-mobile-actions {
+   display:none;
+}
+.p-profiles .profile-head .c-brief .avatar .profile-actions {
+    position: absolute!important;
+    bottom: 175px!important;
+    right: 5%!important;
+    height: 70px;
+    line-height: 30px;
+    vertical-align: middle;
+    display: inline-block;
+    z-index: 10;
+    pointer-events: auto;
+    width: 30%;
+}
+.profile-actions .mail, .profile-actions .talk, .profile-actions .fav-remove, .profile-actions .ban, .profile-actions .fav-add, .profile-actions .settings, .profile-actions .ignore-add, .profile-actions .ignore-remove {
+  display:inline-block;
+}
+  .p-profiles .profile-head .c-info .c-additionals {
+    position: absolute;
+    max-height: 62px;
+    overflow-y: hidden;
+    text-align: center;
+    width:100%!important;
+    margin-left: 0%!important;
+    margin-bottom: -160px!important;
+    top:327px;
+    line-height: 40px;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+  .p-profiles .profile-head .c-info .c-additionals div {
+    display: inline-block;
+    font-size: 13px;
+    line-height: 15px;
+    /* width: 10%; */
+    text-align: center;
+    vertical-align: middle;
+    white-space: normal;
+    margin: 0px 3px;
+}
+  .p-profiles .profile-head .c-info .c-additionals div a {
+    font-size: 11px!important;
+    display: block;
+    padding: 6px 15px 10px 15px;
+    margin: 0px;
+    vertical-align: middle;
+    white-space: normal;
+    Height: 58px;
+}
+ .p-profiles .profile-head .c-info .c-additionals div a[href*="/summaries"] {
+       width: 60px;
+    display: table-cell;
+    height: 60px;
+    vertical-align: middle;
+    padding: 5px 6px 0px 6px;
+       box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2)!important;
+}
+  .p-profiles .profile-head .c-info .c-additionals div a[href*="/versions"] {
+   width: 65px;
+    display: table-cell;
+    height: 60px;
+    vertical-align: middle;
+    padding: 5px 6px 0px 6px;
+        box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2)!important;
+}
+  .p-profiles .profile-head .c-info .c-additionals div a[href*="/video"] {
+    display: table-cell;
+       width: 65px;
+    height: 60px;
+    vertical-align: middle;
+    padding: 5px 6px 0px 6px;
+        box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2)!important;
+}
+ .p-profiles .profile-head .c-info .c-additionals div a[href$="/comments"] {
+    width: 110px;
+    margin-bottom: 20px;
+    padding: 13px 10px 10px 10px;
+    height: 60px;
+    vertical-align: middle;
+       box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2)!important;
+} 
+  .profile-actions .mail::before, .profile-actions .talk::before, .profile-actions .fav-remove::before, .profile-actions .ban::before, .profile-actions .fav-add::before, .profile-actions .settings::before, .profile-actions .ignore-add::before, .profile-actions .ignore-remove::before, .profile-actions .talk::before {
+    font-size: 30px!important;
+}
+  .profile-actions .mail, .profile-actions .talk, .profile-actions .fav-remove, .profile-actions .ban, .profile-actions .fav-add, .profile-actions .settings, .profile-actions .ignore-add, .profile-actions .ignore-remove {
+    padding: 5px 15px 5px!important;
+  }
+  .p-profiles .profile-head .c-brief .avatar .profile-actions {
+    position: absolute!important;
+    bottom: 175px!important;
+    right: 2%!important;
+    height: 70px;
+    line-height: 20px;
+    vertical-align: middle;
+    display: inline-block;
+    z-index: 10;
+    pointer-events: auto;
+    width: 120px;
+}
+  .p-profiles .profile-head .c-info .c-additionals div a {
+    padding: 6px 15px 10px 15px;
+    background: rgba(36, 41, 43,0.4);
+    border-radius: 10%;
+    color: #889aa0!important;
+}
+  .b-breadcrumbs {
+    font-size: 12px!important;
+  }
+  header.head .notice {
+    font-size: 12px!important;
+  }
+  .subheadline>a[href*="/history"]:before {
+    display: none;
+}
+  .subheadline>a[href*="/history"] {
+    color: #a6b2b7!important;
+}
+  .subheadline.m13 {
+    display: block;
+    position: absolute;
+        left: 10px!important;
+    top: 82px;
+    
+    width: 98px;
+    background:  transparent!important;
+    border: 1.5px solid #a6b2b738!important;
+    padding: 6px 10px 4px;
+   
+}
+/*  .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.anime .compatibility a {
+    display: none;
+}
+  .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.manga .compatibility a {
+    display: none;
+}
+  */
+  .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement {
+    font-size: 0px!important;
+    line-height: 0;
+    margin-top: 0;
+    display:block;
+    position:absolute;
+}
+  div.compatibility > a:before {
+  font: normal normal normal 14px/1 FontAwesome;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+}
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.weak, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.zero {
+  }
+/* Это правила задающие конкретную иконку конкретному элементу. */
+div.compatibility > a:before {
+  content: '\\_f0ec';
+}
+  
+  /* SOVMEST */
+ .b-stats_bar.anime .compatibility a:before {
+    font-size: 26px;
+    color: #45924C;
+    opacity: 0.7;
+}
+  .b-stats_bar.manga .compatibility a:before {
+    font-size: 26px;
+    color: #BD0F56;
+    opacity: 0.7;
+}
+  .b-stats_bar .compatibility .text.zero:before, .b-stats_bar .compatibility .text.high:before, .b-stats_bar .compatibility .text.moderate:before, .b-stats_bar .compatibility .text.full:before, .b-stats_bar .compatibility .text.weak:before  {
+    position: absolute;
+  }
+  /* размещение значков совметсимости 768 px<*/
+  .b-stats_bar.anime .compatibility a:before, .b-stats_bar.anime .compatibility .text.zero:before, .b-stats_bar.anime .compatibility .text.weak:before, .b-stats_bar.anime .compatibility .text.high:before, .b-stats_bar.anime .compatibility .text.moderate:before, .b-stats_bar.anime .compatibility .text.full:before {
+    top: -112px;
+    left: 0px;
+  }
+  .b-stats_bar.manga .compatibility a:before, .b-stats_bar.manga .compatibility .text.zero:before, .b-stats_bar.manga .compatibility .text.weak:before, .b-stats_bar.manga .compatibility .text.high:before, .b-stats_bar.manga .compatibility .text.moderate:before, .b-stats_bar.manga .compatibility .text.full:before {
+    top: -155px;
+    left: 60px;
+  }
+  .b-stats_bar.anime .compatibility .rate {
+    top: 120px;
+    left: 30px;
+}
+  .b-stats_bar.manga .compatibility .rate {
+    top: 120px;
+    left: 79px;
+}
+  .p-profiles .profile-head .c-brief header.head .misc {
+   width: 100%;
+    text-align: center;
+    top: 55px;
+    margin: 0px!important;
+    right: 0;
+    z-index: 1;
+  }
+  .p-dashboards-show .cc-news .c-news_topics {
+  width:100%!important;
+  } 
+  .p-animes_collection-index .cc-entries>.c-column, .p-mangas_collection-index .cc-entries>.c-column, .p-recommendations-index .cc-entries>.c-column, .p-userlist_comparer-show .cc-entries>.c-column, .p-animes_collection-index.x1000 .cc-entries>.c-column, .p-mangas_collection-index.x1000 .cc-entries>.c-column, .p-recommendations-index.x1000 .cc-entries>.c-column, .p-userlist_comparer-show.x1000 .cc-entries>.c-column {
+  }
+.x1000 .menu-slide-outer.x240 .l-content, .x1200 .menu-slide-outer.x199 .l-content {
+    width: 98%!important;
+}
+  .x1000 .menu-slide-outer.x199 .l-content, .menu-slide-outer.x199 .l-content {
+    width: 98%!important;
+    
+  }
+.p-animes_collection-index .cc-entries>.c-column, .p-mangas_collection-index .cc-entries>.c-column, .p-recommendations-index .cc-entries>.c-column, .p-userlist_comparer-show .cc-entries>.c-column, .p-animes_collection-index.x1000 .cc-entries>.c-column, .p-mangas_collection-index.x1000 .cc-entries>.c-column, .p-recommendations-index.x1000 .cc-entries>.c-column, .p-userlist_comparer-show.x1000 .cc-entries>.c-column {
+    margin-right: 1.25%;
+  margin-left: 1.25%;
+  }
+  .b-options-floated.mobile-phone {
+        width: 100%;
+  }
+  .b-options-floated.mobile-phone_portrait {
+  text-align: center;
+  }
+  .c-column.block_m {
+    width: 100%;
+}
+  .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.anime:before, .x1000 > .l-page div .profile-head .c-info .c-lists-info .b-stats_bar.anime:before {
+    content: 'ANIME';
+    position: absolute;
+    top: 70px;
+    left: 21px;
+    font-size: 10px;
+    padding: 2px 4px;
+    color: #45924C;
+}
+  .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.manga:before, .x1000 > .l-page div .profile-head .c-info .c-lists-info .b-stats_bar.manga:before {
+    content: 'MANGA';
+    position: absolute;
+    top: 70px;
+    left: 68px;
+    font-size: 10px;
+    padding: 2px 4px;
+    color: #de2b74;
+}
+  .userbox img.avatar, .userbox img.avatar {
+    margin-top: 12px!important;
+}
+  .p-profiles .profile-head .c-info .c-additionals::-webkit-scrollbar, .b-hot_topics-v2::-webkit-scrollbar, .b-topic-minified>.inner .status-line::-webkit-scrollbar, .buttons>div::-webkit-scrollbar, .b-code::-webkit-scrollbar, .b-shiki_editor .hidden-block::-webkit-scrollbar {
+height: 3px;
+}
+  .x1200 .menu-slide-outer.x240 .l-content, .menu-slide-outer.x240 .l-content, .x1000 .menu-slide-outer.x240 .l-content, .x1200 .menu-slide-outer.x199 .l-content {
+    width: 98%!important;
+    top: 5px;
+}
+  .l-page .menu-slide-outer .menu-slide-inner {
+    width: 100%;
+}
+  section.l-page.menu-expanded aside.l-menu {
+    display: block;
+    position: absolute;
+    height: auto;
+    background-color: rgba(5, 8, 12, 0.9);
+    z-index: 3;
+    padding: 10px 14px;
+    right: 3px;
+    width: 98%;
+}
+  section.l-page aside.l-menu {
+    display: none;
+}
+  /*
+  section.l-page {
+    height: 100000vh;
+}
+  */
+  .buttons .editor-italic,
+.buttons .editor-spoiler,
+.buttons .editor-smiley,
+.buttons .editor-quote,
+.buttons .editor-image,
+.buttons .editor-link,
+.buttons .editor-strike,
+.buttons .editor-underline,
+.buttons .editor-bold,
+.buttons .editor-file {
+      margin-left: 0px;
+    padding: 7px 13px;
+}
+  .buttons .editor-bold {
+    padding: 7px 13px;
+  }
+.b-shiki_editor aside.buttons {
+    white-space: normal;
+}
+  .editor-controls {
+    white-space: normal;
+   overflow-x: auto;
+    height: 50px;
+}
+  .b-shiki_editor aside.buttons .editor-spoiler {
+    margin-left: 0px!important;
+  }
+  .b-hot_topics-v2 .b-link:nth-child(5), .b-hot_topics-v2 .b-link:nth-child(6), .b-hot_topics-v2 .b-link:nth-child(7), .b-hot_topics-v2 .b-link:nth-child(8), .b-hot_topics-v2 .b-link:nth-child(9) {
+  display:block;
+  }
+  .buttons>div {
+margin-right:0px;
+}
+  .b-hot_topics-v2 .subject {
+    color: #a6b2b7;
+    font-size: 14px!important;
+    width:100%;
+    bottom: 3px;
+    padding: 13px 20px 13px 0px;
+}
+  .b-hot_topics-v2 {
+    white-space: normal;
+   overflow-x: auto;
+    height: 45px;
+      width:100%;
+  padding:10px;
+  }
+  body[data-locale=ru] .b-summary_marker, body[data-locale=ru] .b-offtopic_marker, body[data-locale=ru] {
+    position: static;
+  }
+  .b-form .b-summary_marker {
+    top: 25px;
+    right: 11px;
+  }
+  body[data-locale=ru] .b-offtopic_marker {
+        margin-left: 0px;
+  }
+  body[data-locale=ru] .b-offtopic_marker {
+    width: 65px;
+    margin: 0;
+    margin-right:-12px;
+  }
+  body[data-locale=ru] .b-new_marker {
+   margin-top: 20px;
+    right: 9px;
+    content: '\\_f111';
+    width: 20px;
+    color: var(--primary_color);
+    background: none!important;
+    font: normal normal normal 16px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+     position: absolute;
+  }
+  body[data-locale=ru] .b-new_marker {
+    margin: 0;
+    width: 20px;
+  }
+  body[data-locale=ru] .b-summary_marker {
+    margin: 0;
+  }
+  body[data-locale=ru] .b-summary_marker, body[data-locale=ru] .b-offtopic_marker, body[data-locale=ru] .b-abuse_marker {
+    margin-top: 0px;
+  }
+  .editor-container .b-summary_marker {
+    width: 10px!important;
+}
+  .editor-container .b-summary_marker {
+    margin-left: -34px;
+}
+  body[data-locale=ru] .b-summary_marker.off:hover, body[data-locale=ru] .b-summary_marker.active:hover {
+    color: none;
+    background-color: none;
+    border: none;
+  }
+  .lifetime.b-stats_bar .times {
+    height: 45px;
+}
+  .b-options-floated.mobile-desktop a {
+    text-align: center;
+    padding: 5px 10px 5px 10px!important;
+    line-height: 15px;
+    width: 160px;
+    display: inline-block;
+    background-color: rgba(36, 41, 43, 0.6);
+    border-radius: 4px;
+    color: #a6b2b7!important;
+    box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2);
+    margin: 2.5px 2px;
+    vertical-align: middle;
+}
+  .b-options-floated.mobile-desktop {
+  text-align: center;
+    width: 100%;
+  margin-top: -5px;
+  }
+  .b-add_to_list.watching .trigger, .b-add_to_list.watching .option, .b-add_to_list.rewatching .trigger, .b-add_to_list.rewatching .option {
+    max-width: 100%;
+    width: 100%;
+  }
+  .p-animes-show .c-image .b-user_rate, .p-mangas-show .c-image .b-user_rate, .p-ranobe-show .c-image .b-user_rate {
+     max-width: 100%;
+    width: 100%;
+  }
+  .b-add_to_list {
+    min-width: 220px;
+    max-width: 100%;
+    width: 100%;
+}
+  .b-rate {
+    width: 100%;
+    text-align: center;
+    max-width: 100%;
+  }
+  .p-messages .mass-actions {
+  width: 100%;
+  text-align: center;
+  margin-top: -5px;
+}
+a.b-js-link {
+    line-height: 15px;
+    width: 130px;
+    display: inline-block;
+    text-align: center;
+    background-color: #1c212794;
+    color: #a6b2b7;
+    padding: 2px 10px 2px 10px!important;
+    border-radius: 4px;
+    margin: 0px 2px 5px 2px;
+}
+  .expanded-options {
+  /*  top: 35.3px;
+      margin-left: -70px;*/
+    position: relative;
+   max-width: 500px;
+}
+  .b-options-floated .selected, .b-options-floated.mobile-phone_portrait a.selected {
+        color: var(--primary_color);
+    font-size: 13px;
+    background-color: rgba(36, 41, 43, 0.6);
+    box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    /* color: #a6b2b7; */
+    padding: 4px 10px 4px 10px;
+    transition: 0.3s ease-out;
+
+  }
+   .b-options-floated.mobile-phone a, .b-options-floated.mobile-phone_portrait a, a.b-js-link {
+   padding: 5px 0 5px 0!important;
+    line-height: 15px;
+    width: 130px;
+    display: inline-block;
+     background-color: rgba(36, 41, 43, 0.6);
+     border-radius: 4px;
+     color:#a6b2b7;
+      box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2);
+    margin: 2px 2px;
+}
+  .b-options-floated.mobile-phone_portrait a, .b-options-floated.mobile-phone_portrait a {
+    background-color: rgba(36, 41, 43, 0.6);
+    color: #a6b2b7; 
+     box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    margin: 2px 2px;
+        vertical-align: middle;
+    color:#a6b2b7;
+    padding: 5px 10px!important;
+  }
+  /*
+  .p-topics header h1 a.reload[href*='/forum'] {
+    border: none!important;
+    top: 110px;
+    position: absolute;
+}
+  */
+  .block.edit-page.misc .c-column {
+    width: 100%;
+}
+  .b-db_entry .trigger {
+    max-width:500px;
+  }
+  .b-db_entry-variant-list_item .name-container .b-user_rate .b-add_to_list .trigger, .b-db_entry-variant-list_item .name-container .b-user_rate .b-add_to_list .option {
+    max-width:500px;
+}
+   .b-hot_topics-v2 .subject:after {
+    content: '\\_f07d';
+    font: normal normal normal 16px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    padding: 0px 5px 10px 10px;
+    top: 10px;
+    -moz-osx-font-smoothing: grayscale;
+}
+  .b-hot_topics-v2 .subject:before {
+        content: '\\_f0a6';
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    padding: 0px 5px 10px 90px;
+    top: 12px;
+}
+  .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.anime, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.manga {
+    background:none!important;
+  }
+  .p-profiles .profile-head .c-brief header .notice {
+    font-size: 12px!important;
+  }
+  .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .rate {
+  }
+  .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .rate {
+    top: -83px;
+    margin-top: 0px;
+    opacity: 0.7;
+    margin-left: -26px;
+    font-size: 10px;
+    line-height: 10px;
+    height: 10px;
+}
+  .c-anime_video_episodes .episode-kinds, .c-anime_video_episodes .episode-hostings {
+    display: none;
+}
+  .c-anime_video_episodes {
+    text-align: left;
+    padding-bottom:10px;
+}
+  .c-anime_video_episodes .b-video_variant {
+    display: inline-block;
+    text-align: center;
+    background-color: rgba(36, 41, 43, 0.3);
+    width: 69px;
+    line-height: 67px;
+    height: 60px;
+    font-size: 25px;
+    margin: 2px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2);
+}
+  .c-anime_video_episodes .b-video_variant.active {
+    background: var(--primary_color)8a;
+}
+  .c-anime_video_episodes .b-video_variant .episode-num {
+    color: #a6b2b799;
+}
+  .c-anime_video_episodes .b-video_variant.active .episode-num {
+    color: #a6b2b7;
+}
+  .c-anime_video_episodes .b-show_more-more {
+    display: block;
+}
+  .c-anime_video_episodes .b-show_more, .c-anime_video_episodes .hide-more {
+    display: none;
+}
+  .c-videos .video-kind.russian, .c-videos .video-kind.english, .c-videos .video-kind.original, .c-videos .video-kind.unknown {
+    font-size: 0px;
+}
+  .c-videos .b-video_variant .video-hosting {
+    display: block;
+    padding: 0px 30px 0px 50px;
+    text-align: left;
+    margin-top: -20px;
+    font-size: 10px;
+}
+  .b-video_variant.active a:hover .video-hosting, .b-video_variant.active a:hover .video-author {
+    color: var(--primary_color);
+  }
+  .b-video_variant a:hover .video-hosting {
+    color: #889aa0;
+  }
+  .b-video_variant a:hover .video-author {
+  color:#e2ecf1;
+  }
+  .c-videos .b-video_variant {
+    background: rgba(36, 41, 43, 0.3);
+    margin: 2px;
+    /* padding: 6px 9px; */
+    display: block;
+    max-width: 500px;
+    min-height:43px;
+    border-radius: 4px;
+    padding:2px 0px;
+}
+  .c-videos .video-variant-group[data-kind="raw"] .video-kind.original:after, .c-videos .video-variant-group[data-kind="all"] .video-kind.original:after, .c-videos .video-variant-group[data-kind="raw"] .video-kind.unknown:after {
+    font-size: 11px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: #2f0721f2;
+    font-weight: bold;
+    background: #dacbcb;
+    line-height: 12px;
+    height: 13px;
+    Content: 'orig';
+    border-radius: 3px;
+    padding: 0px 4px;
+    border: 1px solid rgba(113, 40, 87, 0.76);
+}
+  .c-videos .video-variant-group[data-kind="subtitles"] .video-kind.russian:after, .video-variant-group[data-kind="subtitles"] .b-video_variant .video-kind.english:after, c-videos .video-variant-group[data-kind="subtitles"] .video-kind.unknown:after {
+    font-size: 11px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-weight: bold;
+    background: #bbbbbb;
+    line-height: 13px;
+    height: 13px;
+    Content: 'subs';
+    border-radius: 3px;
+    padding: 0px 4px;
+    color: #000;
+    border: 1px solid #484848;
+}
+  .c-videos .video-variant-group[data-kind="fandub"] .video-kind.russian:after, .video-variant-group[data-kind="fandub"] .b-video_variant .video-kind.english:after, .c-videos .video-variant-group[data-kind="fandub"] .video-kind.unknown:after {
+        font-size: 11px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: #d8c1c9;
+    font-weight: bold;
+    background: #753c00;
+    line-height: 14px;
+    height: 13px;
+    Content: 'dubb';
+    border-radius: 3px;
+    padding: 0px 4px;
+    border: 1px solid #d8c1c914;
+}
+  .c-videos .video-kind.russian:before {
+    font-size: 11px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    color: #dcdcdc;
+    font-weight: bold;
+    background: #0c4802;
+    line-height: 13px;
+    border: 1px solid #dcdcdc36;
+    height: 14px;
+    content: 'russ';
+    border-radius: 3px;
+    padding: 0px 4px;
+}
+  .b-video_variant .video-kind.english:before {
+    font-size: 10px;
+    position: absolute;
+    top: -2px;
+    right: 0px;
+    left: auto!important;
+    color: #d8c1c9;
+    font-weight: bold;
+    background: #004561;
+    line-height: 13px;
+    border: 1px solid #d8c1c930;
+    height: 15px;
+    content: 'eng';
+    border-radius: 3px;
+    padding: 0px 2px 0px 4px;
+    letter-spacing: 2px;
+    font-family: 'Comfortaa';
+}
+  .b-video_variant .video-kind.unknown:before {
+    font-size: 10px;
+    position: absolute;
+    top: -2px;
+    right: 0px;
+    left: auto!important;
+    color: #6d1111;
+    font-weight: bold;
+    background: #868383c7;
+    line-height: 13px;
+    border: 1px solid #ce000030;
+    height: 15px;
+    content: 'unknown';
+    border-radius: 3px;
+    padding: 0px 2px 0px 4px;
+    letter-spacing: 2px;
+    font-family: 'Comfortaa';
+  }
+  .same-videos {
+    display: none;
+}
+  .b-video_variant .video-author {
+    text-align: left;
+    display: block;
+    padding: 3px 20px!important;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .video-variant-switcher[data-kind="all"] {
+    display: none!important;
+}
+  .b-video_player .player-area iframe {
+    min-height: 220px;
+}
+  body#profiles_show .cc-2a>.c-column {
+    width: 50%!important;
+  }
+  .cc-2a>.c-column {
+    width: 100%!important;
+    margin-bottom: 5px;
+}
+  .b-video_player .cc-player_controls .cc-navigation>.c-control {
+    width: 28%;
+    margin-right: 2%;
+  }
+  .b-video_player .cc-player_controls .cc-navigation>.c-control.prev, .b-video_player .cc-player_controls .cc-navigation>.c-control.next {
+    padding: 10px 0px;
+  }
+  .b-video_player .cc-player_controls .cc-navigation>.c-control .icon {
+  background: rgba(36, 41, 43, 0.6); 
+     box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2); 
+    border-radius:4px;
+        padding: 6px 0px;
+  }
+  .b-video_player .cc-player_controls .cc-navigation>.c-control.episode-num {
+     width: 40%;
+    box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2); 
+    border-radius:4px;
+  }
+  .b-video_player .cc-player_controls .episode-num input {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px!important;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0 2px;
+    box-shadow: inset 0 2px 6px 2px rgba(0, 0, 0, 0.2);
+    width: 50px;
+    height: 35px;
+    margin-right: 13%;
+    margin-top: 7px;
+}
+  .c-control.episode-num b {
+    padding: 0px 4px 0px 0px;
+    height: 50px!important;
+    top: 5px;
+    position: relative;
+}
+  .b-video_player .cc-player_controls .episode-num .video-link.video-link {
+    height: 20px;
+    line-height: 20px;
+}
+  .b-video_player .cc-player_controls .episode-num .video-link a {
+    color: #889aa0c9;
+  }
+  .c-buttons.cc-3a .c-control {
+    background: rgba(36, 41, 43, 0.34);
+    box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+  .c-buttons.cc-3a .c-control:hover {
+  background: rgba(36, 41, 43, 0.34)!important;
+    box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.15)!important;
+  }
+  .c-buttons.cc-3a {
+    width: 100%!important;
+}
+  .b-video_player .cc-player_controls .c-control:hover {
+     background: none; 
+     box-shadow: none; 
+  }
+  .cc-optional_controls .c-control {
+    background: rgba(36, 41, 43, 0.6);
+    box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    height: 42px;
+    margin: 10px 0px;
+}
+  .b-video_player .cc-player_controls .cc-options>.c-video_stats {
+    width: 100%;
+  }
+  .p-anime_videos-index .c-video_stats .views_count {
+    display: inline-block;
+    width: auto;
+    float: left;
+    line-height: 26px;
+    height: 26px;
+}
+  .p-anime_videos-index .c-video_stats .uploader {
+    display: inline-block;
+    width: auto;
+    line-height: 26px;
+    height: 26px;
+}
+  .b-video_player .cc-player_controls .label {
+    display: none;
+}
+  .b-video_player .cc-player_controls .upload .icon:before, .b-video_player .cc-player_controls .edit .icon:before {
+  line-height: 42px;
+  }
+  video#main-video_html5_api .vjs-big-play-button {
+    margin-top: -45px!important;
+  }
+  .p-anime_videos-index .c-videos .video-variant-switcher.active {
+    color: #a6b2b7;
+    background: var(--primary_color)73;
+    font-weight: bold;
+}
+  .title .video-variant-switcher {
+    background: #000;
+    padding: 3px 5px;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.1)!important;
+    background: rgba(36, 41, 43, 0.4);
+    
+}
+  .b-video_variant .episode-hostings:before, .b-video_variant .video-hosting:before, .b-video_variant .video-language:before {
+  content:none;
+  }
+  .b-video_variant .episode-hostings:after, .b-video_variant .video-hosting:after, .b-video_variant .video-language:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    max-width: 500px;
+    left: 0;
+    width: 100%;
+    min-height: 42px;
+}
+  .c-videos .b-video_variant.active {
+    background: #191b1fd6;
+}
+  .b-video_variant.active a {
+  color:var(--primary_color);
+    font-weight: bold;
+  }
+  .b-video_variant .video-quality.bd {
+    background: url(/assets/blocks/b-video_variant/bd.png) no-repeat;
+    -webkit-background-size: 56px 12px;
+    background-size: 56px 12px;
+    height: 16px;
+    right: 20px;
+    top: 20px;
+    transform: scale(1.5);
+    z-index: -1;
+    opacity: 0.5;
+    width: 61px;
+    position: absolute;
+}
+  .b-video_variant a:hover {
+    border: none;
+    background: none;
+  }
+   body#profiles_show .c-column.c-right .b-catalog_entry {
+    padding: 2px 2px!important;
+}
+.p-animes_collection-index.x1000 .cc-entries, .p-animes_collection-index.x1200 .cc-entries {
+    padding: 0px;
+  }
+  .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.anime:hover, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.manga:hover {
+  clip-path: none;
+    transform: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 650px){
+.p-profiles-show .cc-friends .b-user:nth-child(11), .p-profiles-show .cc-friends .b-user:nth-child(12) {
+    display: none!important;
+}
+  .p-profiles-show .cc-friends .b-user:nth-child(5n+1) {
+    clear: left;
+}
+  .p-profiles-show .cc-friends .b-user:nth-child(6n+1) {
+    clear: none;
+}
+  .p-profiles-show .cc-friends .b-user {
+    margin-right: 1%;
+    position: relative;
+    width: 18%;
+    margin-left: 1%;
+}
+  .b-clubs.one-line .b-club:nth-child(4n) {
+    display: none;
+}
+  .b-clubs.one-line .b-club {
+    margin-right: 0%;
+    position: relative;
+    width: 30%!important;
+    margin-left: 3%;
+}
+  .b-club .logo {
+     display: block;
+    line-height: 0;
+    margin: 0 auto;
+    max-width: 100%;
+  height: auto!important;
+}
+  .b-user.avatar img {
+    /* height: 38px; */
+    display: block;
+    line-height: 0;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto!important;
+}
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 540px){
+.b-club .logo {
+     display: block;
+    line-height: 0;
+    margin: 0 auto;
+    max-width: 100%;
+  height: auto!important;
+}
+  .b-user.avatar img {
+    /* height: 38px; */
+    display: block;
+    line-height: 0;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto!important;
+}
+  .p-profiles .profile-head .c-info .c-additionals div a {
+}
+  .p-profiles .profile-head .c-info .c-additionals div a {
+    font-size: 11px!important;
+    font-size: 15px;
+    display: block;
+    padding: 6px 5px 10px 5px;
+}
+  .b-message > .inner div.body .b-catalog_entry.cc .content{
+        width: 280px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) and (orientation: portrait) {
+.p-profiles .profile-head .c-history {
+    display: block;
+}
+  .p-profiles-show .cc-friends .b-user {
+    width: 18%;
+  }
+  .b-clubs.one-line .b-club {
+    margin-right: 3%;
+    margin-left: 3%;
+    width: 28%!important;
+    position: relative;
+}
+  .p-animes_collection-index .cc-entries>.c-column, .p-mangas_collection-index .cc-entries>.c-column, .p-recommendations-index .cc-entries>.c-column, .p-userlist_comparer-show .cc-entries>.c-column, .p-animes_collection-index.x1000 .cc-entries>.c-column, .p-mangas_collection-index.x1000 .cc-entries>.c-column, .p-recommendations-index.x1000 .cc-entries>.c-column, .p-userlist_comparer-show.x1000 .cc-entries>.c-column {
+    margin-right: 2%;
+    margin-left: 2%;
+}
+  .p-animes_collection-index .cc-entries>.c-column, .p-mangas_collection-index .cc-entries>.c-column, .p-recommendations-index .cc-entries>.c-column, .p-userlist_comparer-show .cc-entries>.c-column {
+        width: 46%;
+  }
+  #cutted_covers_1 .image-cutter {
+    max-width: 224px;
+    max-height: 174.2px;
+}
+  .x1000 .menu-slide-outer.x199 .l-content, .menu-slide-outer.x199 .l-content {
+    width: 98%!important;
+}
+  .b-dialog .b-message {
+  margin-left:0px;
+  }
+  .b-dialog > .inner div.body {
+    margin-left: 10px!important;
+}
+   .b-shiki_editor aside.buttons {
+    width: 70%;
+    float: left!important;
+}
+  .b-shiki_editor aside.buttons .editor-spoiler {
+    margin-left:35px;
+}
+  .b-shiki_editor .links, .b-shiki_editor .images, .b-shiki_editor .quotes, .b-shiki_editor .email, .b-shiki_editor .upload {
+    height: 43px;
+}
+  .c-actions .new_comment, .c-actions .new_review, .c-actions .edit, .c-actions .fav-add {
+  width:100%;
+  }
+  .c-actions .new_comment:after, .c-actions .new_review:after, .c-actions .edit:after, .c-actions .fav-add:after {
+     font-size: 11.5px;
+    height: 50px;
+    padding-left: 0px;
+    vertical-align: middle;
+    word-break: normal;
+     text-align:center;
+  }
+  .c-actions .new_comment:before, .c-actions .new_review:before, .c-actions .edit:before, .c-actions .fav-add:before {
+    font-size: 40px;
+    position: absolute;
+    vertical-align: middle;
+    width: 20px;
+    width: 100%;
+    /* margin-left: 40px; */
+    line-height: 50px;
+    text-align:center;
+    z-index: -1;
+    opacity: 0.25;
+}
+  .b-db_entry .trigger, .b-db_entry-variant-list_item .name-container .b-user_rate .b-add_to_list .trigger, .b-db_entry-variant-list_item .name-container .b-user_rate .b-add_to_list .option {
+    max-width:500px;
+  }
+  .b-message > .inner div.body .b-catalog_entry.cc .content {
+    width: 140px;
+    min-height: 160px;
+}
+ .b-message > .inner div.body .entry-tooltip_container {
+    min-height: 180px;
+}
+   .b-catalog-entry-embedded .trigger {
+    width: 270px!important;
+    margin-left: -110px;
+    position: absolute;
+         margin-top: 5px;
+}
+  .b-catalog-entry-embedded .expanded-options {
+    top: 35px;
+    right: 130px;
+    width: 270px;
+}
+  }
+  .b-message {
+        padding-bottom: 15px;
+  }
+  .b-catalog-entry-embedded .b-catalog_entry {
+    padding-bottom: 20px!important;
+}
+.block.m0 .b-message {
+  padding-bottom:10px!important;
+}
+.b-comments {
+  padding-bottom: 10px;
+}
+/*
+.subheadline.m13 {
+  left: 10px!important;
+}
+*/
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.anime:before, .x1000 > .l-page div .profile-head .c-info .c-lists-info .b-stats_bar.anime:before {
+  left: 11px;
+}
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.manga:before, .x1000 > .l-page div .profile-head .c-info .c-lists-info .b-stats_bar.manga:before {
+  left:60px;
+}
+.b-stats_bar.anime .compatibility a:before, .b-stats_bar.anime .compatibility .text.zero:before, .b-stats_bar.anime .compatibility .text.weak:before, .b-stats_bar.anime .compatibility .text.high:before, .b-stats_bar.anime .compatibility .text.moderate:before, .b-stats_bar.anime .compatibility .text.full:before {
+  left: 1px;
+}
+.b-stats_bar.manga .compatibility a:before, .b-stats_bar.manga .compatibility .text.zero:before, .b-stats_bar.manga .compatibility .text.weak:before, .b-stats_bar.manga .compatibility .text.high:before, .b-stats_bar.manga .compatibility .text.moderate:before, .b-stats_bar.manga .compatibility .text.full:before {
+  left: 52px;
+}
+.p-profiles .profile-head .c-brief .avatar .profile-actions {
+      right: 0!important;
+}
+.b-catalog_entry-tooltip .trigger {
+    left: -20px;
+}
+
+
+@media screen and (max-width:480px) {
+ .b-catalog_entry-tooltip .trigger {
+    left: -20px;
+}
+  th.num.order-control[data-order='episodes'] {
+    display: none;
+}
+  .p-user_rates-index .list-lines tr .num {
+    display: table-cell!important;
+}
+  .was_updated span {
+    font-size: 0px;
+}
+  .was_updated span:before {
+    content: 'Изменено';
+    font-size: 12px;
+}
+ a.actor.b-user16 span:before {
+    content: none;
+} 
+  a.actor.b-user16 span {
+    font-size: 12px;
+}
+}
+@media screen and (max-width: 480px) and (orientation: portrait) {
+.p-user_rates-index .list-lines tr .num.hoverable, th.num.order-control[data-order='my'] {
+   display: table-cell!important;
+}
+.p-user_rates-index .list-lines tr .num:nth-child(3) {
+    display: table-cell!important;
+}
+  th.num.order-control[data-order='episodes'], th.num.order-control[data-order='kind'], td.num.hoverable span.current-value[data-field='episodes'], span.misc-value {
+    display: none!important;
+}
+  .p-user_rates-index .list-lines tr .num {
+    width: auto;
+  }
+  .subheadline.m13 {
+  left: 10px;
+}
+  .b-comments .comments-loader, .b-comments .comments-hider, .b-comments .comments-expander {
+    padding: 5px 4px;
+  }
+  .b-comments .comments-loader.click-loader {
+  padding: 5px 30px 5px 30px;
+}
+  span.current-value[data-field='chapters'] {
+    display: none;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 420px) and (orientation: portrait) {
+  .b-shiki_editor .hidden-block {
+      margin-bottom: 40px;
+  }
+  span.editor-smiley.b-tooltipped.selected:after {
+    font-family: 'shikimori';
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: 'liga';
+    font-feature-settings: 'liga';
+    text-transform: none;
+    letter-spacing: normal;
+    content: "";
+    text-align: center;
+    width: 20px;
+    position: absolute;
+    bottom: 180px;
+    z-index: 100;
+    background: rgba(36, 41, 43, 0.6);
+    left: 0;
+    padding: 5px 0px;
+    width: 100%;
+    border-radius: 4px;
+    color: #9bc7ca;
+    box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2)!important;
+}
+}
+
+
+
+
+
+
+@media screen and (max-width: 350px) and (orientation: portrait) {
+/*
+  .menu .unread-count {
+    position: absolute;
+    top: 29px;
+    right: 1px;
+    background: var(--primary_color);
+    height: 14px;
+    width: 14px;
+    font-size: 10px;
+    line-height: 15px;
+    border-radius: 50%;
+    vertical-align: middle;
+    animation: none;
+    z-index: 2;
+    pointer-events: none;
+}
+  */
+  .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .rate {
+   margin-left: -16px;
+}
+  .menu .unread-count {
+  right:43px;
+  }
+  .l-top_menu-v2 .to-mobile-forum {
+    left: 115px;
+}
+  .p-profiles .profile-head .c-brief .avatar .profile-actions {
+    right: 0%!important;
+  }
+  .p-profiles .profile-head .c-brief .avatar img {
+    transform: scale(1.3)!important;
+}
+  .p-profiles .profile-head .c-brief .avatar img:hover {
+    transform: scale(1.3)!important;
+}
+  .p-profiles .profile-head:hover .c-brief .avatar img {
+    transform: scale(1.3)!important;
+}
+  .subheadline.m13 {
+    left: 8px;
+  }
+  .b-stats_bar.anime .compatibility a:before, .b-stats_bar.anime .compatibility .text.zero:before, .b-stats_bar.anime .compatibility .text.weak:before, .b-stats_bar.anime .compatibility .text.high:before, .b-stats_bar.anime .compatibility .text.moderate:before, .b-stats_bar.anime .compatibility .text.full:before {
+    left: 0px;
+  }
+  .b-stats_bar.manga .compatibility a:before, .b-stats_bar.manga .compatibility .text.zero:before, .b-stats_bar.manga .compatibility .text.weak:before, .b-stats_bar.manga .compatibility .text.high:before, .b-stats_bar.manga .compatibility .text.moderate:before, .b-stats_bar.manga .compatibility .text.full:before {
+    left: 50px;
+  }
+  .b-stats_bar.anime .compatibility .rate {
+    left: 20px;
+}
+  .b-stats_bar.manga .compatibility .rate {
+    left: 69px;
+}
+  .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.anime:before, .x1000 > .l-page div .profile-head .c-info .c-lists-info .b-stats_bar.anime:before {
+    content: 'ANIME';
+    position: absolute;
+    top: 70px;
+    left: 11px;
+    font-size: 10px;
+    padding: 2px 4px;
+    color: #45924C;
+}
+  .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.manga:before, .x1000 > .l-page div .profile-head .c-info .c-lists-info .b-stats_bar.manga:before {
+    content: 'MANGA';
+    position: absolute;
+    top: 70px;
+    left: 58px;
+    font-size: 10px;
+    padding: 2px 4px;
+    color: #de2b74;
+}
+  /*
+  .x1200 .menu-slide-outer.x240 .l-content, .menu-slide-outer.x240 .l-content {
+    width: 55%!important;
+    
+  }
+  */
+  .p-profiles-show .lifetime .title .value {
+    width: 69px;
+    bordeR: none;
+}
+  .b-catalog-entry-embedded .b-catalog_entry {
+    padding-bottom: 20px!important;
+  }
+  .entry-tooltip_container {
+    min-height: 155px;
+}
+  .b-add_to_list.watching .trigger, .b-add_to_list.watching .option, .b-add_to_list.rewatching .trigger, .b-add_to_list.rewatching .option {
+        max-width: 500px;
+  }
+  .p-profiles-show .lifetime .title .value {
+    margin-top: -10px;
+    margin-right: 10px;
+    text-align: center;
+  }
+  .b-catalog-entry-embedded .trigger {
+    width: 270px!important;
+    margin-left: -110px;
+    position: absolute;
+         margin-top: 5px;
+}
+  .b-catalog-entry-embedded .expanded-options {
+    top: 35px;
+    right: 110px;
+    width: 270px;
+}
+  .cc {
+    margin-bottom: 10px;
+  }
+  .l-page {
+    padding: 10px!important;
+  }
+  .b-options-floated.mobile-desktop a {
+        width: 250px;
+  }
+  .subheadline.m13 {
+    left: 5px!important;
+}
+  .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.anime:before, .x1000 > .l-page div .profile-head .c-info .c-lists-info .b-stats_bar.anime:before {
+    left: 6px;
+  }
+  .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.manga:before, .x1000 > .l-page div .profile-head .c-info .c-lists-info .b-stats_bar.manga:before {
+    left: 53px;
+  }
+  .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.anime, .x1000 > .l-page div .profile-head .c-info .c-lists-info .b-stats_bar.anime, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.manga, .x1000 > .l-page div .profile-head .c-info .c-lists-info .b-stats_bar.manga {
+  padding: 0px 15px;
+  }
+  .profile-actions .mail, .profile-actions .talk, .profile-actions .fav-remove, .profile-actions .ban, .profile-actions .fav-add, .profile-actions .settings, .profile-actions .ignore-add, .profile-actions .ignore-remove {
+    padding: 5px 8px 5px!important;
+  }
+  .p-profiles .profile-head .c-brief .avatar .profile-actions {
+        width: 110px;
+  }
+  .profile-content > .cc-2 .c-column .cc-2a.m30 {
+    margin-top: -572px;
+}
+  .p-profiles-show .lifetime {
+    margin-top: 180px!important;
+}
+  body#profiles_show .cc-2a>.c-column {
+    width: 100%!important;
+}
+  .p-profiles-show.x1200 .profile-content .c-left, .p-profiles-show.x1000 .profile-content .c-left {
+    margin-top: 159px;
+  }
+  body#profiles_show .b-user.avatar img {
+    width: 90%;
+  }
+.p-profiles-show .cc-friends .b-user {
+    margin-bottom: 0px!important; 
+  }
+  .b-clubs{
+    margin-top: 15px!important;
+  }
+  .b-club .logo {
+    width: 100%!important;
+  }
+  .b-clubs.one-line .b-club {
+    margin-right: 6%;
+    margin-left: 6%;
+    width: 22%!important;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 766px) and (min-width: 701px) {
+.c-anime_video_episodes .b-video_variant[data-episode="14"], .c-anime_video_episodes .b-video_variant[data-episode="15"], .c-anime_video_episodes .b-video_variant[data-episode="16"], .c-anime_video_episodes .b-video_variant[data-episode="17"], .c-anime_video_episodes .b-video_variant[data-episode="18"] {
+    position: absolute;
+    margin-top: -62px;
+}
+  .c-anime_video_episodes .b-video_variant[data-episode="14"] {
+  margin-left: 294px;
+  }
+  .c-anime_video_episodes .b-video_variant[data-episode="15"] {
+ margin-left: 367px;
+  }
+  .c-anime_video_episodes .b-video_variant[data-episode="16"] {
+  margin-left: 440px;
+  }
+  .c-anime_video_episodes .b-video_variant[data-episode="17"] {
+  margin-left: 513px;
+  }
+  .c-anime_video_episodes .b-video_variant[data-episode="18"] {
+  margin-left: 586px;
+  }
+}
+@media screen and (max-width: 700px) and (min-width: 625px) {
+.c-anime_video_episodes .b-video_variant[data-episode="14"], .c-anime_video_episodes .b-video_variant[data-episode="15"], .c-anime_video_episodes .b-video_variant[data-episode="16"] {
+    position: absolute;
+    margin-top: -62px;
+}
+  .c-anime_video_episodes .b-video_variant[data-episode="14"] {
+ margin-left: 367px;
+  }
+  .c-anime_video_episodes .b-video_variant[data-episode="15"] {
+  margin-left: 440px;
+  }
+  .c-anime_video_episodes .b-video_variant[data-episode="16"] {
+  margin-left: 513px;
+  }
+  .c-anime_video_episodes .b-video_variant[data-episode="17"], .c-anime_video_episodes .b-video_variant[data-episode="18"] {
+  }
+}
+@media screen and (max-width: 624px) and (min-width: 551px) {
+.c-anime_video_episodes .b-video_variant[data-episode="14"] {
+    position: absolute;
+    margin-top: -62px;
+}
+  .c-anime_video_episodes .b-video_variant[data-episode="14"] {
+  margin-left: 440px;
+  }
+}
+
+@media screen and (max-width: 550px) and (min-width: 477px) {
+.c-anime_video_episodes .b-video_variant[data-episode="14"], .c-anime_video_episodes .b-video_variant[data-episode="15"], .c-anime_video_episodes .b-video_variant[data-episode="16"], .c-anime_video_episodes .b-video_variant[data-episode="17"], .c-anime_video_episodes .b-video_variant[data-episode="18"] {
+    position: absolute;
+    margin-top: -62px;
+}
+  .c-anime_video_episodes .b-video_variant[data-episode="14"] {
+   margin-left: 75px;
+  } 
+   .c-anime_video_episodes .b-video_variant[data-episode="15"] {
+  margin-left: 148px;
+  }
+  .c-anime_video_episodes .b-video_variant[data-episode="16"] {
+  margin-left: 221px;
+  }
+  .c-anime_video_episodes .b-video_variant[data-episode="17"] {
+  margin-left: 294px;
+  }
+  .c-anime_video_episodes .b-video_variant[data-episode="18"] {
+  margin-left: 367px;
+  }
+}
+@media screen and (max-width: 476px) and (min-width: 403px) {
+.c-anime_video_episodes .b-video_variant[data-episode="14"], .c-anime_video_episodes .b-video_variant[data-episode="15"] {
+    position: absolute;
+    margin-top: -62px;
+}
+  .c-anime_video_episodes .b-video_variant[data-episode="14"] {
+   margin-left: 221px;
+  } 
+   .c-anime_video_episodes .b-video_variant[data-episode="15"] {
+      margin-left: 294px;
+}
+}
+@media screen and (max-width: 402px) {
+.c-anime_video_episodes .b-video_variant[data-episode="14"], .c-anime_video_episodes .b-video_variant[data-episode="15"], .c-anime_video_episodes .b-video_variant[data-episode="16"] {
+    position: absolute;
+    margin-top: -62px;
+}
+  .c-anime_video_episodes .b-video_variant[data-episode="14"] {
+   margin-left: 75px;
+  } 
+   .c-anime_video_episodes .b-video_variant[data-episode="15"] {
+  margin-left: 148px;
+  }
+  .c-anime_video_episodes .b-video_variant[data-episode="16"] {
+  margin-left: 221px;
+  }
+}
 
 
 
@@ -6172,7 +8084,322 @@ line-height: 16px;
 }
 
 
+@media only screen and (min-width: 1025px) {
+/*** Menu ***/
+.userbox #sign_in {
+  margin-top: 14px;
+  }
 
+.l-top_menu-v2 {
+  border-bottom: none;
+  /*position: fixed;*/
+  top: 0;
+  width: 100% !important;
+}
+.x1200 .l-top_menu-v2 .inner {
+    max-width: 1200px;
+}
+.x1000 .l-top_menu-v2 .inner {
+    max-width: 1200px;
+}
+.x1000 .l-page, .x1200 .l-page {
+    max-width: 1200px;
+}
+
+
+.l-top_menu-v2 .menu-items > .entry > a {
+background-color: var(--primary_color);
+color: white;
+line-height: 21px;
+text-transform: uppercase;
+}
+
+.l-top_menu-v2 .menu-items > .entry > .submenu {
+background: #191b1fd6!important;
+color: var(--primary_color);
+transition: all 0.3s ease-in;
+opacity: 0;
+visibility: hidden;
+height: auto!important;
+opacity: 0.1;
+  border-radius:4px;
+      box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.3)!important;
+  margin-top: 3px;
+}
+
+.l-top_menu-v2 .menu > .entry:hover > .submenu {
+background-color: transparent;
+background: transparent;
+color: white;
+opacity: 1;
+visibility: visible;
+height: auto!important;
+color: white;
+  border-radius:4px;
+}
+
+.l-top_menu-v2 .submenu {
+border: 0;
+background-color: transparent;
+background: transparent;
+color: white;
+  border-radius:0px;
+}
+
+.l-top_menu-v2 .submenu > .entry {
+background: transparent!important;
+    color: #e2ecf1;
+    border-bottom: none;
+    font-size: 13px;
+    height: 30px;
+    line-height: 30px;
+    font-family: 'Comfortaa';
+    min-width: 125px;
+    padding: 0 15px 0;
+    text-transform: none;
+    border-radius: 4px;
+  transition:0.05s ease-in-out;
+}
+.l-top_menu-v2 .menu-items>.entry > a:hover {
+background-color: #191b1f69!important;
+  border-radius: 0px;
+}
+.l-top_menu-v2 .menu > .entry.userbox {
+background-color: transparent;
+color: white;
+height: 50px !important;
+padding: 0 10px 0 0 !important;
+}
+.l-top_menu-v2 .menu > .entry.userbox:hover, .userbox .submenu.right:hover {
+background-color:transparent!important;
+background:transparent!important;
+opacity:1!important;
+}
+
+.l-top_menu-v2 .inner .logo {
+background-color: transparent;
+color: white;
+background-position: center;
+height: 93%;
+    width: 120px;
+    margin: 0;
+    min-width: 120px;
+}
+
+.l-top_menu-v2 .menu-items, .l-top_menu-v2 .menu-items:hover {
+    position: static;
+    margin-left: 120px;
+    width: 470px;
+    background-color: transparent;
+    color: white;
+    display: inline-block;
+    padding: 0;
+}
+.l-top_menu-v2 .submenu.right, .l-top_menu-v2 .submenu.right:hover {
+margin-top: 8px!important;
+background-color: transparent;
+color: white;
+} 
+
+.l-top_menu-v2 .menu-userbox > .entry:hover {
+background-color: rgba(36, 41, 43, 1);
+color: white;
+text-decoration: none;
+cursor: default;
+}
+
+.l-top_menu-v2 .menu-items > .entry > .contest,.l-top_menu-v2 .menu-items > .entry > .contest:hover {
+background-color: rgba(36, 41, 43, 1);
+color: white;
+margin: 15px 10px 0 0;
+padding: 10px 0 !important;
+
+}
+/*** User Menu ***/
+.userbox img.avatar,
+.menu .unread-count {margin-top: 0!important;}
+
+.menu .unread-count,
+.menu .contest {margin-left: 11px;}
+
+.menu .unread-count, .menu .contest {
+background: var(--primary_color)!important;
+width: 25.5px;
+    height: 25px;
+    line-height: 28px;
+    margin-top: -1px!important;
+    font-size: 16px;
+}
+
+.menu .unread-count {
+position: absolute;
+right: 70px;
+margin-top: 13.5px!important;
+z-index: 9999;
+padding: 0!important;
+}
+
+.x1000 .menu .unread-count {
+padding: 0!important;
+  transition: 0.3s ease;
+}
+
+.menu:hover .unread-count,
+.menu:hover .contest {
+  background: var(--primary_color);
+  }
+
+.menu .unread-count:hover {
+  background: var(--primary_color)!important;
+  }
+
+.userbox > a .graphics-arrow-down {display: none;} 
+
+.userbox .submenu {
+display: inline-block!important;
+height: auto!important;
+position: relative;
+float: none!important;
+background: transparent;
+margin-left: 0px!important;
+margin-right: -6px!important;
+overflow: visible;
+}
+
+.x1000 .userbox .submenu {margin-left: 0px!important;}
+
+.userbox .submenu.right {
+height: 0!important;
+margin-top: 0px!important;
+top: -6px;
+}
+
+.userbox .submenu > .entry {
+background: transparent;
+border-bottom: none;
+display: inline-block;
+min-width: auto!important;
+line-height: 20px;
+width: 20px;
+padding: 0 8px;
+margin-left: 15px;
+}
+
+.userbox .submenu > .entry:before {
+visibility: visible!important;
+border-radius: 1px;
+transition: backround-color, 0.3s;
+background: #5a5a5a;
+color: #f9f9f9;
+display: block;
+float: right !important;
+font-size: 12px;
+text-align: center;
+height: 21px;
+line-height: 21px;
+}
+
+.userbox .submenu > .entry[href*='/list/anime'] {
+ width: 61px;
+}
+  .userbox .submenu > .entry[href*='/list/manga'] {
+ width: 61px;
+ margin-left: 5px;
+}
+
+.userbox .submenu > .entry[href*='/list/anime']:before {
+ content: "АНИМЕ";
+ width: 61px;
+  font-size: 11.5px;
+  background:none!important;
+  line-height:24px;
+}
+.userbox .submenu > .entry[href*='/list/manga']:before {
+content: "МАНГА";
+width: 61px;
+  font-size: 11.5px;
+   line-height:24px;
+  background:none!important;
+}
+  .userbox .submenu > .entry[href*='/list/anime']:after {
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    content: '\\_f008'!important;
+    background-image: none!important;
+    background-color: transparent!important;
+    background-position: center;
+    background-size: 20px!important;
+    font-size: 25px!important;
+    color: #616d6f47;
+    z-index: -1;
+    top: -8px;
+    text-align: center;
+    left: 7px;
+    position: absolute;
+    width: 61px;
+    visibility: visible;
+    height: 26px;
+    transition:0.3s ease;
+    padding:5px 0px
+}
+  .userbox .submenu > .entry[href*='/list/manga']:after {
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    content: '\\_f02d'!important;
+    background-image: none!important;
+    background-color: transparent!important;
+    background-position: center;
+    background-size: 20px!important;
+    font-size: 27px!important;
+    color: #616d6f47;
+    z-index: -1;
+    top: -8px;
+    text-align: center;
+    left: 73px;
+    position: absolute;
+    width: 61px;
+    visibility: visible;
+    height: 26px;
+    transition:0.3s ease;
+    padding:5px 0px
+}
+  .userbox .submenu > .entry[href*='/list/anime']:hover:after, .userbox .submenu > .entry[href*='/list/manga']:hover:after {
+    color: var(--primary_color) !important;
+    border-radius:6px;
+        background-color: rgba(36, 41, 43, 0.6)!important;
+  }
+.userbox .submenu > .entry[href*='/list/anime']:hover:before, .userbox .submenu > .entry[href*='/list/manga']:hover:before {
+}
+  /*
+.submenu.right .entry:nth-child(3):before {
+content: "\\_f0e0"!important;
+    font-family: 'FontAwesome';
+    font-size: 19px;
+    color: #e2ecf1!important;
+    border: 0.5px solid transparent;
+    background: none!important;
+    margin-top: -1px;
+    display: block!important;
+background-color: transparent;
+background-position: center;
+opacity: 1;
+  transform: scale(0.87);
+    margin-top: 0.1px;
+  transition:0.6s ease;
+}
+  .submenu.right .entry:nth-child(3) {
+    transform: scale(1.3)!important;
+  }
+  .submenu.right .entry:nth-child(3):hover:before {
+   transform: rotate(360deg)!important;
+  }
+*/
+.userbox .submenu > .entry {
+  visibility: hidden!important;
+  }
+}
 
 /*** Search ***/
 .l-top_menu-v2 .menu > .entry.b-main_search {
@@ -6234,6 +8461,40 @@ margin: 65px auto 15px;
 border-radius: 8px;
 }
 
+/*** Menu Again ***/
+@media only screen and (min-width: 1025px) {
+.l-top_menu-v2 .menu > .entry > a, .x1000 .l-top_menu-v2 .menu > .entry > a {
+padding:16px 12px 12px;
+}
+
+.l-top_menu-v2 .menu-items > .entry.calendar > a,
+.l-top_menu-v2 .menu-items > .entry.info > a {}
+
+.x1000 .l-top_menu-v2 .submenu > .entry {padding: 0 8px 0;}
+
+.x1000 .l-top_menu-v2 .menu-items > .entry.calendar > a,
+.x1000 .l-top_menu-v2 .menu-items > .entry.info > a {
+  margin-left: 0 !important;
+    line-height: 28px;
+    padding-top: 5px;
+    margin-bottom: -2px;
+ }
+}
+
+@media all and (min-width: 1024px) and (max-width: 1025px) {
+.l-top_menu-v2 .submenu > .entry {padding: 0 8px 0;}
+.l-top_menu-v2 .menu > .entry > a {padding: 16px 12px 10px;}
+
+.l-top_menu-v2 .menu-items > .entry.calendar > a, .l-top_menu-v2 .menu-items > .entry.info > a {}
+}
+
+@media only screen and (max-width: 1100px) {
+.b-comments-notifier {display: none!important;}
+}
+
+@media all and (min-width: 1200px) {
+.l-page {margin: 65px auto 15px; border-radius: 2px;}
+}
 
 /* Низкая совместимость */
 div.compatibility > a > .text.weak:before {
