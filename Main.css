@@ -9147,11 +9147,11 @@ span.switcher.b-tooltipped.alphabet {
     padding: 0px;
 }
 
-.b-list_switchers .switcher.selected:after {
+#achievements_index .b-list_switchers .switcher.selected:after {
     /*background: #efc86e!important;*/
     background: #333333 !important;
 }
-.b-list_switchers .switcher.selected:before {
+.#achievements_index b-list_switchers .switcher.selected:before {
     /*color: #efc86e!important;*/
     color: var(--secondary_color) !important;
 }
