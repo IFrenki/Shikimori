@@ -9150,6 +9150,7 @@ span.switcher.b-tooltipped.alphabet {
 #achievements_index .b-list_switchers .switcher.selected:after {
     /*background: #efc86e!important;*/
     background: #333333 !important;
+	color: var(--secondary_color) !important;
 }
 .#achievements_index b-list_switchers .switcher.selected:before {
     /*color: #efc86e!important;*/
