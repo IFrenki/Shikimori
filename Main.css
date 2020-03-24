@@ -9149,13 +9149,11 @@ span.switcher.b-tooltipped.alphabet {
 
 .b-list_switchers .switcher.selected:after {
     /*background: #efc86e!important;*/
-    background: #333333!important;
-    color: var(--secondary_color);
+    background: #333333 !important;
 }
 .b-list_switchers .switcher.selected:before {
     /*color: #efc86e!important;*/
-    color: var(--secondary_color);
-
+    color: var(--secondary_color) !important;
 }
 
 
