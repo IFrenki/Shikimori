@@ -30,6 +30,7 @@ body#profiles_show:after, body#achievements_index:after {
     content: '';
     position: fixed;
     bottom: 0;
+    left: 0;
     width: 100%;
     height: 30%;
   opacity:0.03;
@@ -37,6 +38,8 @@ body#profiles_show:after, body#achievements_index:after {
     background-size: 200px, 350px, 250px;
     animation: fog 10s linear infinite;
 }
+
+@keyframes fog { 
   0% { 
     background-position: 0px 0px, 0px 0px, 0px 0px; 
   } 
@@ -4454,9 +4457,7 @@ body#achievements_index img {
 font-weight:bold;
 color:#e2ecf1;
 }
-.hint {
-color:#616d6f!important;
-}
+
 .b-button[disabled], .b-button.disabled {
     cursor: default;
    pointer-events:none;
@@ -9199,13 +9200,7 @@ body.p-achievements.p-profiles :-moz-placeholder {
   color: #827160!important;
   transition:0.5s ease-out;
 }
-body.p-achievements.p-profiles .headline, body.p-achievements.p-profiles .subheadline {
-    /*background: linear-gradient(to right, rgba(53, 22, 0, 0.6), #884f00c4, rgba(53, 20, 0, 0.6) );
-    color: #ffe1a7!important;*/
-    text-align: center;
-  position: relative;
-  z-index: -1;
-}
+
 body.p-achievements.p-profiles .headline:after, body.p-achievements.p-profiles .subheadline:after, body.p-achievements.p-profiles .headline:before, body.p-achievements.p-profiles .subheadline:before {
     content: '\\_f091';
     font: normal normal normal 14px/1 FontAwesome;
@@ -9218,16 +9213,6 @@ body.p-achievements.p-profiles .headline:after, body.p-achievements.p-profiles .
     -moz-osx-font-smoothing: grayscale;
     /*color: #efc86e!important;*/
     color: #007FFF;
-}
-body.p-achievements.p-profiles .headline:before, body.p-achievements.p-profiles .subheadline:before {
-    right: 10px;
-}
-body.p-achievements.p-profiles .headline:after, body.p-achievements.p-profiles .subheadline:after {
-    left: 10px;
-}
-body.p-achievements.p-profiles .l-footer:before {
-    content: 'Orig. Design by grin3671 | Redesigned by EngiNier | Modified by 0utSider'!important;
-    color: #ffd78c;
 }
 body.p-achievements.p-profiles .menu .unread-count, body.p-achievements.p-profiles .menu .contest {
   
