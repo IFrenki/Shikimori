@@ -9232,10 +9232,6 @@ body.p-achievements.p-profiles .l-footer:before {
 body.p-achievements.p-profiles .menu .unread-count, body.p-achievements.p-profiles .menu .contest {
   
 }
-body.p-achievements.p-profiles .inner .border {
-    display: none;
-}
-
 
 /* New style for status_tags: 'studio' and 'other' */ 
 .b-anime_status_tag.studio:hover { background: rgba(86, 90, 86, .22) !important }
