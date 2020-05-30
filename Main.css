@@ -9199,13 +9199,6 @@ body.p-achievements.p-profiles :-moz-placeholder {
   color: #827160!important;
   transition:0.5s ease-out;
 }
-body.p-achievements.p-profiles .headline, body.p-achievements.p-profiles .subheadline {
-    /*background: linear-gradient(to right, rgba(53, 22, 0, 0.6), #884f00c4, rgba(53, 20, 0, 0.6) );
-    color: #ffe1a7!important;*/
-    text-align: center;
-  position: relative;
-  z-index: -1;
-}
 body.p-achievements.p-profiles .l-footer:before {
     content: 'Orig. Design by grin3671 | Redesigned by EngiNier | Modified by 0utSider'!important;
     color: #ffd78c;
