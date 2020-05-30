@@ -4426,33 +4426,6 @@ transform:none!important;
     opacity: 0.7;
 }
 /* ачивки */
-.b-achievement .c-about .title {
-    font-size: 15px;
-    color: #e2ecf1;
-}
-.b-achievement .c-about .percent {
-  color: #9bc7ca;
-}
-.b-achievement .c-about .hint {
-    font-size: 12px;
-    font-weight:bold;
-    color: #a6b2b7;
-      opacity: 0.6;
-}
-.b-achievement .c-about .progress {
-    padding: 0;
-    background: #0f1215cf;
-    height: 7px;
-    border: 0.5px solid #1b2127;
-    overflow: hidden;
-    position: relative;
-    border-radius: 8px;
-    white-space: nowrap;
-    width: 100%;
-}
-.b-achievement .c-about .progress .bar {
-    background: #578fbb;
-}
 /* красное ерорные названия */
 .red, .b-errors .subheadline {
 background: #583635;
@@ -8762,35 +8735,6 @@ transition: none!important;
 
 
 /* Design Achievements page */
-
-.b-achievement .c-about a.title {
-    font-size: 14px;
-    color: #C6CBF1;
-}
-.b-achievement .c-about .percent {
-  color: #7685f5;
-}
-.b-achievement .c-about .hint {
-    font-size: 12px;
-    font-weight:bold;
-    color: #6e7dc7!important;
-      opacity: 1;
-}
-.b-achievement .c-about .progress {
-    padding: 0;
-    background: #1b1b3ecf;
-    height: 7px;
-    border: 0.5px solid #242B5B;
-    overflow: hidden;
-    position: relative;
-    border-radius: 8px;
-    white-space: nowrap;
-    width: 100%;
-}
-.b-achievement .c-about .progress .bar {
-    background: #578fbb;
-} 
-
 body.p-achievements.p-profiles .userbox .submenu > .entry[href*='/list/anime']:hover:after, body.p-achievements.p-profiles .userbox .submenu > .entry[href*='/list/manga']:hover:after {
     background: #462e1099!important;
 }
@@ -8818,19 +8762,7 @@ body.p-achievements.p-profiles .userbox .submenu > .entry[href*='/list/anime']:h
     min-height: 338px;
   box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2);
 }
-.b-achievement .c-image, .b-achievement .c-about {
-    width: 100%;
-}
-.b-achievement .c-about {
-    padding: 17px;
-}
-.b-achievement .c-image {
-    padding: 50% 15px 0 5px;
-}
-.b-achievement .c-about .title {
-    min-height: 30px;
-    line-height: 30px!important;
-}
+
 .b-achievement .c-image .inner {
     height: 100%;
     left: 0;
@@ -8839,15 +8771,12 @@ body.p-achievements.p-profiles .userbox .submenu > .entry[href*='/list/anime']:h
     width: 100%;
     border-radius: 20px;
 }
-body.p-achievements.p-profiles.p-profiles.p-profiles.p-profiles .b-achievement img {
+body.p-achievements.p-profiles .b-achievement img {
     border-radius: 11px;
     width: 104%;
     height: 106%;
     max-width: 105%;
     margin-left: -2%;
-}
-.b-achievement .c-image .inner div.border {
-    border: none;
 }
 .c-genres, .c-franchises {
     width: 100%!important;
@@ -9147,14 +9076,15 @@ span.switcher.b-tooltipped.alphabet {
     padding: 0px;
 }
 
-#achievements_index .b-list_switchers .switcher.selected:after {
+.b-list_switchers .switcher.selected:after {
     /*background: #efc86e!important;*/
-    background: #333333 !important;
-	color: var(--secondary_color) !important;
-}
-.#achievements_index b-list_switchers .switcher.selected:before {
-    /*color: #efc86e!important;*/
+    background: #333333!important;
     color: var(--secondary_color) !important;
+}
+.b-list_switchers .switcher.selected:before {
+    /*color: #efc86e!important;*/
+    color: var(--secondary_color);
+
 }
 
 
@@ -9189,58 +9119,10 @@ body.p-achievements.p-profiles .l-page {
     background: linear-gradient(to right, rgba(25, 25, 53, 0.6), #884f0087, rgba(25,25,53,0.6) );
 }
 
-
-
-
-.block2 .cc-achievements .b-achievement {
-    background: #174c209e;
-}
-.block2 .cc-achievements .b-achievement .title {
-    color: #cce0d1;
-}
-.block2 .cc-achievements .b-achievement .percent {
-    color: #b9f3b6;
-}
-.block2 .cc-achievements .b-achievement .c-about .hint {
-    color: #98da9b!important;
-}
-.block2 .cc-achievements .b-achievement .c-about .progress {
-    background: #0a230dcf;
-    border: 0.5px solid #152d0f;
-}
-.block2 .cc-achievements .b-achievement .c-about .progress .bar {
-    background: #57bb5f;
-}
-.block2 .cc-achievements .b-achievement .c-about .text {
-    color: #7cc59a;
-}
 /*.block2 .b-achievement img {
   box-shadow: 0 0 2px 1px #54e454;
 }*/
 
-
-.c-genres .block2 .cc-achievements .b-achievement {
-    background: #63431a9e;
-}
-.c-genres .block2 .cc-achievements .b-achievement .title {
-    color: #f3eabf;
-}
-.c-genres .block2 .cc-achievements .b-achievement .percent {
-    color: #ffed8d;
-}
-.c-genres .block2 .cc-achievements .b-achievement .c-about .hint {
-    color: #f9c86d!important;
-}
-.c-genres .block2 .cc-achievements .b-achievement .c-about .progress {
-    background: #1d1806cf;
-    border: 0.5px solid #382910;
-}
-.c-genres .block2 .cc-achievements .b-achievement .c-about .progress .bar {
-    background: #eab437;
-}
-.c-genres .block2 .cc-achievements .b-achievement .c-about .text {
-    color: #decc86;
-}
 /*.c-genres .block2 .b-achievement img {
   box-shadow: 0 0 2px 1px #e4ba54;
 }*/
