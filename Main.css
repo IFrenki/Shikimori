@@ -8739,12 +8739,6 @@ body.p-achievements.p-profiles .userbox .submenu > .entry[href*='/list/anime']:h
     background: none;
   transition: 0.3s all;
 }
-.p-achievements.p-profiles.p-profiles-index .cc-franchises-genres .c-genres .cc-achievements {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
-    align-content: stretch;
-}
 
 .c-genres, .c-franchises {
     width: 100%!important;
