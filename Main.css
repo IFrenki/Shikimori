@@ -9051,9 +9051,7 @@ span.switcher.b-tooltipped.alphabet {
 
 
 
-body.p-achievements.p-profiles .tipsy.tipsy-large.tipsy-s, body.p-achievements.p-profiles .tipsy, body.p-achievements.p-profiles .tipsy-s {
-    display: none!important;
-}
+
 body.p-achievements.p-profiles .block.m0:before {
     content: '——— ★ ▬▬ ACHIEVEMENTS ▬▬ ★ ———';
     font-size: 44px;
