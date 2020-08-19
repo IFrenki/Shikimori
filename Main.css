@@ -809,7 +809,7 @@ a.name:hover {
 }
 
 .b-spoiler label:hover {
-    color: var(--primary_color);
+    color: var(--secondary_color);
     animation: spoilzero 2s ease infinite;
 }
 .b-input input, .b-input textarea {
