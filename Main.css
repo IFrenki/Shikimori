@@ -830,7 +830,7 @@ input, select, button, textarea {
     border: none!important;
 }
 /* стоп */
-.b-quote {
+.b-quote, .b-quote-v2 {
     background: rgba(36, 41, 43,0.4)!important;
     border: none!important;
     color: #a6b2b7;
@@ -8006,8 +8006,7 @@ header.head h2 a.back::before {
 
 
 /*** Quotes ***/
-.b-quote {
-    font-style: normal;
+.b-quote, b-quote-v2 {
     border-radius: 2px;
 }
 
