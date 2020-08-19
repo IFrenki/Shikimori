@@ -1956,7 +1956,7 @@ transition: ;
 }
 @keyframes spoilzero {
     50% {
-        border: 2px dashed rgba(0, 191, 255, .3);
+        border: 2px dashed var(--secondary_color);
     }
 }
 @keyframes spoillerr {
