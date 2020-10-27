@@ -1511,6 +1511,7 @@ code.b-code_inline {
     background: rgba(35, 39, 43, 0.8);
     color: #888888;
     padding: 3px;
+    border: none
 }
 
 .tooltip-inner .close {
