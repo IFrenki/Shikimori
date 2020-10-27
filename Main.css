@@ -1508,7 +1508,7 @@ background-color: #16121C;
 .p-profiles .profile-head .c-info .c-additionals div a {
     font-size: 12px!important;
 }
-.b-code_inline {
+code.b-code_inline {
     background: rgba(35, 39, 43, 0.8);
     color: #888888;
     padding: 3px;
@@ -3641,7 +3641,7 @@ a.b-mention.bubbled-processed {
 ::-webkit-scrollbar{
     width: 9px;
 }
-.p-profiles .profile-head .c-info .c-additionals::-webkit-scrollbar, .b-hot_topics-v2::-webkit-scrollbar, .b-topic-minified>.inner .status-line::-webkit-scrollbar, .buttons>div::-webkit-scrollbar, .b-code_inline::-webkit-scrollbar, .b-shiki_editor .hidden-block::-webkit-scrollbar {
+.p-profiles .profile-head .c-info .c-additionals::-webkit-scrollbar, .b-hot_topics-v2::-webkit-scrollbar, .b-topic-minified>.inner .status-line::-webkit-scrollbar, .buttons>div::-webkit-scrollbar, code.b-code_inline::-webkit-scrollbar, .b-shiki_editor .hidden-block::-webkit-scrollbar {
     height: 8px;
 }
 .b-log_entry.b-abuse_request .b-offtopic_marker {
@@ -6227,7 +6227,7 @@ body#achievements_index img {
     .userbox img.avatar, .userbox img.avatar {
         margin-top: 12px!important;
     }
-    .p-profiles .profile-head .c-info .c-additionals::-webkit-scrollbar, .b-hot_topics-v2::-webkit-scrollbar, .b-topic-minified>.inner .status-line::-webkit-scrollbar, .buttons>div::-webkit-scrollbar, .b-code_inline::-webkit-scrollbar, .b-shiki_editor .hidden-block::-webkit-scrollbar {
+    .p-profiles .profile-head .c-info .c-additionals::-webkit-scrollbar, .b-hot_topics-v2::-webkit-scrollbar, .b-topic-minified>.inner .status-line::-webkit-scrollbar, .buttons>div::-webkit-scrollbar, code.b-code_inline::-webkit-scrollbar, .b-shiki_editor .hidden-block::-webkit-scrollbar {
         height: 3px;
     }
     .x1200 .menu-slide-outer.x240 .l-content, .menu-slide-outer.x240 .l-content, .x1000 .menu-slide-outer.x240 .l-content, .x1200 .menu-slide-outer.x199 .l-content {
