@@ -1510,7 +1510,7 @@ background-color: #16121C;
 code.b-code_inline {
     background: rgba(35, 39, 43, 0.8);
     color: #888888;
-    padding: 3px;
+    padding: 3px 5px;
     border: none
 }
 
