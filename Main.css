@@ -1510,6 +1510,8 @@ background-color: #16121C;
 }
 .b-code_inline {
     background: rgba(35, 39, 43, 0.8);
+    color: #888888;
+    padding: 3px;
 }
 
 .tooltip-inner .close {
