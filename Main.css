@@ -3466,7 +3466,7 @@ body#profiles_show .l-footer {
     padding-bottom: 15px;
 }
 .l-footer:before {
-    content: "Edesign v2.8 *The Wasteland* by EngiNier | Modified by 0utSider";
+    content: "Edesign v2.8 *The Wasteland* by EngiNier";
     display: block!important;
     color: #272a2f;
     left: auto;
@@ -9278,7 +9278,7 @@ body.p-achievements.p-profiles :-moz-placeholder {
     transition:0.5s ease-out;
 }
 body.p-achievements.p-profiles .l-footer:before {
-    content: 'Orig. Design by grin3671 | Redesigned by EngiNier | Modified by 0utSider'!important;
+    content: 'Orig. Design by grin3671 | Redesigned by EngiNier'!important;
     color: #ffd78c;
 }
 body.p-achievements.p-profiles .menu .unread-count, body.p-achievements.p-profiles .menu .contest {
