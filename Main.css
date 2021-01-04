@@ -53,7 +53,6 @@ body::after {
     background-size: 200px, 350px, 250px;
     animation: fog 10s linear infinite;
 }
-
 @keyframes fog {
     0% {
         background-position: 0px 0px, 0px 0px, 0px 0px;
