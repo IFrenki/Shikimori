@@ -41,7 +41,6 @@ body::before {
     -o-background-size: cover;
     background-attachment: fixed;
 }
-
 body::after {
     content: '';
     position: fixed;
