@@ -24,6 +24,7 @@
     --font-alt: var(--font-family);
     --font-alt-text-letter-spacing: normal;
 }
+
 body::before {
     content: '';
     width: 100%;
